@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/mvp-landingzones/providers/Microsoft.Authorization/roleAssignments/43d9304d-5800-59c2-93cd-34a7eeef3080",
+        "Name": "43d9304d-5800-59c2-93cd-34a7eeef3080",
+        "properties": {
+          "DisplayName": "Enforce-SQL-Encryption",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "78f90418-0fca-4a07-8452-a935915cc587",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

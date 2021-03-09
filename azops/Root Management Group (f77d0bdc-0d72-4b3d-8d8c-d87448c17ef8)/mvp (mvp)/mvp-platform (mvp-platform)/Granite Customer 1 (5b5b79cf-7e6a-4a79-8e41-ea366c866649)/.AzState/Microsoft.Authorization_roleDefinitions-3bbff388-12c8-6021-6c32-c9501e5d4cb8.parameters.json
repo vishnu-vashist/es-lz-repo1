@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleDefinitions/3bbff388-12c8-6021-6c32-c9501e5d4cb8",
+        "Name": "3bbff388-12c8-6021-6c32-c9501e5d4cb8",
+        "properties": {
+          "assignableScopes": [
+            "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649"
+          ],
+          "description": "Provide addition permissions on top of built-in Contributor role to manage landing zones deployment",
+          "permissions": [
+            {
+              "actions": [
+                "Microsoft.Authorization/roleAssignments/delete",
+                "Microsoft.Authorization/roleAssignments/read",
+                "Microsoft.Authorization/roleAssignments/write",
+                "Microsoft.Authorization/roleDefinitions/delete",
+                "Microsoft.Authorization/roleDefinitions/read",
+                "Microsoft.Authorization/roleDefinitions/write",
+                "Microsoft.Resources/subscriptions/providers/read"
+              ],
+              "dataActions": [],
+              "notActions": [],
+              "notdataActions": []
+            }
+          ],
+          "roleName": "rtet-rg-caf-launchpad-contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleDefinitions"
+      }
+    }
+  }
+}

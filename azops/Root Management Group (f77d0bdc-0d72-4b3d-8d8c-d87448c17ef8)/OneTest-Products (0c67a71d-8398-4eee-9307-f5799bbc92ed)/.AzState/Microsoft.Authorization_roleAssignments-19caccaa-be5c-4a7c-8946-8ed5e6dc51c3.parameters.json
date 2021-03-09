@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/0c67a71d-8398-4eee-9307-f5799bbc92ed/providers/Microsoft.Authorization/roleAssignments/19caccaa-be5c-4a7c-8946-8ed5e6dc51c3",
+        "Name": "19caccaa-be5c-4a7c-8946-8ed5e6dc51c3",
+        "properties": {
+          "DisplayName": "Peter Taylor",
+          "ObjectType": "User",
+          "PrincipalId": "3ff4a83c-79c8-487c-acc9-ff6e17796387",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

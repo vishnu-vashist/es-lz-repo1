@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/71b9c384-f4e6-494f-97c5-2e71fa6fa3e8/providers/Microsoft.Authorization/roleAssignments/a0c6d398-12fa-4bce-b02e-299ef9ade1b3",
+        "Name": "a0c6d398-12fa-4bce-b02e-299ef9ade1b3",
+        "properties": {
+          "DisplayName": "Vishnu Vashist",
+          "ObjectType": "User",
+          "PrincipalId": "250aedfe-9212-4f51-8327-e1ab03b04ee9",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

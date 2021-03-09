@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleAssignments/3ad57c3a-c79b-4917-ab18-5a9078a87f2b",
+        "Name": "3ad57c3a-c79b-4917-ab18-5a9078a87f2b",
+        "properties": {
+          "DisplayName": "vashist-vish-ES-LZ-Arm-5b5b79cf-7e6a-4a79-8e41-ea366c866649",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "096c7115-d616-44e8-9259-8ec64b9741d0",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

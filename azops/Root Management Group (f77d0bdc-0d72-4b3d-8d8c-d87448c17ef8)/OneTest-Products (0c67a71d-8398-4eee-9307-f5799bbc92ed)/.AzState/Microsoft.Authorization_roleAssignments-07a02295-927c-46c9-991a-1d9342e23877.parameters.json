@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/0c67a71d-8398-4eee-9307-f5799bbc92ed/providers/Microsoft.Authorization/roleAssignments/07a02295-927c-46c9-991a-1d9342e23877",
+        "Name": "07a02295-927c-46c9-991a-1d9342e23877",
+        "properties": {
+          "DisplayName": "Kevin Mooney",
+          "ObjectType": "User",
+          "PrincipalId": "c495a053-8129-44ca-a15c-b61a5bca8abf",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

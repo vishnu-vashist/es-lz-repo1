@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/be59ba6e-7cdb-41a7-9054-49b80663ce54",
+        "Name": "be59ba6e-7cdb-41a7-9054-49b80663ce54",
+        "DisplayName": "PCFtoAKS",
+        "Children": null
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleAssignments/49ba19aa-afe3-52d9-1d1e-f670acb48874",
+        "Name": "49ba19aa-afe3-52d9-1d1e-f670acb48874",
+        "properties": {
+          "DisplayName": "rtet-caf-level2-landingzones-rw",
+          "ObjectType": "Group",
+          "PrincipalId": "de09d475-7c13-4ac3-940a-8e264723fefc",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/3bbff388-12c8-6021-6c32-c9501e5d4cb8",
+          "RoleDefinitionName": "rtet-rg-caf-launchpad-contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

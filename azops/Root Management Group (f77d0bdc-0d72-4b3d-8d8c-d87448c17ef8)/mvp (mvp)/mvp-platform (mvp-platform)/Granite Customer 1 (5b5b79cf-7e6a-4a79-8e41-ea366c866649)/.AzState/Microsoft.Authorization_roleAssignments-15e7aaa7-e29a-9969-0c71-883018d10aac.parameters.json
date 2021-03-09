@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleAssignments/15e7aaa7-e29a-9969-0c71-883018d10aac",
+        "Name": "15e7aaa7-e29a-9969-0c71-883018d10aac",
+        "properties": {
+          "DisplayName": "rtet-msi-landingzone-level3-msi",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "da860b9c-6e87-4cf8-9cee-153e407dfbc4",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
