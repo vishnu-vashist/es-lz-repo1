@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/mvp-landingzones/providers/Microsoft.Authorization/roleAssignments/f75a1f49-00f4-5fed-87f8-6775537e587b",
+        "Name": "f75a1f49-00f4-5fed-87f8-6775537e587b",
+        "properties": {
+          "DisplayName": "Deploy-VM-Monitoring",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "68ed495a-0249-4846-b108-685785c03937",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

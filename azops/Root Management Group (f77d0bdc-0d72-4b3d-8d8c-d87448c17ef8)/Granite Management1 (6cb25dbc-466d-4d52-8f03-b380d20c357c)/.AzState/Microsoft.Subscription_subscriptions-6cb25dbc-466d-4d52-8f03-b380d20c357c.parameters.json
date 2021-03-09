@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/6cb25dbc-466d-4d52-8f03-b380d20c357c",
+        "Name": "6cb25dbc-466d-4d52-8f03-b380d20c357c",
+        "DisplayName": "Granite Management1",
+        "Children": null
+      }
+    }
+  }
+}

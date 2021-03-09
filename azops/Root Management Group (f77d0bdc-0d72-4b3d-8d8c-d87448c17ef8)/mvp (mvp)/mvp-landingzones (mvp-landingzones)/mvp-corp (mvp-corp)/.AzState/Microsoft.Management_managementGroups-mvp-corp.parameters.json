@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/mvp-corp",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "mvp-corp",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "mvp-corp",
+        "UpdatedTime": "2021-03-09T13:31:44.8130448Z",
+        "UpdatedBy": "250aedfe-9212-4f51-8327-e1ab03b04ee9",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/mvp-landingzones",
+        "ParentName": "mvp-landingzones",
+        "ParentDisplayName": "mvp-landingzones",
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/71b9c384-f4e6-494f-97c5-2e71fa6fa3e8",
+            "Name": "71b9c384-f4e6-494f-97c5-2e71fa6fa3e8",
+            "DisplayName": "Granite Management",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

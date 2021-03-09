@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/0c67a71d-8398-4eee-9307-f5799bbc92ed",
+        "Name": "0c67a71d-8398-4eee-9307-f5799bbc92ed",
+        "DisplayName": "OneTest-Products",
+        "Children": null
+      }
+    }
+  }
+}

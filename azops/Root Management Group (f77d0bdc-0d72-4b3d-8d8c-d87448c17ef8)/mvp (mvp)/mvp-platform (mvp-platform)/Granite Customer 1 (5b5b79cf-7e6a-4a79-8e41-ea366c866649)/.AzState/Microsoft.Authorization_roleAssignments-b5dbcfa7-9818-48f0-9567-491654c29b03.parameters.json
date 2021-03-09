@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleAssignments/b5dbcfa7-9818-48f0-9567-491654c29b03",
+        "Name": "b5dbcfa7-9818-48f0-9567-491654c29b03",
+        "properties": {
+          "DisplayName": "vashist-vish-Granite-MVP-5b5b79cf-7e6a-4a79-8e41-ea366c866649",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "0930fc81-19f1-4e16-8e65-5f4e3e105b5c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

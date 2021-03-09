@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleAssignments/4336414c-42f7-8df7-f922-e44ce4bd73ed",
+        "Name": "4336414c-42f7-8df7-f922-e44ce4bd73ed",
+        "properties": {
+          "DisplayName": "rtet-caf_launchpad_level0",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "0cce0b3d-7d02-41dc-8fae-077c24150f2c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

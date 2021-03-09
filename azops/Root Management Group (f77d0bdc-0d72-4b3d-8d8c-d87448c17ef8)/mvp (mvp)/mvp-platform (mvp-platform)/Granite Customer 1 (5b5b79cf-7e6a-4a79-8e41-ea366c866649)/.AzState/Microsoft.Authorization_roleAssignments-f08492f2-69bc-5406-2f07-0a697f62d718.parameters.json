@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleAssignments/f08492f2-69bc-5406-2f07-0a697f62d718",
+        "Name": "f08492f2-69bc-5406-2f07-0a697f62d718",
+        "properties": {
+          "DisplayName": "rtet-msi-landingzone-level2-msi",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "11c67dc7-fe05-47f3-8d6c-600a742da218",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/3bbff388-12c8-6021-6c32-c9501e5d4cb8",
+          "RoleDefinitionName": "rtet-rg-caf-launchpad-contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
