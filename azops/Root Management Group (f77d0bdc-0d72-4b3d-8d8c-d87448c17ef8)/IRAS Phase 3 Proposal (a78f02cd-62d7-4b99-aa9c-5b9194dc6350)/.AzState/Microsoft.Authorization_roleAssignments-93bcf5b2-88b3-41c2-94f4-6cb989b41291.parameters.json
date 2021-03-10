@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a78f02cd-62d7-4b99-aa9c-5b9194dc6350/providers/Microsoft.Authorization/roleAssignments/93bcf5b2-88b3-41c2-94f4-6cb989b41291",
+        "Name": "93bcf5b2-88b3-41c2-94f4-6cb989b41291",
+        "properties": {
+          "DisplayName": "Arkroop Jaiswal",
+          "ObjectType": "User",
+          "PrincipalId": "ffa5553e-b1b3-456a-a09e-4320a51c3925",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
