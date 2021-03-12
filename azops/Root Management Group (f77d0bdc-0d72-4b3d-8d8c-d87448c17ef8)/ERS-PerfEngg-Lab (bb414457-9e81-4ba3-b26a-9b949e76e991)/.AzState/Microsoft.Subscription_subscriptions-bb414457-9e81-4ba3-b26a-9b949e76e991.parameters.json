@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/bb414457-9e81-4ba3-b26a-9b949e76e991",
+        "Name": "bb414457-9e81-4ba3-b26a-9b949e76e991",
+        "DisplayName": "ERS-PerfEngg-Lab",
+        "Children": null
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/bb414457-9e81-4ba3-b26a-9b949e76e991/providers/Microsoft.Authorization/roleAssignments/534b8c7f-4438-4b09-8aa3-7df16a0eb308",
+        "Name": "534b8c7f-4438-4b09-8aa3-7df16a0eb308",
+        "properties": {
+          "DisplayName": "Vinay KumarMishra",
+          "ObjectType": "User",
+          "PrincipalId": "63fe8647-08c8-409f-bbef-f097ac265c9e",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

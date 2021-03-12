@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/bb414457-9e81-4ba3-b26a-9b949e76e991/providers/Microsoft.Authorization/roleAssignments/c34085f9-5e26-4dfc-9625-b8829ceea471",
+        "Name": "c34085f9-5e26-4dfc-9625-b8829ceea471",
+        "properties": {
+          "DisplayName": "Premkumar P",
+          "ObjectType": "User",
+          "PrincipalId": "ed58bcb2-2194-438c-a93c-e9bdb080da73",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
