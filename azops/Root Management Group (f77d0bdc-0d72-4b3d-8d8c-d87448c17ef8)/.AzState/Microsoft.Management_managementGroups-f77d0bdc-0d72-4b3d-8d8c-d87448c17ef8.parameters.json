@@ -56,6 +56,20 @@
             "Name": "a78f02cd-62d7-4b99-aa9c-5b9194dc6350",
             "DisplayName": "IRAS Phase 3 Proposal",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/bb414457-9e81-4ba3-b26a-9b949e76e991",
+            "Name": "bb414457-9e81-4ba3-b26a-9b949e76e991",
+            "DisplayName": "ERS-PerfEngg-Lab",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/f653e3d6-a3a3-4950-b4de-3a49a253ce54",
+            "Name": "f653e3d6-a3a3-4950-b4de-3a49a253ce54",
+            "DisplayName": "M2CyberSec-IAM-Lab",
+            "Children": null
           }
         ]
       }

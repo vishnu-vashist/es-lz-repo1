@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/f653e3d6-a3a3-4950-b4de-3a49a253ce54",
+        "Name": "f653e3d6-a3a3-4950-b4de-3a49a253ce54",
+        "DisplayName": "M2CyberSec-IAM-Lab",
+        "Children": null
+      }
+    }
+  }
+}
