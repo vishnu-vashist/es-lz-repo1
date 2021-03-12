@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a78f02cd-62d7-4b99-aa9c-5b9194dc6350/providers/Microsoft.Authorization/roleAssignments/c59241b5-1c1a-4056-a1c9-c40dceaece32",
+        "Name": "c59241b5-1c1a-4056-a1c9-c40dceaece32",
+        "properties": {
+          "DisplayName": "hcldna-IRAS-a78f02cd-62d7-4b99-aa9c-5b9194dc6350",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "f00f49a7-1ecf-4215-904a-cc1470ee8b02",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
