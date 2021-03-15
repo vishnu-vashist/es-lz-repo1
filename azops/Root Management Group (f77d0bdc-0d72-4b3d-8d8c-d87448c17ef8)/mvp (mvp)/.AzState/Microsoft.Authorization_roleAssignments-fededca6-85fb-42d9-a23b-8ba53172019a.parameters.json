@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/mvp/providers/Microsoft.Authorization/roleAssignments/fededca6-85fb-42d9-a23b-8ba53172019a",
+        "Name": "fededca6-85fb-42d9-a23b-8ba53172019a",
+        "properties": {
+          "DisplayName": "Vinay Kumar Mishra",
+          "ObjectType": "User",
+          "PrincipalId": "63fe8647-08c8-409f-bbef-f097ac265c9e",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/434105ed-43f6-45c7-a02f-909b2ba83430",
+          "RoleDefinitionName": "Cost Management Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
