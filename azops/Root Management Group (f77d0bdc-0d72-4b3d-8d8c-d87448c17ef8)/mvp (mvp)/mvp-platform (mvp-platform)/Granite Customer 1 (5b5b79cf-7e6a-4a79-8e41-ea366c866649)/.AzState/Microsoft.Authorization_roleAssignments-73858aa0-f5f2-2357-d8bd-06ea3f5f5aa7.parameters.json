@@ -7,8 +7,8 @@
         "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleAssignments/73858aa0-f5f2-2357-d8bd-06ea3f5f5aa7",
         "Name": "73858aa0-f5f2-2357-d8bd-06ea3f5f5aa7",
         "properties": {
-          "DisplayName": "rtet-msi-landingzone-level2-msi",
-          "ObjectType": "ServicePrincipal",
+          "DisplayName": null,
+          "ObjectType": "Unknown",
           "PrincipalId": "11c67dc7-fe05-47f3-8d6c-600a742da218",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"

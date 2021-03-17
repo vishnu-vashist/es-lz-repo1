@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/00019aaa-4084-499a-9c11-18675fc7e027",
+        "Name": "00019aaa-4084-499a-9c11-18675fc7e027",
+        "DisplayName": "Granite-lz-Online",
+        "Children": null
+      }
+    }
+  }
+}

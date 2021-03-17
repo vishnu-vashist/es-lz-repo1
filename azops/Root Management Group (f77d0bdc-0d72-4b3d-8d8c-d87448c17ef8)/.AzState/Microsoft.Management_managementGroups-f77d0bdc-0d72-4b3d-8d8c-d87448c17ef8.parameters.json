@@ -70,6 +70,34 @@
             "Name": "f653e3d6-a3a3-4950-b4de-3a49a253ce54",
             "DisplayName": "M2CyberSec-IAM-Lab",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/f236e620-b55c-4b01-b08f-cd281d746b3b",
+            "Name": "f236e620-b55c-4b01-b08f-cd281d746b3b",
+            "DisplayName": "Granite-lz-Identity",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/d07e4783-a6fd-4bcc-a2a4-b2e81e10263b",
+            "Name": "d07e4783-a6fd-4bcc-a2a4-b2e81e10263b",
+            "DisplayName": "Granite-lz-Corp",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/ea459576-d258-49d4-82ae-6599dbeb5a2d",
+            "Name": "ea459576-d258-49d4-82ae-6599dbeb5a2d",
+            "DisplayName": "Granite-lz-Platform",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/00019aaa-4084-499a-9c11-18675fc7e027",
+            "Name": "00019aaa-4084-499a-9c11-18675fc7e027",
+            "DisplayName": "Granite-lz-Online",
+            "Children": null
           }
         ]
       }
