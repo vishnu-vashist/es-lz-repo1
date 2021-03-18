@@ -70,6 +70,13 @@
             "Name": "f653e3d6-a3a3-4950-b4de-3a49a253ce54",
             "DisplayName": "M2CyberSec-IAM-Lab",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb",
+            "Name": "a16f7a1a-44d6-4388-bd14-6fa7d174f5fb",
+            "DisplayName": "CyberLab",
+            "Children": null
           }
         ]
       }
