@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/5f610204-63ff-4833-9868-7058b398000c",
+        "Name": "5f610204-63ff-4833-9868-7058b398000c",
+        "DisplayName": "EHI-Innovation",
+        "Children": null
+      }
+    }
+  }
+}

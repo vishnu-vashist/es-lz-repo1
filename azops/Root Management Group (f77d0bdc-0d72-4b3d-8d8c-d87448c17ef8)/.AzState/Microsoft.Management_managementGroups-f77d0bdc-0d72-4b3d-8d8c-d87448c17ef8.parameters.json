@@ -77,6 +77,13 @@
             "Name": "a16f7a1a-44d6-4388-bd14-6fa7d174f5fb",
             "DisplayName": "CyberLab",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/5f610204-63ff-4833-9868-7058b398000c",
+            "Name": "5f610204-63ff-4833-9868-7058b398000c",
+            "DisplayName": "EHI-Innovation",
+            "Children": null
           }
         ]
       }
