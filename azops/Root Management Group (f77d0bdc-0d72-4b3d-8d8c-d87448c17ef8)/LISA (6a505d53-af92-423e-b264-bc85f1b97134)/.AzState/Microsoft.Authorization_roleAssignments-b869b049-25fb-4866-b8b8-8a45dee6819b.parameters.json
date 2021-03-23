@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/6a505d53-af92-423e-b264-bc85f1b97134/providers/Microsoft.Authorization/roleAssignments/b869b049-25fb-4866-b8b8-8a45dee6819b",
+        "Name": "b869b049-25fb-4866-b8b8-8a45dee6819b",
+        "properties": {
+          "DisplayName": "Rajeev Sharma",
+          "ObjectType": "User",
+          "PrincipalId": "5f28cec6-3e60-4ea8-9f97-22c528ad3c16",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

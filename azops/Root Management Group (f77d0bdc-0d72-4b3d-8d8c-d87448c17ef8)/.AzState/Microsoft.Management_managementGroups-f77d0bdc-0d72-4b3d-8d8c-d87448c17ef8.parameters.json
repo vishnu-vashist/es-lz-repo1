@@ -84,6 +84,13 @@
             "Name": "5f610204-63ff-4833-9868-7058b398000c",
             "DisplayName": "EHI-Innovation",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/6a505d53-af92-423e-b264-bc85f1b97134",
+            "Name": "6a505d53-af92-423e-b264-bc85f1b97134",
+            "DisplayName": "LISA",
+            "Children": null
           }
         ]
       }

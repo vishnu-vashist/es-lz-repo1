@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/6a505d53-af92-423e-b264-bc85f1b97134/providers/Microsoft.Authorization/roleAssignments/ddc3f00f-e804-4054-ab81-1e7cf0d6dbe6",
+        "Name": "ddc3f00f-e804-4054-ab81-1e7cf0d6dbe6",
+        "properties": {
+          "DisplayName": "Nita Pai",
+          "ObjectType": "User",
+          "PrincipalId": "bbdeff71-e972-43cc-ad07-060e82fba044",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

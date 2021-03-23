@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/6a505d53-af92-423e-b264-bc85f1b97134/providers/Microsoft.Authorization/roleAssignments/38ea2d51-1b1d-4cd5-9960-bc9d4d6241f8",
+        "Name": "38ea2d51-1b1d-4cd5-9960-bc9d4d6241f8",
+        "properties": {
+          "DisplayName": "Srikanth Bhakthan",
+          "ObjectType": "User",
+          "PrincipalId": "2e66fd6d-de37-40e8-b367-78d7b4903af5",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
