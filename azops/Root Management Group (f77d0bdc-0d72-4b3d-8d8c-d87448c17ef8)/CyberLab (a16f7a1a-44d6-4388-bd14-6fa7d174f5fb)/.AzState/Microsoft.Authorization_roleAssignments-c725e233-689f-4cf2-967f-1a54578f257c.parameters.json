@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/c725e233-689f-4cf2-967f-1a54578f257c",
+        "Name": "c725e233-689f-4cf2-967f-1a54578f257c",
+        "properties": {
+          "DisplayName": "Praveen Kumar Joshi",
+          "ObjectType": "User",
+          "PrincipalId": "4e6e19e8-8712-485b-909f-e70c445bdbbd",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
