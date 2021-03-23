@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5f610204-63ff-4833-9868-7058b398000c/providers/Microsoft.Authorization/roleAssignments/7c1223bc-adbe-4cd1-ae5b-a0c4fbd85d97",
+        "Name": "7c1223bc-adbe-4cd1-ae5b-a0c4fbd85d97",
+        "properties": {
+          "DisplayName": "Bharathram Thirukallam rangaswamy",
+          "ObjectType": "User",
+          "PrincipalId": "c0c6a887-27ff-4162-a49e-647e4e947bf0",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+          "RoleDefinitionName": "User Access Administrator"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
