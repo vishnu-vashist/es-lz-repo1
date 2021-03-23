@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/6a505d53-af92-423e-b264-bc85f1b97134",
+        "Name": "6a505d53-af92-423e-b264-bc85f1b97134",
+        "DisplayName": "LISA",
+        "Children": null
+      }
+    }
+  }
+}

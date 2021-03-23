@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/6a505d53-af92-423e-b264-bc85f1b97134/providers/Microsoft.Authorization/roleAssignments/8b29f32c-b4f7-499a-948b-07bcfd233f1a",
+        "Name": "8b29f32c-b4f7-499a-948b-07bcfd233f1a",
+        "properties": {
+          "DisplayName": "Nallagoni Omkar",
+          "ObjectType": "User",
+          "PrincipalId": "08259718-fdbb-4fff-b730-04b2d57941c7",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

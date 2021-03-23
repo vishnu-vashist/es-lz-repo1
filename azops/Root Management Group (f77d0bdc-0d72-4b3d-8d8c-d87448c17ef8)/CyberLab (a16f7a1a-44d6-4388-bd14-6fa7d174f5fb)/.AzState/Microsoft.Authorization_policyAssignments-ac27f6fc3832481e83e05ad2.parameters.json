@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "665d0ff8-849f-43f0-8af6-4f903f1e6e29",
+          "tenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus",
+        "Name": "ac27f6fc3832481e83e05ad2",
+        "PolicyAssignmentId": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/policyAssignments/ac27f6fc3832481e83e05ad2",
+        "Properties": {
+          "Description": "Linux - deploy log analytics agent",
+          "DisplayName": "Deploy Log Analytics agent for Linux VMs",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/resourcegroups/cyberlab-sentinel/providers/microsoft.operationalinsights/workspaces/cyberlab-sentinel-mssp"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/053d3325-282c-4e5c-b944-24faffd30d77",
+          "Scope": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb"
+        },
+        "ResourceId": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/policyAssignments/ac27f6fc3832481e83e05ad2",
+        "ResourceName": "ac27f6fc3832481e83e05ad2",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/6a505d53-af92-423e-b264-bc85f1b97134/providers/Microsoft.Authorization/roleAssignments/e512102c-bd2d-4d49-97d8-acfa57afb640",
+        "Name": "e512102c-bd2d-4d49-97d8-acfa57afb640",
+        "properties": {
+          "DisplayName": "Sayak Misra",
+          "ObjectType": "User",
+          "PrincipalId": "968b57d6-b582-4f14-ad53-477c812deb5c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
