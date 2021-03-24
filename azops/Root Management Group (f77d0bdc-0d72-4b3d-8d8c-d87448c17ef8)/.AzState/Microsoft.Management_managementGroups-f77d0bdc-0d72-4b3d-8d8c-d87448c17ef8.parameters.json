@@ -91,6 +91,13 @@
             "Name": "6a505d53-af92-423e-b264-bc85f1b97134",
             "DisplayName": "LISA",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/ba0b65a0-c5da-4ec1-97ac-a4f1582e5c46",
+            "Name": "ba0b65a0-c5da-4ec1-97ac-a4f1582e5c46",
+            "DisplayName": "Lab4BlueYonder",
+            "Children": null
           }
         ]
       }

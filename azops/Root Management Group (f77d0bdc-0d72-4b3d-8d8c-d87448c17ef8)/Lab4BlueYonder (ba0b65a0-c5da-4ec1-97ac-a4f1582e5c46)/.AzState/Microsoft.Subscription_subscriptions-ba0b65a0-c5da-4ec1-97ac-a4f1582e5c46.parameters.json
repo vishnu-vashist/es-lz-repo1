@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/ba0b65a0-c5da-4ec1-97ac-a4f1582e5c46",
+        "Name": "ba0b65a0-c5da-4ec1-97ac-a4f1582e5c46",
+        "DisplayName": "Lab4BlueYonder",
+        "Children": null
+      }
+    }
+  }
+}
