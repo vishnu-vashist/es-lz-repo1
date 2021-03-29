@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35",
+        "Name": "40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35",
+        "DisplayName": "HCL-UniOps",
+        "Children": null
+      }
+    }
+  }
+}

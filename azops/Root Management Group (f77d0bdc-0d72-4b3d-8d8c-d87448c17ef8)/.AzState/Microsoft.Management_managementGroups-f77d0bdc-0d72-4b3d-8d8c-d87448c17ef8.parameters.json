@@ -98,6 +98,13 @@
             "Name": "ba0b65a0-c5da-4ec1-97ac-a4f1582e5c46",
             "DisplayName": "Lab4BlueYonder",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35",
+            "Name": "40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35",
+            "DisplayName": "HCL-UniOps",
+            "Children": null
           }
         ]
       }
