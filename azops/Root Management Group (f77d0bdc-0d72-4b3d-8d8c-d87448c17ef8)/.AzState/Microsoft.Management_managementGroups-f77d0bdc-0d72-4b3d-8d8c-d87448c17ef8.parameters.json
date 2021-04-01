@@ -105,6 +105,13 @@
             "Name": "40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35",
             "DisplayName": "HCL-UniOps",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/bba67bbe-0d43-4d71-94d0-03ae17bcdecc",
+            "Name": "bba67bbe-0d43-4d71-94d0-03ae17bcdecc",
+            "DisplayName": "SymantecAVSpoc",
+            "Children": null
           }
         ]
       }
