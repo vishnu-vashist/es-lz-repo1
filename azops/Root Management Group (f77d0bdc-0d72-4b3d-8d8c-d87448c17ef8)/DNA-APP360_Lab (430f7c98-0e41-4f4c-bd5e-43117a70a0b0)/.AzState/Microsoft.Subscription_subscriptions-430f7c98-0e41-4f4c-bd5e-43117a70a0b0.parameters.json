@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/430f7c98-0e41-4f4c-bd5e-43117a70a0b0",
+        "Name": "430f7c98-0e41-4f4c-bd5e-43117a70a0b0",
+        "DisplayName": "DNA-APP360_Lab",
+        "Children": null
+      }
+    }
+  }
+}

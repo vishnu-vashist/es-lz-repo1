@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/c1034250-9189-4d5c-bb67-cc9208733849",
+        "Name": "c1034250-9189-4d5c-bb67-cc9208733849",
+        "DisplayName": "DNA-NPMS-SPMS-ADvantage_Lab",
+        "Children": null
+      }
+    }
+  }
+}
