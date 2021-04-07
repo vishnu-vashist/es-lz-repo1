@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/a78f02cd-62d7-4b99-aa9c-5b9194dc6350/providers/Microsoft.Authorization/roleAssignments/c59241b5-1c1a-4056-a1c9-c40dceaece32",
-        "Name": "c59241b5-1c1a-4056-a1c9-c40dceaece32",
+        "Id": "/subscriptions/ba0b65a0-c5da-4ec1-97ac-a4f1582e5c46/providers/Microsoft.Authorization/roleAssignments/684a06a1-feff-476b-a450-4463a1a91f82",
+        "Name": "684a06a1-feff-476b-a450-4463a1a91f82",
         "properties": {
-          "DisplayName": "hcldna-IRAS-a78f02cd-62d7-4b99-aa9c-5b9194dc6350",
-          "ObjectType": "ServicePrincipal",
-          "PrincipalId": "f00f49a7-1ecf-4215-904a-cc1470ee8b02",
+          "DisplayName": "Ilango Subramanian",
+          "ObjectType": "User",
+          "PrincipalId": "30b764c8-43ce-4ffc-b0d3-953e79943ba0",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },
