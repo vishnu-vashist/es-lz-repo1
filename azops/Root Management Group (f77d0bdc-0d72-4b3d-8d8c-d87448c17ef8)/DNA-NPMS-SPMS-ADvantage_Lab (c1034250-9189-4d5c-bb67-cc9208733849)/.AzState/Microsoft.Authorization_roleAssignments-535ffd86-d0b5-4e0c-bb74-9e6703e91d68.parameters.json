@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/c1034250-9189-4d5c-bb67-cc9208733849/providers/Microsoft.Authorization/roleAssignments/535ffd86-d0b5-4e0c-bb74-9e6703e91d68",
+        "Name": "535ffd86-d0b5-4e0c-bb74-9e6703e91d68",
+        "properties": {
+          "DisplayName": "Debraj Das",
+          "ObjectType": "User",
+          "PrincipalId": "1a0accdd-56f4-432b-920c-d94d207555bb",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
