@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/0c67a71d-8398-4eee-9307-f5799bbc92ed/providers/Microsoft.Authorization/roleAssignments/130ce5c3-e48d-47b2-ab40-fec8c7c31c09",
+        "Name": "130ce5c3-e48d-47b2-ab40-fec8c7c31c09",
+        "properties": {
+          "DisplayName": "Alice Sebastian",
+          "ObjectType": "User",
+          "PrincipalId": "bdfd2955-bac1-4a40-a3e2-e52bfba361dc",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/0c67a71d-8398-4eee-9307-f5799bbc92ed/providers/Microsoft.Authorization/roleAssignments/e26141a9-df09-4386-b536-688b50d1159f",
+        "Name": "e26141a9-df09-4386-b536-688b50d1159f",
+        "properties": {
+          "DisplayName": "PINWU XU",
+          "ObjectType": "User",
+          "PrincipalId": "8ee64511-888e-4834-8bd0-a5524bd8fa25",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
