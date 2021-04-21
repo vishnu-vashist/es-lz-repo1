@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/3afce611-13c3-45d5-9f00-1a51944dda63",
+        "Name": "3afce611-13c3-45d5-9f00-1a51944dda63",
+        "properties": {
+          "DisplayName": "Ankur Garg",
+          "ObjectType": "User",
+          "PrincipalId": "a1d10cee-75f0-4188-a5bd-5d3ae2405ea5",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
