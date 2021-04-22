@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35/providers/Microsoft.Authorization/roleAssignments/ec9be089-aa82-4320-8313-6d8e408179c2",
+        "Name": "ec9be089-aa82-4320-8313-6d8e408179c2",
+        "properties": {
+          "DisplayName": "allan.smeyatsky",
+          "ObjectType": "User",
+          "PrincipalId": "860d7abf-f86f-47a1-bd75-dabc92da8f20",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
