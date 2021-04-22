@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35/providers/Microsoft.Authorization/roleAssignments/8e0cd490-a3ce-4a68-b1d2-cffc77664fbb",
+        "Name": "8e0cd490-a3ce-4a68-b1d2-cffc77664fbb",
+        "properties": {
+          "DisplayName": "gaurav.tomar",
+          "ObjectType": "User",
+          "PrincipalId": "90e2f937-b47a-43c7-b082-39b2f3e504c9",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

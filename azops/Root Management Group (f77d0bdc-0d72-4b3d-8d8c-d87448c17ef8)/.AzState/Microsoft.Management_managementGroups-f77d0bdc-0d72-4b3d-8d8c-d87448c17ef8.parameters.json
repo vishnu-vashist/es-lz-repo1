@@ -140,6 +140,13 @@
             "Name": "c1034250-9189-4d5c-bb67-cc9208733849",
             "DisplayName": "DNA-NPMS-SPMS-ADvantage_Lab",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27",
+            "Name": "2fd2389c-b5a2-4019-bd02-54ab8b1bef27",
+            "DisplayName": "Cloud Native Lab EMEA",
+            "Children": null
           }
         ]
       }

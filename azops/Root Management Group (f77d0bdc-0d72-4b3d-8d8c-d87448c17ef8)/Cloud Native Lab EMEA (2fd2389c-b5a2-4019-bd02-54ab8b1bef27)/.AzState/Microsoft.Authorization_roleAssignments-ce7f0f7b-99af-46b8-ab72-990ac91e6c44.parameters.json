@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27/providers/Microsoft.Authorization/roleAssignments/ce7f0f7b-99af-46b8-ab72-990ac91e6c44",
+        "Name": "ce7f0f7b-99af-46b8-ab72-990ac91e6c44",
+        "properties": {
+          "DisplayName": "nischal.tiwari@hcl.com Tiwari",
+          "ObjectType": "User",
+          "PrincipalId": "56a0346b-c368-4dcf-a2a7-13d91827a66c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
