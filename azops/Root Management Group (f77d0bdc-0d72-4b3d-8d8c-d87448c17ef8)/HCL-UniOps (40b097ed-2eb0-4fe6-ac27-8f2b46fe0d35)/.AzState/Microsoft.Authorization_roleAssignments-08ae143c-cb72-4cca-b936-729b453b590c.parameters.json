@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35/providers/Microsoft.Authorization/roleAssignments/08ae143c-cb72-4cca-b936-729b453b590c",
+        "Name": "08ae143c-cb72-4cca-b936-729b453b590c",
+        "properties": {
+          "DisplayName": "Mahalakshmi-poc-Pipeline-poc-40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "b00f29ea-5d8a-4c32-b26c-c6703bdd87a7",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
