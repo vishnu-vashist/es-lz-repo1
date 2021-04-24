@@ -147,6 +147,13 @@
             "Name": "2fd2389c-b5a2-4019-bd02-54ab8b1bef27",
             "DisplayName": "Cloud Native Lab EMEA",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/70e162f1-6142-494b-b108-ff9f5fbd0b9c",
+            "Name": "70e162f1-6142-494b-b108-ff9f5fbd0b9c",
+            "DisplayName": "DRYiCE-AEX VDI",
+            "Children": null
           }
         ]
       }
