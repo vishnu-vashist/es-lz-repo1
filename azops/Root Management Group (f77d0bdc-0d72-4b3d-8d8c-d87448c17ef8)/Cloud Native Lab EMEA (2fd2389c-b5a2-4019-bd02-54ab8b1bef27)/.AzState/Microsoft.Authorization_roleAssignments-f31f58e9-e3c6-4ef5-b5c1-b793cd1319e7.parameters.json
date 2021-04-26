@@ -4,14 +4,14 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27/providers/Microsoft.Authorization/roleAssignments/6900a4b8-96fc-4348-b992-19d8760e5f76",
-        "Name": "6900a4b8-96fc-4348-b992-19d8760e5f76",
+        "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27/providers/Microsoft.Authorization/roleAssignments/f31f58e9-e3c6-4ef5-b5c1-b793cd1319e7",
+        "Name": "f31f58e9-e3c6-4ef5-b5c1-b793cd1319e7",
         "properties": {
           "DisplayName": "Dany",
           "ObjectType": "User",
           "PrincipalId": "19d1808f-0fca-4732-825b-37020151a86b",
-          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
-          "RoleDefinitionName": "Contributor"
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
         },
         "ResourceType": "Microsoft.Authorization/roleAssignments"
       }
