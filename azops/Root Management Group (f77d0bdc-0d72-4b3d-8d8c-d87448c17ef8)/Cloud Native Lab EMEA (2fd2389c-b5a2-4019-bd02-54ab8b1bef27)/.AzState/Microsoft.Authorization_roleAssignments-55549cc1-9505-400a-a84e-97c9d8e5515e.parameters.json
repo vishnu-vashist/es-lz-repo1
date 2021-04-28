@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27/providers/Microsoft.Authorization/roleAssignments/55549cc1-9505-400a-a84e-97c9d8e5515e",
+        "Name": "55549cc1-9505-400a-a84e-97c9d8e5515e",
+        "properties": {
+          "DisplayName": "anthos-pre-testing-anthos-api",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "46eaf2da-ca5a-458a-9850-efa7e8d32262",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/9980e02c-c2be-4d73-94e8-173b1dc7cf3c",
+          "RoleDefinitionName": "Virtual Machine Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
