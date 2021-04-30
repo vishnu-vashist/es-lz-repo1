@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27/providers/Microsoft.Authorization/roleAssignments/1417b7e3-f171-493c-9af3-21c6dbde8b34",
+        "Name": "1417b7e3-f171-493c-9af3-21c6dbde8b34",
+        "properties": {
+          "DisplayName": "anthos-pre-testing-anthos-v2-api",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "b7418823-e4cf-422c-8054-70748a572c95",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+          "RoleDefinitionName": "User Access Administrator"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

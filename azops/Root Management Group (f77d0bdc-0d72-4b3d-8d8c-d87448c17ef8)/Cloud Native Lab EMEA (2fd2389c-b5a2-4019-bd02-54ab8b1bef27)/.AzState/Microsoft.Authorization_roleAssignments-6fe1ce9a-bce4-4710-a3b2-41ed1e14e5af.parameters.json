@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27/providers/Microsoft.Authorization/roleAssignments/6fe1ce9a-bce4-4710-a3b2-41ed1e14e5af",
+        "Name": "6fe1ce9a-bce4-4710-a3b2-41ed1e14e5af",
+        "properties": {
+          "DisplayName": "anthos-pre-testing-anthos-v2-api",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "b7418823-e4cf-422c-8054-70748a572c95",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/e40ec5ca-96e0-45a2-b4ff-59039f2c2b59",
+          "RoleDefinitionName": "Managed Identity Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
