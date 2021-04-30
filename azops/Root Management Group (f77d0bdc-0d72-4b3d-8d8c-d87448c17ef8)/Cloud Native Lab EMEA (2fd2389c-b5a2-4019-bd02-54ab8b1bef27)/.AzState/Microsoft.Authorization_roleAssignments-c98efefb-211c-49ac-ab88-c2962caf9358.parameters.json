@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27/providers/Microsoft.Authorization/roleAssignments/c98efefb-211c-49ac-ab88-c2962caf9358",
+        "Name": "c98efefb-211c-49ac-ab88-c2962caf9358",
+        "properties": {
+          "DisplayName": "id-cp-anthos-246cefdb",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "6fdac35a-1b3d-4d41-9f53-612b74c2309c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/c99d8322-6d21-4e32-b06a-2ba1a907aed8",
+          "RoleDefinitionName": "role-cp-anthos-246cefdb"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
