@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/e2f443e2-d2c8-4753-b939-6943aae60c8f",
+        "Name": "e2f443e2-d2c8-4753-b939-6943aae60c8f",
+        "DisplayName": "HCL AVS Workshop",
+        "Children": null
+      }
+    }
+  }
+}
