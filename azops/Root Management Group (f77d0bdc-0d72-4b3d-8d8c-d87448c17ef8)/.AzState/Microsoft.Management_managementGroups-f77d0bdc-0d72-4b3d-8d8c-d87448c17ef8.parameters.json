@@ -154,6 +154,13 @@
             "Name": "70e162f1-6142-494b-b108-ff9f5fbd0b9c",
             "DisplayName": "DRYiCE-AEX VDI",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/e2f443e2-d2c8-4753-b939-6943aae60c8f",
+            "Name": "e2f443e2-d2c8-4753-b939-6943aae60c8f",
+            "DisplayName": "HCL AVS Workshop",
+            "Children": null
           }
         ]
       }
