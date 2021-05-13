@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/e2f443e2-d2c8-4753-b939-6943aae60c8f/providers/Microsoft.Authorization/roleAssignments/63634f17-e3d5-43d9-abcf-67b0f548e7a5",
+        "Name": "63634f17-e3d5-43d9-abcf-67b0f548e7a5",
+        "properties": {
+          "DisplayName": "Kapil Singh",
+          "ObjectType": "User",
+          "PrincipalId": "d728f782-f598-4c39-98a6-6a03fde5409e",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
