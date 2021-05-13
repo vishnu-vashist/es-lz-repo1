@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/0fbc3561-da06-4261-8a89-bd74bbe5d245",
+        "Name": "0fbc3561-da06-4261-8a89-bd74bbe5d245",
+        "DisplayName": "Disney-Lab",
+        "Children": null
+      }
+    }
+  }
+}

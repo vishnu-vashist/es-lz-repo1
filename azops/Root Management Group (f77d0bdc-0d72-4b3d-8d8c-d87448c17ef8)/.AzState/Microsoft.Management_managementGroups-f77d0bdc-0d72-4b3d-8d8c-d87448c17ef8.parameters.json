@@ -161,6 +161,13 @@
             "Name": "e2f443e2-d2c8-4753-b939-6943aae60c8f",
             "DisplayName": "HCL AVS Workshop",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/0fbc3561-da06-4261-8a89-bd74bbe5d245",
+            "Name": "0fbc3561-da06-4261-8a89-bd74bbe5d245",
+            "DisplayName": "Disney-Lab",
+            "Children": null
           }
         ]
       }
