@@ -1,0 +1,35 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": null,
+        "Name": "1539db4a7cd24c5bb94caa46",
+        "PolicyAssignmentId": "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35/providers/Microsoft.Authorization/policyAssignments/1539db4a7cd24c5bb94caa46",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Enforce tag on resource",
+          "NotScopes": [
+            "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35/resourceGroups/msftlearn-core-infrastructure-rg"
+          ],
+          "Parameters": {
+            "tagName": {
+              "value": "Department"
+            }
+          },
+          "PolicyDefinitionId": "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35/providers/Microsoft.Authorization/policyDefinitions/56d16ba1-0fd9-40c0-997b-c5a880e03bed",
+          "Scope": "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35"
+        },
+        "ResourceId": "/subscriptions/40b097ed-2eb0-4fe6-ac27-8f2b46fe0d35/providers/Microsoft.Authorization/policyAssignments/1539db4a7cd24c5bb94caa46",
+        "ResourceName": "1539db4a7cd24c5bb94caa46",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

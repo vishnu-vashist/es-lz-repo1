@@ -168,13 +168,6 @@
             "Name": "0fbc3561-da06-4261-8a89-bd74bbe5d245",
             "DisplayName": "Disney-Lab",
             "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/938287ad-6d54-473c-b628-5a1a0753050a",
-            "Name": "938287ad-6d54-473c-b628-5a1a0753050a",
-            "DisplayName": "One-Govern-Demo-2",
-            "Children": null
           }
         ]
       }
