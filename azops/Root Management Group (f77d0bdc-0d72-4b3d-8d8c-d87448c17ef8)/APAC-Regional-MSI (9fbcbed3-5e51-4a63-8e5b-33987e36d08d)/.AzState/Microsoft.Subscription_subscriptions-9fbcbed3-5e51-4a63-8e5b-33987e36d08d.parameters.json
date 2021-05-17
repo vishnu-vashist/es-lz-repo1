@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/9fbcbed3-5e51-4a63-8e5b-33987e36d08d",
+        "Name": "9fbcbed3-5e51-4a63-8e5b-33987e36d08d",
+        "DisplayName": "APAC-Regional-MSI",
+        "Children": null
+      }
+    }
+  }
+}
