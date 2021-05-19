@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/8049a3d3-ad91-440d-a95b-f383ea8aafda",
+        "Name": "8049a3d3-ad91-440d-a95b-f383ea8aafda",
+        "DisplayName": "AMER-US-PowerObject",
+        "Children": null
+      }
+    }
+  }
+}

@@ -182,6 +182,111 @@
             "Name": "703847b7-b80f-44b5-a081-779316c3438a",
             "DisplayName": "APAC-MBeU-ARCH",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/10a4f1d8-d942-4b08-892d-2b8f199e9f32",
+            "Name": "10a4f1d8-d942-4b08-892d-2b8f199e9f32",
+            "DisplayName": "EMEA-SWE-SKF",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/faf92f7e-9e65-4a40-8d35-a3aeece98851",
+            "Name": "faf92f7e-9e65-4a40-8d35-a3aeece98851",
+            "DisplayName": "AMER-US-LSH",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/8049a3d3-ad91-440d-a95b-f383ea8aafda",
+            "Name": "8049a3d3-ad91-440d-a95b-f383ea8aafda",
+            "DisplayName": "AMER-US-PowerObject",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847",
+            "Name": "7edd8e44-0991-4e93-9749-901ebe2ef847",
+            "DisplayName": "EMEA-UK-BorealisAG",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/9c29b64f-00cb-4849-a4c1-cbe45875dda9",
+            "Name": "9c29b64f-00cb-4849-a4c1-cbe45875dda9",
+            "DisplayName": "EMEA-UK-DeBeersGroup",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/4813dafb-4bd8-4d66-8532-4e831571ccef",
+            "Name": "4813dafb-4bd8-4d66-8532-4e831571ccef",
+            "DisplayName": "EMEA-UK-AngloAmerican",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283",
+            "Name": "fa36ff78-5b5f-4b9a-9123-f1301324f283",
+            "DisplayName": "EMEA-UK-HUL-Team1",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/a2f1bc71-1bdc-42bc-a032-6c3349a6d199",
+            "Name": "a2f1bc71-1bdc-42bc-a032-6c3349a6d199",
+            "DisplayName": "EMEA-UK-Statkraft-Team1",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/a03ae232-99da-4341-8685-fd216f377a99",
+            "Name": "a03ae232-99da-4341-8685-fd216f377a99",
+            "DisplayName": "EMEA-UK-Statkraft-Team4",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/5d7ea474-6b7f-4486-af1a-b9d23070fd9a",
+            "Name": "5d7ea474-6b7f-4486-af1a-b9d23070fd9a",
+            "DisplayName": "EMEA-UK-LAB1",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/37a3835a-e059-47f3-af91-1d1ead0d9791",
+            "Name": "37a3835a-e059-47f3-af91-1d1ead0d9791",
+            "DisplayName": "APAC-AUS-FinastraOPICS",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/2018199e-d32d-47d7-9180-c182bebf7c98",
+            "Name": "2018199e-d32d-47d7-9180-c182bebf7c98",
+            "DisplayName": "EMEA-UK-HUL-Team3",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16",
+            "Name": "da64fe79-e5eb-4cc0-bb2f-540a3f483f16",
+            "DisplayName": "EMEA-UK-HUL-Team2",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/a6edc2a9-9a86-4127-9afe-b70c1195897b",
+            "Name": "a6edc2a9-9a86-4127-9afe-b70c1195897b",
+            "DisplayName": "EMEA-UK-Statkraft-Team3",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/56fb98e0-498e-4227-be0f-ff1781618ea7",
+            "Name": "56fb98e0-498e-4227-be0f-ff1781618ea7",
+            "DisplayName": "EMEA-UK-Statkraft-Team2",
+            "Children": null
           }
         ]
       }

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/9c29b64f-00cb-4849-a4c1-cbe45875dda9",
+        "Name": "9c29b64f-00cb-4849-a4c1-cbe45875dda9",
+        "DisplayName": "EMEA-UK-DeBeersGroup",
+        "Children": null
+      }
+    }
+  }
+}
