@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/2018199e-d32d-47d7-9180-c182bebf7c98",
+        "Name": "2018199e-d32d-47d7-9180-c182bebf7c98",
+        "DisplayName": "EMEA-UK-HUL-Team3",
+        "Children": null
+      }
+    }
+  }
+}

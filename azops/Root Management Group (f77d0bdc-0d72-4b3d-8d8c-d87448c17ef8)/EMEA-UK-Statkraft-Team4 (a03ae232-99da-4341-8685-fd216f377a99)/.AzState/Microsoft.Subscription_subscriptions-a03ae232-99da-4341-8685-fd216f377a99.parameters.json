@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/a03ae232-99da-4341-8685-fd216f377a99",
+        "Name": "a03ae232-99da-4341-8685-fd216f377a99",
+        "DisplayName": "EMEA-UK-Statkraft-Team4",
+        "Children": null
+      }
+    }
+  }
+}

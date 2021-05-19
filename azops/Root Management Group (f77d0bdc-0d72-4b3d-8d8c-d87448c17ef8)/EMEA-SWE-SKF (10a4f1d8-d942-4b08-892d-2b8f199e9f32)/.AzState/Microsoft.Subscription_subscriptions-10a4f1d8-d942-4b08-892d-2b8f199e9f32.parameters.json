@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/10a4f1d8-d942-4b08-892d-2b8f199e9f32",
+        "Name": "10a4f1d8-d942-4b08-892d-2b8f199e9f32",
+        "DisplayName": "EMEA-SWE-SKF",
+        "Children": null
+      }
+    }
+  }
+}

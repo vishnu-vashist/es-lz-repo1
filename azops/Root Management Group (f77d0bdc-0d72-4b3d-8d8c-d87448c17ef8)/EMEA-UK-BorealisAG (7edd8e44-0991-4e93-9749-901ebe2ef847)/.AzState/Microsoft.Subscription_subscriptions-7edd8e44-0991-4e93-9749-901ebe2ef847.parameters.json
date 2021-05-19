@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847",
+        "Name": "7edd8e44-0991-4e93-9749-901ebe2ef847",
+        "DisplayName": "EMEA-UK-BorealisAG",
+        "Children": null
+      }
+    }
+  }
+}
