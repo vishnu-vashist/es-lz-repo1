@@ -175,6 +175,13 @@
             "Name": "9fbcbed3-5e51-4a63-8e5b-33987e36d08d",
             "DisplayName": "APAC-Regional-MSI",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/703847b7-b80f-44b5-a081-779316c3438a",
+            "Name": "703847b7-b80f-44b5-a081-779316c3438a",
+            "DisplayName": "APAC-MBeU-ARCH",
+            "Children": null
           }
         ]
       }
