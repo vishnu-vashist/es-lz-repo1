@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-landingzones",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "AzCredit-landingzones",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "AzCredit-landingzones",
+        "UpdatedTime": "2021-05-20T05:19:09.4330544Z",
+        "UpdatedBy": "250aedfe-9212-4f51-8327-e1ab03b04ee9",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/AzCredit",
+        "ParentName": "AzCredit",
+        "ParentDisplayName": "AzCredit",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-corp",
+            "Name": "AzCredit-corp",
+            "DisplayName": "AzCredit-corp",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-online",
+            "Name": "AzCredit-online",
+            "DisplayName": "AzCredit-online",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}
