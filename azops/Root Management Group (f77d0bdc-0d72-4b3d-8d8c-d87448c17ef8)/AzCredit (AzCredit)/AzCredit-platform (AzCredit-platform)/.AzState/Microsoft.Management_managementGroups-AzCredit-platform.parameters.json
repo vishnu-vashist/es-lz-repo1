@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-platform",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "AzCredit-platform",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "AzCredit-platform",
+        "UpdatedTime": "2021-05-20T05:19:10.5141778Z",
+        "UpdatedBy": "250aedfe-9212-4f51-8327-e1ab03b04ee9",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/AzCredit",
+        "ParentName": "AzCredit",
+        "ParentDisplayName": "AzCredit",
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/703847b7-b80f-44b5-a081-779316c3438a",
+            "Name": "703847b7-b80f-44b5-a081-779316c3438a",
+            "DisplayName": "APAC-MBeU-ARCH",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

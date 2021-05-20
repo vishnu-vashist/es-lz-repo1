@@ -1,0 +1,78 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-online",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "AzCredit-online",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "AzCredit-online",
+        "UpdatedTime": "2021-05-20T05:19:46.3135533Z",
+        "UpdatedBy": "250aedfe-9212-4f51-8327-e1ab03b04ee9",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/AzCredit-landingzones",
+        "ParentName": "AzCredit-landingzones",
+        "ParentDisplayName": "AzCredit-landingzones",
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/10a4f1d8-d942-4b08-892d-2b8f199e9f32",
+            "Name": "10a4f1d8-d942-4b08-892d-2b8f199e9f32",
+            "DisplayName": "EMEA-SWE-SKF",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/faf92f7e-9e65-4a40-8d35-a3aeece98851",
+            "Name": "faf92f7e-9e65-4a40-8d35-a3aeece98851",
+            "DisplayName": "AMER-US-LSH",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/8049a3d3-ad91-440d-a95b-f383ea8aafda",
+            "Name": "8049a3d3-ad91-440d-a95b-f383ea8aafda",
+            "DisplayName": "AMER-US-PowerObject",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847",
+            "Name": "7edd8e44-0991-4e93-9749-901ebe2ef847",
+            "DisplayName": "EMEA-UK-BorealisAG",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/9c29b64f-00cb-4849-a4c1-cbe45875dda9",
+            "Name": "9c29b64f-00cb-4849-a4c1-cbe45875dda9",
+            "DisplayName": "EMEA-UK-DeBeersGroup",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/4813dafb-4bd8-4d66-8532-4e831571ccef",
+            "Name": "4813dafb-4bd8-4d66-8532-4e831571ccef",
+            "DisplayName": "EMEA-UK-AngloAmerican",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283",
+            "Name": "fa36ff78-5b5f-4b9a-9123-f1301324f283",
+            "DisplayName": "EMEA-UK-HUL-Team1",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/a2f1bc71-1bdc-42bc-a032-6c3349a6d199",
+            "Name": "a2f1bc71-1bdc-42bc-a032-6c3349a6d199",
+            "DisplayName": "EMEA-UK-Statkraft-Team1",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

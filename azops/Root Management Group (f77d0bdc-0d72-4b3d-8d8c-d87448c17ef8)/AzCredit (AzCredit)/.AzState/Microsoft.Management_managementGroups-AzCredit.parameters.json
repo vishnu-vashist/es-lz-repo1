@@ -1,0 +1,50 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/AzCredit",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "AzCredit",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "AzCredit",
+        "UpdatedTime": "2021-05-20T05:18:33.6406143Z",
+        "UpdatedBy": "250aedfe-9212-4f51-8327-e1ab03b04ee9",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "ParentName": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "ParentDisplayName": "Root Management Group",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-landingzones",
+            "Name": "AzCredit-landingzones",
+            "DisplayName": "AzCredit-landingzones",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-platform",
+            "Name": "AzCredit-platform",
+            "DisplayName": "AzCredit-platform",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-decommissioned",
+            "Name": "AzCredit-decommissioned",
+            "DisplayName": "AzCredit-decommissioned",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-sandboxes",
+            "Name": "AzCredit-sandboxes",
+            "DisplayName": "AzCredit-sandboxes",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}
