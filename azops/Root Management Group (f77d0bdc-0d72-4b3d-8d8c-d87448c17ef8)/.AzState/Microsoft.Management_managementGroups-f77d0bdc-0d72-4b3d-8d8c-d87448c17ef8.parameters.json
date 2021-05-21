@@ -217,6 +217,20 @@
             "Name": "daa999b0-dc9d-49b5-ac93-d19416c67245",
             "DisplayName": "EMEA-UK-IHC-2",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/4858004c-931b-43d8-b37d-4837b00df1f6",
+            "Name": "4858004c-931b-43d8-b37d-4837b00df1f6",
+            "DisplayName": "APAC-IND-DRYiCEAEXVDI",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/9fbb04b4-3ecb-4a04-9050-754949491ad5",
+            "Name": "9fbb04b4-3ecb-4a04-9050-754949491ad5",
+            "DisplayName": "EMEA-UK-RoyalMail",
+            "Children": null
           }
         ]
       }
