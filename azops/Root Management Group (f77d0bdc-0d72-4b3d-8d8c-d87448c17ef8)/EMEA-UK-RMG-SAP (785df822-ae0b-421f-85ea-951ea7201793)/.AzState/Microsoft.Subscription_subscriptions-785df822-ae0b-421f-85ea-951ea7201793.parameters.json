@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/785df822-ae0b-421f-85ea-951ea7201793",
+        "Name": "785df822-ae0b-421f-85ea-951ea7201793",
+        "DisplayName": "EMEA-UK-RMG-SAP",
+        "Children": null
+      }
+    }
+  }
+}

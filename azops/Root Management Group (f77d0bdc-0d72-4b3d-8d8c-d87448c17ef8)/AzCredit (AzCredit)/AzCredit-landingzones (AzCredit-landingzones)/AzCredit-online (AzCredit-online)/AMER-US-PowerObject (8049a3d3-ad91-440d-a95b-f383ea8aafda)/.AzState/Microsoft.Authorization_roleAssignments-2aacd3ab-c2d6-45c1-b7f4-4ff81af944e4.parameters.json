@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/8049a3d3-ad91-440d-a95b-f383ea8aafda/providers/Microsoft.Authorization/roleAssignments/2aacd3ab-c2d6-45c1-b7f4-4ff81af944e4",
+        "Name": "2aacd3ab-c2d6-45c1-b7f4-4ff81af944e4",
+        "properties": {
+          "DisplayName": "jamie.barker",
+          "ObjectType": "User",
+          "PrincipalId": "5439a16b-0928-4f1a-8272-997732908677",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
