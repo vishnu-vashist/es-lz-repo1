@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/9fbb04b4-3ecb-4a04-9050-754949491ad5",
+        "Name": "9fbb04b4-3ecb-4a04-9050-754949491ad5",
+        "DisplayName": "EMEA-UK-RoyalMail",
+        "Children": null
+      }
+    }
+  }
+}
