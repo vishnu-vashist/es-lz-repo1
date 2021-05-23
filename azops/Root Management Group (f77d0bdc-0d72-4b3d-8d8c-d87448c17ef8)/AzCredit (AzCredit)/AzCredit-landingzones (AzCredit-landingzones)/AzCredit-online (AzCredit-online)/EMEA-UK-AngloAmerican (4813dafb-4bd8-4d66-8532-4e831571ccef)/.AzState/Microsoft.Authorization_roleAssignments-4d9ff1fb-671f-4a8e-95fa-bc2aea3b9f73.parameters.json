@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/4813dafb-4bd8-4d66-8532-4e831571ccef/providers/Microsoft.Authorization/roleAssignments/4d9ff1fb-671f-4a8e-95fa-bc2aea3b9f73",
+        "Name": "4d9ff1fb-671f-4a8e-95fa-bc2aea3b9f73",
+        "properties": {
+          "DisplayName": "Shashi_Bhushan",
+          "ObjectType": "User",
+          "PrincipalId": "e73dffc2-3abe-4db4-ba14-6b444b23db86",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

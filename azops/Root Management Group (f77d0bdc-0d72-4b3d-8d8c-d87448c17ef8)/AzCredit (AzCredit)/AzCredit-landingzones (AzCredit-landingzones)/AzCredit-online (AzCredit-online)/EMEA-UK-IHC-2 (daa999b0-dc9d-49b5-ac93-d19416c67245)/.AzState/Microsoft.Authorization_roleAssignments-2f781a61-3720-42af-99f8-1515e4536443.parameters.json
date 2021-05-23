@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/daa999b0-dc9d-49b5-ac93-d19416c67245/providers/Microsoft.Authorization/roleAssignments/2f781a61-3720-42af-99f8-1515e4536443",
+        "Name": "2f781a61-3720-42af-99f8-1515e4536443",
+        "properties": {
+          "DisplayName": "ameya.tawade",
+          "ObjectType": "User",
+          "PrincipalId": "89de4047-6c86-4752-8416-21df7c9e2719",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

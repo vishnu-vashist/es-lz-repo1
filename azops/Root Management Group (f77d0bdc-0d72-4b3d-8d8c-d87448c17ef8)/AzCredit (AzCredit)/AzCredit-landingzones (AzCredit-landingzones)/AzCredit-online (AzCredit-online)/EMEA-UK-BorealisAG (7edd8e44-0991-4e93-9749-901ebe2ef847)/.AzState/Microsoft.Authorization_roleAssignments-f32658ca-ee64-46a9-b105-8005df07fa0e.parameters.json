@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847/providers/Microsoft.Authorization/roleAssignments/f32658ca-ee64-46a9-b105-8005df07fa0e",
+        "Name": "f32658ca-ee64-46a9-b105-8005df07fa0e",
+        "properties": {
+          "DisplayName": "ishu.sh",
+          "ObjectType": "User",
+          "PrincipalId": "f248a610-e7ca-4edc-b246-f6dc660ef99a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

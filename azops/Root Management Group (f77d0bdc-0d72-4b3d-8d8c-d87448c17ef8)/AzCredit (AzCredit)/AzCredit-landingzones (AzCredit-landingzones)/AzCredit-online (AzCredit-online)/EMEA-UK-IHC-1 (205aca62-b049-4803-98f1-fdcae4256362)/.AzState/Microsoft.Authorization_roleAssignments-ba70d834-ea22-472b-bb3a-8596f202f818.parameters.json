@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/205aca62-b049-4803-98f1-fdcae4256362/providers/Microsoft.Authorization/roleAssignments/ba70d834-ea22-472b-bb3a-8596f202f818",
+        "Name": "ba70d834-ea22-472b-bb3a-8596f202f818",
+        "properties": {
+          "DisplayName": "jerom.sanjeevan",
+          "ObjectType": "User",
+          "PrincipalId": "e4f20036-251c-4938-9198-e324df20ad6b",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
