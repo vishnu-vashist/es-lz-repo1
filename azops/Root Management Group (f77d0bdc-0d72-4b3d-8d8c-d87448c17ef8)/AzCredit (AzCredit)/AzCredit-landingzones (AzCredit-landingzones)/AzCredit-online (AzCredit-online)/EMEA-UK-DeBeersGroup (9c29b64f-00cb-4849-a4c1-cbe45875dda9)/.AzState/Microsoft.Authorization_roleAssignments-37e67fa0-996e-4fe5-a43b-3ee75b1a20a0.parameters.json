@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/9c29b64f-00cb-4849-a4c1-cbe45875dda9/providers/Microsoft.Authorization/roleAssignments/37e67fa0-996e-4fe5-a43b-3ee75b1a20a0",
+        "Name": "37e67fa0-996e-4fe5-a43b-3ee75b1a20a0",
+        "properties": {
+          "DisplayName": "Nikhilset",
+          "ObjectType": "User",
+          "PrincipalId": "0b624309-5899-4490-8dda-aa8b3cba653c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
