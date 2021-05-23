@@ -87,6 +87,13 @@
           },
           {
             "Type": "/subscriptions",
+            "Id": "/subscriptions/5d7ea474-6b7f-4486-af1a-b9d23070fd9a",
+            "Name": "5d7ea474-6b7f-4486-af1a-b9d23070fd9a",
+            "DisplayName": "EMEA-UK-LAB1",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
             "Id": "/subscriptions/37a3835a-e059-47f3-af91-1d1ead0d9791",
             "Name": "37a3835a-e059-47f3-af91-1d1ead0d9791",
             "DisplayName": "APAC-AUS-FinastraOPICS",
@@ -118,6 +125,41 @@
             "Id": "/subscriptions/56fb98e0-498e-4227-be0f-ff1781618ea7",
             "Name": "56fb98e0-498e-4227-be0f-ff1781618ea7",
             "DisplayName": "EMEA-UK-Statkraft-Team2",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/4cf88766-82fc-4fdd-876e-9b8ab574a18f",
+            "Name": "4cf88766-82fc-4fdd-876e-9b8ab574a18f",
+            "DisplayName": "AMER-US-BP",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/205aca62-b049-4803-98f1-fdcae4256362",
+            "Name": "205aca62-b049-4803-98f1-fdcae4256362",
+            "DisplayName": "EMEA-UK-IHC-1",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/785df822-ae0b-421f-85ea-951ea7201793",
+            "Name": "785df822-ae0b-421f-85ea-951ea7201793",
+            "DisplayName": "EMEA-UK-RMG-SAP",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/daa999b0-dc9d-49b5-ac93-d19416c67245",
+            "Name": "daa999b0-dc9d-49b5-ac93-d19416c67245",
+            "DisplayName": "EMEA-UK-IHC-2",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/9fbb04b4-3ecb-4a04-9050-754949491ad5",
+            "Name": "9fbb04b4-3ecb-4a04-9050-754949491ad5",
+            "DisplayName": "EMEA-UK-RoyalMail",
             "Children": null
           }
         ]
