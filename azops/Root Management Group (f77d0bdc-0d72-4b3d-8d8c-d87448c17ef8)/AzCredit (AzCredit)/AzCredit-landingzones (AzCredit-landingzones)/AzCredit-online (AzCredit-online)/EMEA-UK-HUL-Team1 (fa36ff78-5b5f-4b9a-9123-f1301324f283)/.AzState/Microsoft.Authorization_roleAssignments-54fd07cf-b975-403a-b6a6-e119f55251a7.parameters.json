@@ -7,7 +7,7 @@
         "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/54fd07cf-b975-403a-b6a6-e119f55251a7",
         "Name": "54fd07cf-b975-403a-b6a6-e119f55251a7",
         "properties": {
-          "DisplayName": "sandeep.gosain",
+          "DisplayName": "Sandeep Gosain",
           "ObjectType": "User",
           "PrincipalId": "1f19e3a2-7d2d-4930-9ebb-6c2c97bf9f08",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",

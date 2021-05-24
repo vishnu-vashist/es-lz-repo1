@@ -7,7 +7,7 @@
         "Id": "/subscriptions/2018199e-d32d-47d7-9180-c182bebf7c98/providers/Microsoft.Authorization/roleAssignments/da426883-3fa4-484d-bdc5-d8d03bc168b5",
         "Name": "da426883-3fa4-484d-bdc5-d8d03bc168b5",
         "properties": {
-          "DisplayName": "hanesh.kumar",
+          "DisplayName": "Hanesh Kumar",
           "ObjectType": "User",
           "PrincipalId": "f63093f6-8e02-4eeb-bf6d-005e98ce4b9d",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
