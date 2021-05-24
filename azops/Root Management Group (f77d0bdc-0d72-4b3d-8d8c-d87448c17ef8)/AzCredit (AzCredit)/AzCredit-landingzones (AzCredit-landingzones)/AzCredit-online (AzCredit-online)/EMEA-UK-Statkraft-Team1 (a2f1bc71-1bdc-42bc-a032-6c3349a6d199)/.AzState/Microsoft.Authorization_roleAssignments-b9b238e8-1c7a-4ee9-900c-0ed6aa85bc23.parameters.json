@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a2f1bc71-1bdc-42bc-a032-6c3349a6d199/providers/Microsoft.Authorization/roleAssignments/b9b238e8-1c7a-4ee9-900c-0ed6aa85bc23",
+        "Name": "b9b238e8-1c7a-4ee9-900c-0ed6aa85bc23",
+        "properties": {
+          "DisplayName": "Charanjitg",
+          "ObjectType": "User",
+          "PrincipalId": "9a0e7d01-9be5-42c8-bbae-32cd35a5d0f7",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

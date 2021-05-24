@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a6edc2a9-9a86-4127-9afe-b70c1195897b/providers/Microsoft.Authorization/roleAssignments/66aa59fc-7442-42d4-9a57-3f110985cc7f",
+        "Name": "66aa59fc-7442-42d4-9a57-3f110985cc7f",
+        "properties": {
+          "DisplayName": "golaka.s",
+          "ObjectType": "User",
+          "PrincipalId": "c1964244-45ad-4ae2-a47c-3e4c24e3c5b6",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

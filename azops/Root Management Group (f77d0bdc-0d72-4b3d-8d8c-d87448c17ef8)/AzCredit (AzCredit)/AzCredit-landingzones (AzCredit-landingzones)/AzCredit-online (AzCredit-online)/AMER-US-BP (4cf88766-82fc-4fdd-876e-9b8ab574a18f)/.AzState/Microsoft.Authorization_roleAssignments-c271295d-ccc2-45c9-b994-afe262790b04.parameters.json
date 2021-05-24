@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/4cf88766-82fc-4fdd-876e-9b8ab574a18f/providers/Microsoft.Authorization/roleAssignments/c271295d-ccc2-45c9-b994-afe262790b04",
+        "Name": "c271295d-ccc2-45c9-b994-afe262790b04",
+        "properties": {
+          "DisplayName": "alameen.abdullai",
+          "ObjectType": "User",
+          "PrincipalId": "43a2d7cb-075f-4032-a81f-1de197415a29",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
