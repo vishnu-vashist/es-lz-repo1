@@ -7,7 +7,7 @@
         "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/f266ad27-d704-4656-ab2a-4a3b1cc239fa",
         "Name": "f266ad27-d704-4656-ab2a-4a3b1cc239fa",
         "properties": {
-          "DisplayName": "muzamailr",
+          "DisplayName": "Reddy Muzamail",
           "ObjectType": "User",
           "PrincipalId": "58363895-b6ba-4481-9976-038ef796dc42",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
