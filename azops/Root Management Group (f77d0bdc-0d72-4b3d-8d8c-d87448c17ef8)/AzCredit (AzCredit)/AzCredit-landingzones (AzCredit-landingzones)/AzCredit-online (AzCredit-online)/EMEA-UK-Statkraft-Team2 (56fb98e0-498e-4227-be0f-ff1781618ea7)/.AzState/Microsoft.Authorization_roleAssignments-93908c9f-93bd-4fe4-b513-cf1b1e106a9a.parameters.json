@@ -7,7 +7,7 @@
         "Id": "/subscriptions/56fb98e0-498e-4227-be0f-ff1781618ea7/providers/Microsoft.Authorization/roleAssignments/93908c9f-93bd-4fe4-b513-cf1b1e106a9a",
         "Name": "93908c9f-93bd-4fe4-b513-cf1b1e106a9a",
         "properties": {
-          "DisplayName": "VivekAga",
+          "DisplayName": "Vivek Agarwal",
           "ObjectType": "User",
           "PrincipalId": "b623f89c-c311-419c-aa58-964c809cae82",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
