@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/9a4e8926-d0d6-4b7b-9014-eef554f8ab45",
+        "Name": "9a4e8926-d0d6-4b7b-9014-eef554f8ab45",
+        "properties": {
+          "DisplayName": "Vignesh Manickavasagam",
+          "ObjectType": "User",
+          "PrincipalId": "2ec580c4-25a6-4dc4-b893-a3249cd2523a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

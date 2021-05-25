@@ -4,14 +4,14 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/70e162f1-6142-494b-b108-ff9f5fbd0b9c/providers/Microsoft.Authorization/roleAssignments/217ce9d2-1dfa-4d56-9bed-0fa6b1ea4c92",
-        "Name": "217ce9d2-1dfa-4d56-9bed-0fa6b1ea4c92",
+        "Id": "/subscriptions/4858004c-931b-43d8-b37d-4837b00df1f6/providers/Microsoft.Authorization/roleAssignments/13fb8270-91e3-41fe-a560-8fab0fe56e59",
+        "Name": "13fb8270-91e3-41fe-a560-8fab0fe56e59",
         "properties": {
           "DisplayName": "Mohit Jain",
           "ObjectType": "User",
           "PrincipalId": "c74716b9-76ca-4b9d-bc63-b8673c8d6df4",
-          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
-          "RoleDefinitionName": "Owner"
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
         },
         "ResourceType": "Microsoft.Authorization/roleAssignments"
       }

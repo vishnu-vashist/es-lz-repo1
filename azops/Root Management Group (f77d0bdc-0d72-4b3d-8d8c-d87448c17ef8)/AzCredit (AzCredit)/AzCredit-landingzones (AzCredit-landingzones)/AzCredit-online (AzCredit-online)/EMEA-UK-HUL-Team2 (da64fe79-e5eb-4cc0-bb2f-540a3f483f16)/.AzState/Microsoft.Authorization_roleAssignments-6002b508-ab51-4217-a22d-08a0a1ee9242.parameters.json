@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/6002b508-ab51-4217-a22d-08a0a1ee9242",
+        "Name": "6002b508-ab51-4217-a22d-08a0a1ee9242",
+        "properties": {
+          "DisplayName": "sireesha.edara",
+          "ObjectType": "User",
+          "PrincipalId": "e7ef0c14-36fd-4da6-a363-fe758bbdca35",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

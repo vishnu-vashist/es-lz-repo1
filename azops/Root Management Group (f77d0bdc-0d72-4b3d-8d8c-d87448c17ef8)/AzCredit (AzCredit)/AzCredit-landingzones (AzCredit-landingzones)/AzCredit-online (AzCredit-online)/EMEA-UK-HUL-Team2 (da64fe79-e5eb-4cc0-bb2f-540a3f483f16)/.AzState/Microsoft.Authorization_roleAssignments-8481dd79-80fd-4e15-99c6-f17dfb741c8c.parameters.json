@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/8481dd79-80fd-4e15-99c6-f17dfb741c8c",
+        "Name": "8481dd79-80fd-4e15-99c6-f17dfb741c8c",
+        "properties": {
+          "DisplayName": "Rachapalli Poojitha",
+          "ObjectType": "User",
+          "PrincipalId": "96b87168-cba6-43e7-b639-dffc31fcf0a1",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

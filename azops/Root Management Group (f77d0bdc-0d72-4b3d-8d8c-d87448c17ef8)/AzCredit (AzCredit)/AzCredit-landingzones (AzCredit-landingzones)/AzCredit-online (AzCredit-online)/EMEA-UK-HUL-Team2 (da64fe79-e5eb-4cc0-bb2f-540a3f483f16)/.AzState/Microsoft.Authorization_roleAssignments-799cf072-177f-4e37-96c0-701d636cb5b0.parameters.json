@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/799cf072-177f-4e37-96c0-701d636cb5b0",
+        "Name": "799cf072-177f-4e37-96c0-701d636cb5b0",
+        "properties": {
+          "DisplayName": "hari.krishnarm",
+          "ObjectType": "User",
+          "PrincipalId": "6551c2f4-c831-43e7-b0e7-8598f1e264f5",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
