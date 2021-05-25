@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/4858004c-931b-43d8-b37d-4837b00df1f6/providers/Microsoft.Authorization/roleAssignments/13fb8270-91e3-41fe-a560-8fab0fe56e59",
-        "Name": "13fb8270-91e3-41fe-a560-8fab0fe56e59",
+        "Id": "/subscriptions/e34e0755-782c-489e-9496-c96dc0f2ffea/providers/Microsoft.Authorization/roleAssignments/2ff12035-715a-4787-a2b9-586ea4149093",
+        "Name": "2ff12035-715a-4787-a2b9-586ea4149093",
         "properties": {
-          "DisplayName": "Mohit Jain",
+          "DisplayName": "Eamonn Gabriel",
           "ObjectType": "User",
-          "PrincipalId": "c74716b9-76ca-4b9d-bc63-b8673c8d6df4",
+          "PrincipalId": "cda6099c-4cb5-4010-85b3-0971cff08c6c",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },

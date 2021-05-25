@@ -7,7 +7,7 @@
         "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/198ebb2f-a6b7-4844-81c3-320b1bf7dec4",
         "Name": "198ebb2f-a6b7-4844-81c3-320b1bf7dec4",
         "properties": {
-          "DisplayName": "hemanth.ij",
+          "DisplayName": "Ij Hemanth",
           "ObjectType": "User",
           "PrincipalId": "dc0eb88f-846e-4357-8df1-4018042b66ef",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
