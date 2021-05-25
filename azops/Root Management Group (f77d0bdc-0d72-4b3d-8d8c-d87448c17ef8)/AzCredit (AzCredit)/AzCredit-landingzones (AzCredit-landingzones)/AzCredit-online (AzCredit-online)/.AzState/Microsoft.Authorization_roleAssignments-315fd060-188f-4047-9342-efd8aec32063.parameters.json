@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-online/providers/Microsoft.Authorization/roleAssignments/315fd060-188f-4047-9342-efd8aec32063",
+        "Name": "315fd060-188f-4047-9342-efd8aec32063",
+        "properties": {
+          "DisplayName": "Sourav Paul",
+          "ObjectType": "User",
+          "PrincipalId": "3165727f-5f16-466c-9a60-6f861ed956b8",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/5d58bcaf-24a5-4b20-bdb6-eed9f69fbe4c",
+          "RoleDefinitionName": "Management Group Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
