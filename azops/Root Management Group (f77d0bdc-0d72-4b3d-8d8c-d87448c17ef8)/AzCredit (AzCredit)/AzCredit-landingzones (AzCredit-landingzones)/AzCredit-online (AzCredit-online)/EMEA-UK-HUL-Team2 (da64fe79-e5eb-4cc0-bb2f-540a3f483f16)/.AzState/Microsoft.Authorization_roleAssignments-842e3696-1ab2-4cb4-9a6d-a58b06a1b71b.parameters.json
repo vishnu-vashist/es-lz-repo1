@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/842e3696-1ab2-4cb4-9a6d-a58b06a1b71b",
+        "Name": "842e3696-1ab2-4cb4-9a6d-a58b06a1b71b",
+        "properties": {
+          "DisplayName": "Nndan Budankayala",
+          "ObjectType": "User",
+          "PrincipalId": "16574d99-17e2-4386-8fdb-e2b8381ace6a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

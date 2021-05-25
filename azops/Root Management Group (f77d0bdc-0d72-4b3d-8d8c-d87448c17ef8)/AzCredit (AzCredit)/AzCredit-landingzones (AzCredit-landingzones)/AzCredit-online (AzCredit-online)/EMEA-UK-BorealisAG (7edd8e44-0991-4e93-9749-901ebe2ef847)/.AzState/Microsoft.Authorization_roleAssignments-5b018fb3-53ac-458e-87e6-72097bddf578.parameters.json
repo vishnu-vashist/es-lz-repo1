@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847/providers/Microsoft.Authorization/roleAssignments/5b018fb3-53ac-458e-87e6-72097bddf578",
+        "Name": "5b018fb3-53ac-458e-87e6-72097bddf578",
+        "properties": {
+          "DisplayName": "Joji Reddy Vaddireddy",
+          "ObjectType": "User",
+          "PrincipalId": "85e173cf-21cc-42e7-b7a8-fdb55650c6e8",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

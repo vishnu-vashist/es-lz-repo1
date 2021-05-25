@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/72345680-7308-491c-9c97-f7c4e236ee50",
+        "Name": "72345680-7308-491c-9c97-f7c4e236ee50",
+        "properties": {
+          "DisplayName": "Malikireddy Deepthi",
+          "ObjectType": "User",
+          "PrincipalId": "691f143e-a81a-4c0a-8a67-b95f2d30c086",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

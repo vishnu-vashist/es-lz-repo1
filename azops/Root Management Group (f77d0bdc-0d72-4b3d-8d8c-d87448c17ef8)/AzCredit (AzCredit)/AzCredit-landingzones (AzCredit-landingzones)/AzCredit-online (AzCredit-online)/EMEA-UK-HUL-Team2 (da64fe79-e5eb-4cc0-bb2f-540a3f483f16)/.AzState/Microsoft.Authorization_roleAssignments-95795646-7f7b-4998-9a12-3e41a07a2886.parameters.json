@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/95795646-7f7b-4998-9a12-3e41a07a2886",
+        "Name": "95795646-7f7b-4998-9a12-3e41a07a2886",
+        "properties": {
+          "DisplayName": "Suryauday Dmello",
+          "ObjectType": "User",
+          "PrincipalId": "1b6b8436-1121-4364-afbb-a1da7a151090",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

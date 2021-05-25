@@ -157,9 +157,23 @@
           },
           {
             "Type": "/subscriptions",
+            "Id": "/subscriptions/4858004c-931b-43d8-b37d-4837b00df1f6",
+            "Name": "4858004c-931b-43d8-b37d-4837b00df1f6",
+            "DisplayName": "APAC-IND-DRYiCEAEXVDI",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
             "Id": "/subscriptions/9fbb04b4-3ecb-4a04-9050-754949491ad5",
             "Name": "9fbb04b4-3ecb-4a04-9050-754949491ad5",
             "DisplayName": "EMEA-UK-RoyalMail",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/e34e0755-782c-489e-9496-c96dc0f2ffea",
+            "Name": "e34e0755-782c-489e-9496-c96dc0f2ffea",
+            "DisplayName": "EMEA-UK-BBCStudios",
             "Children": null
           }
         ]

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/c110e13d-f2f8-4275-b03f-08c6dc0c5c33",
+        "Name": "c110e13d-f2f8-4275-b03f-08c6dc0c5c33",
+        "properties": {
+          "DisplayName": "J Reddy",
+          "ObjectType": "User",
+          "PrincipalId": "d6db06a8-ac6d-4810-9204-5f04402c7508",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

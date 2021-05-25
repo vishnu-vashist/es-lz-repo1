@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/e34e0755-782c-489e-9496-c96dc0f2ffea",
+        "Name": "e34e0755-782c-489e-9496-c96dc0f2ffea",
+        "DisplayName": "EMEA-UK-BBCStudios",
+        "Children": null
+      }
+    }
+  }
+}

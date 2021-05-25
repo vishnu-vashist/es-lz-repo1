@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/da64fe79-e5eb-4cc0-bb2f-540a3f483f16/providers/Microsoft.Authorization/roleAssignments/33b88f3c-7041-46dc-b991-93779ca1a871",
+        "Name": "33b88f3c-7041-46dc-b991-93779ca1a871",
+        "properties": {
+          "DisplayName": "mohammedimran.khan",
+          "ObjectType": "User",
+          "PrincipalId": "4ce312df-c05f-4f70-899c-2d618412a161",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
