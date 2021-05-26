@@ -1,0 +1,41 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/785df822-ae0b-421f-85ea-951ea7201793/providers/Microsoft.Authorization/roleDefinitions/c2ac2119-4b9c-4d97-8381-df9759e169fb",
+        "Name": "c2ac2119-4b9c-4d97-8381-df9759e169fb",
+        "properties": {
+          "assignableScopes": [
+            "/subscriptions/785df822-ae0b-421f-85ea-951ea7201793"
+          ],
+          "description": "Lets SAP Cloud Appliance Library application manage Network and Compute services, manage Resource Groups and Management locks.",
+          "permissions": [
+            {
+              "actions": [
+                "Microsoft.Authorization/locks/*",
+                "Microsoft.Authorization/roleDefinitions/*",
+                "Microsoft.Authorization/roleAssignments/*",
+                "Microsoft.Compute/*",
+                "Microsoft.Network/*",
+                "Microsoft.Resources/*",
+                "Microsoft.Storage/*",
+                "Microsoft.ManagedIdentity/*",
+                "Microsoft.KeyVault/*",
+                "Microsoft.ContainerService/*",
+                "Microsoft.ContainerRegistry/*",
+                "Microsoft.NetApp/*"
+              ],
+              "dataActions": [],
+              "notActions": [],
+              "notdataActions": []
+            }
+          ],
+          "roleName": "CAL-Custom-Role-785df822-ae0b-421f-85ea-951ea7201793"
+        },
+        "ResourceType": "Microsoft.Authorization/roleDefinitions"
+      }
+    }
+  }
+}

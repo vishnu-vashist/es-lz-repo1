@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/785df822-ae0b-421f-85ea-951ea7201793/providers/Microsoft.Authorization/roleAssignments/63c18585-b660-4faa-856b-d121f3420432",
+        "Name": "63c18585-b660-4faa-856b-d121f3420432",
+        "properties": {
+          "DisplayName": "SAP Cloud Appliance Library",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "a16d8993-5edd-4d45-b980-dd45c3270e3a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/c2ac2119-4b9c-4d97-8381-df9759e169fb",
+          "RoleDefinitionName": "CAL-Custom-Role-785df822-ae0b-421f-85ea-951ea7201793"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
