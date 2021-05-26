@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/91a37aa7-9703-42d6-8990-ca13a9460863/providers/Microsoft.Authorization/roleAssignments/4a940ceb-bf2d-439b-a636-8088dec6cae6",
+        "Name": "4a940ceb-bf2d-439b-a636-8088dec6cae6",
+        "properties": {
+          "DisplayName": "Abhishek Saurabh",
+          "ObjectType": "User",
+          "PrincipalId": "d265599b-f6d3-4264-a7ea-1f48a23825a0",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+          "RoleDefinitionName": "User Access Administrator"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
