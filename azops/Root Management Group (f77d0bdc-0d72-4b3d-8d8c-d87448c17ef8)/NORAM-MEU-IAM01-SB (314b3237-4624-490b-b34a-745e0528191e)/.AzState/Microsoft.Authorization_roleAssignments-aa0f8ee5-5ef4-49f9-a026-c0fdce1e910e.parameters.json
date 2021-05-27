@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/314b3237-4624-490b-b34a-745e0528191e/providers/Microsoft.Authorization/roleAssignments/aa0f8ee5-5ef4-49f9-a026-c0fdce1e910e",
+        "Name": "aa0f8ee5-5ef4-49f9-a026-c0fdce1e910e",
+        "properties": {
+          "DisplayName": "Michael Shaw",
+          "ObjectType": "User",
+          "PrincipalId": "81f137e0-6450-4ab3-987f-754b2751aa64",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

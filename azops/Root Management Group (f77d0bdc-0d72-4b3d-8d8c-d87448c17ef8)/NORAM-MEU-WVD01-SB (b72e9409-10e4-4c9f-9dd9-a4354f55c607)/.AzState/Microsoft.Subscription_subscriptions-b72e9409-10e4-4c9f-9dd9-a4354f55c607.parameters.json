@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/b72e9409-10e4-4c9f-9dd9-a4354f55c607",
+        "Name": "b72e9409-10e4-4c9f-9dd9-a4354f55c607",
+        "DisplayName": "NORAM-MEU-WVD01-SB",
+        "Children": null
+      }
+    }
+  }
+}
