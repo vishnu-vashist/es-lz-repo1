@@ -189,20 +189,6 @@
             "Name": "df2ec1ad-f342-48eb-960a-c6e00f582306",
             "DisplayName": "NXP-BrazilPOC",
             "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/4fc4180d-e510-4195-b898-e498df1bb8ed",
-            "Name": "4fc4180d-e510-4195-b898-e498df1bb8ed",
-            "DisplayName": "EMEA-UK-DeBeersGroup-1",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/115ec688-23f1-4d0b-a3ea-70b81037de23",
-            "Name": "115ec688-23f1-4d0b-a3ea-70b81037de23",
-            "DisplayName": "EMEA-UK-LATAM",
-            "Children": null
           }
         ]
       }

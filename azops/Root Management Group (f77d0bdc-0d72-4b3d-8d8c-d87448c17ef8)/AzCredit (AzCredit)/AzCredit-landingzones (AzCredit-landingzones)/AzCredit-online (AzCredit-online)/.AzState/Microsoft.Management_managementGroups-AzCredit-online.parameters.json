@@ -175,6 +175,27 @@
             "Name": "54c755e9-d05a-4a2f-af2b-88d0e522ce11",
             "DisplayName": "EMEA-Brazil-Electrolux",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/4fc4180d-e510-4195-b898-e498df1bb8ed",
+            "Name": "4fc4180d-e510-4195-b898-e498df1bb8ed",
+            "DisplayName": "EMEA-UK-DeBeersGroup-1",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/115ec688-23f1-4d0b-a3ea-70b81037de23",
+            "Name": "115ec688-23f1-4d0b-a3ea-70b81037de23",
+            "DisplayName": "EMEA-UK-LATAM",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/f47b45b1-7a19-41bd-9e3d-0a6898c40c4b",
+            "Name": "f47b45b1-7a19-41bd-9e3d-0a6898c40c4b",
+            "DisplayName": "EMEA-UK-Statkraft-Team5",
+            "Children": null
           }
         ]
       }

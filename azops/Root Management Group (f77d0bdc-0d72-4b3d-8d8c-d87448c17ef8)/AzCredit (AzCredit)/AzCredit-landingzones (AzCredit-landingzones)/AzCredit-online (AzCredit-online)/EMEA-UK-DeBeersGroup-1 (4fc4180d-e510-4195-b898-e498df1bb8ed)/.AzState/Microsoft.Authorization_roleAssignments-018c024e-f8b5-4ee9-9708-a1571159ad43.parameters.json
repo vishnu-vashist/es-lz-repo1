@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/4fc4180d-e510-4195-b898-e498df1bb8ed/providers/Microsoft.Authorization/roleAssignments/018c024e-f8b5-4ee9-9708-a1571159ad43",
+        "Name": "018c024e-f8b5-4ee9-9708-a1571159ad43",
+        "properties": {
+          "DisplayName": "RupakA",
+          "ObjectType": "User",
+          "PrincipalId": "a9940e9d-de3e-4435-8e38-c9bd6a18aab4",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
