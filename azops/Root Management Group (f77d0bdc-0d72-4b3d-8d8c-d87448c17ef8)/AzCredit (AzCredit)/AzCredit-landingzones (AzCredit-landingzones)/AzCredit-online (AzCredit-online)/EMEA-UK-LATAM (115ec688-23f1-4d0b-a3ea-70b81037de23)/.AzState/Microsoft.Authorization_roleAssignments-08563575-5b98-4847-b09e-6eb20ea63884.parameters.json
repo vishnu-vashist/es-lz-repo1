@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/115ec688-23f1-4d0b-a3ea-70b81037de23/providers/Microsoft.Authorization/roleAssignments/08563575-5b98-4847-b09e-6eb20ea63884",
+        "Name": "08563575-5b98-4847-b09e-6eb20ea63884",
+        "properties": {
+          "DisplayName": "Roger Batista",
+          "ObjectType": "User",
+          "PrincipalId": "9df360c8-4b15-4bb3-a030-c14cdf0cf0cb",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
