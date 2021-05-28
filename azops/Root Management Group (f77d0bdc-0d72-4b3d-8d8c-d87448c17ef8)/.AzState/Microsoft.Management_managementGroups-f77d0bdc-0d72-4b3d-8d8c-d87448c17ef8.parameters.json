@@ -189,41 +189,6 @@
             "Name": "df2ec1ad-f342-48eb-960a-c6e00f582306",
             "DisplayName": "NXP-BrazilPOC",
             "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/1066555e-c3d7-412c-a8cd-68ac98610be8",
-            "Name": "1066555e-c3d7-412c-a8cd-68ac98610be8",
-            "DisplayName": "NORAM-MEU-HUB01-SB",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/b72e9409-10e4-4c9f-9dd9-a4354f55c607",
-            "Name": "b72e9409-10e4-4c9f-9dd9-a4354f55c607",
-            "DisplayName": "NORAM-MEU-WVD01-SB",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/0aba8be2-4f18-4dc3-ae15-24077c465c09",
-            "Name": "0aba8be2-4f18-4dc3-ae15-24077c465c09",
-            "DisplayName": "NORAM-MEU-CC01-SB",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/ef07076e-6c2e-4db6-b301-49a86a500966",
-            "Name": "ef07076e-6c2e-4db6-b301-49a86a500966",
-            "DisplayName": "NORAM-MEU-SB01-SB",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/314b3237-4624-490b-b34a-745e0528191e",
-            "Name": "314b3237-4624-490b-b34a-745e0528191e",
-            "DisplayName": "NORAM-MEU-IAM01-SB",
-            "Children": null
           }
         ]
       }
