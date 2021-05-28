@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/faf92f7e-9e65-4a40-8d35-a3aeece98851/providers/Microsoft.Authorization/roleAssignments/b2ccd21b-b531-4b93-92c4-589e02e97bca",
+        "Name": "b2ccd21b-b531-4b93-92c4-589e02e97bca",
+        "properties": {
+          "DisplayName": "Anirudh Gupta",
+          "ObjectType": "User",
+          "PrincipalId": "05cac37f-1fcc-4682-922d-6287c80b29a8",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+          "RoleDefinitionName": "User Access Administrator"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
