@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/4ee62d5d-8d64-4bc1-951c-e4f44a104e7f",
+        "Name": "4ee62d5d-8d64-4bc1-951c-e4f44a104e7f",
+        "properties": {
+          "DisplayName": "muthukumar-selvam",
+          "ObjectType": "User",
+          "PrincipalId": "23ee55af-7261-40f5-b5c6-1ce23b1e1d88",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
