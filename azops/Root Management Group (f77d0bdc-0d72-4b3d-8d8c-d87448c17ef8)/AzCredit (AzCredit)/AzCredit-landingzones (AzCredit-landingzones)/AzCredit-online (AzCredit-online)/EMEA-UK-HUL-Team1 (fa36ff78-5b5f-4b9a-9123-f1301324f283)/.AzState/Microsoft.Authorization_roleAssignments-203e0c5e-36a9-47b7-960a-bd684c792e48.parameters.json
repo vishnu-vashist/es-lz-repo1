@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/203e0c5e-36a9-47b7-960a-bd684c792e48",
+        "Name": "203e0c5e-36a9-47b7-960a-bd684c792e48",
+        "properties": {
+          "DisplayName": "kartikeswara.nayak",
+          "ObjectType": "User",
+          "PrincipalId": "ff795c23-af89-4ba7-9b01-31f1860183b4",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

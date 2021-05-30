@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/3db6e0a0-6a2d-4172-9a41-6e198b697ee0",
+        "Name": "3db6e0a0-6a2d-4172-9a41-6e198b697ee0",
+        "properties": {
+          "DisplayName": "mahalakshmi.viju",
+          "ObjectType": "User",
+          "PrincipalId": "347196c7-96d5-4488-a7de-7d45b56f3579",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

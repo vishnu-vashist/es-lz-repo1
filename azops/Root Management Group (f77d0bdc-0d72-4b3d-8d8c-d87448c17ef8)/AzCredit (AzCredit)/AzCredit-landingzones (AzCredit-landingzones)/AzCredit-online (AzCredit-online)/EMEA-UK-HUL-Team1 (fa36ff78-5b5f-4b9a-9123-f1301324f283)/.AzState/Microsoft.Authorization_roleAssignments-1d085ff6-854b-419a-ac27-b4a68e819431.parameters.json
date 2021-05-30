@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/1d085ff6-854b-419a-ac27-b4a68e819431",
+        "Name": "1d085ff6-854b-419a-ac27-b4a68e819431",
+        "properties": {
+          "DisplayName": "lijeshc",
+          "ObjectType": "User",
+          "PrincipalId": "6935d6e4-4d50-44b5-92d9-e253cd524e7c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
