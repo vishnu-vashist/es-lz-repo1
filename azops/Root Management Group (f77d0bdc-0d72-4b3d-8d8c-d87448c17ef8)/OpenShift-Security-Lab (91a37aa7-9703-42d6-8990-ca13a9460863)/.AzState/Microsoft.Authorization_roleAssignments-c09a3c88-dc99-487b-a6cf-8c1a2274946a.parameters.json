@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847/providers/Microsoft.Authorization/roleAssignments/6d631fb3-24b5-4565-8ce4-0e7f2514a867",
-        "Name": "6d631fb3-24b5-4565-8ce4-0e7f2514a867",
+        "Id": "/subscriptions/91a37aa7-9703-42d6-8990-ca13a9460863/providers/Microsoft.Authorization/roleAssignments/c09a3c88-dc99-487b-a6cf-8c1a2274946a",
+        "Name": "c09a3c88-dc99-487b-a6cf-8c1a2274946a",
         "properties": {
-          "DisplayName": "Amit Ashish Singh",
+          "DisplayName": "Abhiroop Ghatak",
           "ObjectType": "User",
-          "PrincipalId": "99fbd268-fa40-4653-a87b-34da04bb6197",
+          "PrincipalId": "6c97efdb-bf96-4ce3-8e66-7db47f37017b",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },
