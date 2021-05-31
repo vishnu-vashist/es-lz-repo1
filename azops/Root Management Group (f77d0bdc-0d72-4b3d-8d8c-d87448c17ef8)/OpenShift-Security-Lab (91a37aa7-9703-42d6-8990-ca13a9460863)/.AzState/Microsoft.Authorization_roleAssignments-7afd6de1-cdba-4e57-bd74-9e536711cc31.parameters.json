@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/91a37aa7-9703-42d6-8990-ca13a9460863/providers/Microsoft.Authorization/roleAssignments/7afd6de1-cdba-4e57-bd74-9e536711cc31",
+        "Name": "7afd6de1-cdba-4e57-bd74-9e536711cc31",
+        "properties": {
+          "DisplayName": "Rajesh Kumar",
+          "ObjectType": "User",
+          "PrincipalId": "6f4836e8-0aa3-4afa-8a8a-ed8a6abf4306",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+          "RoleDefinitionName": "User Access Administrator"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
