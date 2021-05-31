@@ -7,7 +7,7 @@
         "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/ec7f101f-8320-4171-9eec-e94ad1b4952d",
         "Name": "ec7f101f-8320-4171-9eec-e94ad1b4952d",
         "properties": {
-          "DisplayName": "vikas.raina",
+          "DisplayName": "Vikas Raina",
           "ObjectType": "User",
           "PrincipalId": "e5e13c0b-d9e5-49da-a92d-9ba57759af56",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
