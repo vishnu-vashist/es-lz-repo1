@@ -7,7 +7,7 @@
         "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/bca48141-dca4-47f9-bc4d-265aa4d5a37d",
         "Name": "bca48141-dca4-47f9-bc4d-265aa4d5a37d",
         "properties": {
-          "DisplayName": "david.tierney",
+          "DisplayName": "David Tierney",
           "ObjectType": "User",
           "PrincipalId": "35236b90-539f-4adc-95d5-75742a551613",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
