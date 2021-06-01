@@ -7,7 +7,7 @@
         "Id": "/subscriptions/54c755e9-d05a-4a2f-af2b-88d0e522ce11/providers/Microsoft.Authorization/roleAssignments/18df5927-6702-4de2-b381-25f34256b362",
         "Name": "18df5927-6702-4de2-b381-25f34256b362",
         "properties": {
-          "DisplayName": "rodrigo.delim",
+          "DisplayName": "Rodrigo De Lima Americo",
           "ObjectType": "User",
           "PrincipalId": "2296fb96-c9ee-4cd4-8363-048510c77a8b",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
