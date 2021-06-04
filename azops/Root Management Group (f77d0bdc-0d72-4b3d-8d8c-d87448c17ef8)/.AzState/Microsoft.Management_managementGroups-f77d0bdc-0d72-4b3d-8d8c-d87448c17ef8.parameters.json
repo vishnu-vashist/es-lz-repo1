@@ -189,48 +189,6 @@
             "Name": "df2ec1ad-f342-48eb-960a-c6e00f582306",
             "DisplayName": "NXP-BrazilPOC",
             "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/ff268c54-cbbc-4a70-8d6d-25281d7963d0",
-            "Name": "ff268c54-cbbc-4a70-8d6d-25281d7963d0",
-            "DisplayName": "MBeU-Cx-Demo1",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/add6bc9b-32c1-4a23-917e-2613afee715a",
-            "Name": "add6bc9b-32c1-4a23-917e-2613afee715a",
-            "DisplayName": "MBeU-Cx-Demo2",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/6db128c2-dea2-41d2-8ceb-a24c70c2867f",
-            "Name": "6db128c2-dea2-41d2-8ceb-a24c70c2867f",
-            "DisplayName": "MBeU-Cx-Demo3",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/d893f62e-0f5a-4a8d-9bf8-5fc313e48113",
-            "Name": "d893f62e-0f5a-4a8d-9bf8-5fc313e48113",
-            "DisplayName": "MBeU-Cx-Demo4",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/423b9563-f1d2-46b1-9447-55d0d71d5014",
-            "Name": "423b9563-f1d2-46b1-9447-55d0d71d5014",
-            "DisplayName": "MBeU-Cx-Demo5",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/4d3d49d5-d684-4fac-bc42-5eae34913d2f",
-            "Name": "4d3d49d5-d684-4fac-bc42-5eae34913d2f",
-            "DisplayName": "MBeU-Cx-Demo6",
-            "Children": null
           }
         ]
       }
