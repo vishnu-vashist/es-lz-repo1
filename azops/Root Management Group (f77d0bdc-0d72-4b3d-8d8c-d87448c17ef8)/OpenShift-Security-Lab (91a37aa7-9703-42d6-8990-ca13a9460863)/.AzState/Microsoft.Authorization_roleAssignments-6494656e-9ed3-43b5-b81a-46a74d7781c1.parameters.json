@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/91a37aa7-9703-42d6-8990-ca13a9460863/providers/Microsoft.Authorization/roleAssignments/6494656e-9ed3-43b5-b81a-46a74d7781c1",
+        "Name": "6494656e-9ed3-43b5-b81a-46a74d7781c1",
+        "properties": {
+          "DisplayName": "mtc-ocp",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "794c5658-e65b-4a12-a308-1a2316119aca",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
