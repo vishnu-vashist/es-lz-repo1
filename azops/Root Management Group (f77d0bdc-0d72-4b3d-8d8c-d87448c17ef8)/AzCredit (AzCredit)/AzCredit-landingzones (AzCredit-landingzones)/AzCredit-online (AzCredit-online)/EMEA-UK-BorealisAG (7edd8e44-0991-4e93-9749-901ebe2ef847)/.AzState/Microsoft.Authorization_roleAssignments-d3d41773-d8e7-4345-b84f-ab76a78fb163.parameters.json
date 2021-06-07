@@ -7,7 +7,7 @@
         "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847/providers/Microsoft.Authorization/roleAssignments/d3d41773-d8e7-4345-b84f-ab76a78fb163",
         "Name": "d3d41773-d8e7-4345-b84f-ab76a78fb163",
         "properties": {
-          "DisplayName": "kapoora",
+          "DisplayName": "Abhishek Kapoor",
           "ObjectType": "User",
           "PrincipalId": "118ebf64-4c8a-49e1-b524-74c4c6a63643",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
