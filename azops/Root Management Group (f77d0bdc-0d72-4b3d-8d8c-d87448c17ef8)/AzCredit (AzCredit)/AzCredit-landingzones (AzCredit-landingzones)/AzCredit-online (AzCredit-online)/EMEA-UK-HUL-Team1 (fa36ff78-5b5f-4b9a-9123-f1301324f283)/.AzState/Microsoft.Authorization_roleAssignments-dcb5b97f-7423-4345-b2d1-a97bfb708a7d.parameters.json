@@ -7,7 +7,7 @@
         "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/dcb5b97f-7423-4345-b2d1-a97bfb708a7d",
         "Name": "dcb5b97f-7423-4345-b2d1-a97bfb708a7d",
         "properties": {
-          "DisplayName": "kumar_mani",
+          "DisplayName": "Manish Kumar",
           "ObjectType": "User",
           "PrincipalId": "7ce21beb-b63c-4d91-bcb0-b9dfdd6fd72b",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
