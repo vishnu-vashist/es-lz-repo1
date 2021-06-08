@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/bc816e11-b577-448c-abd2-db8dc91cf227/providers/Microsoft.Authorization/roleAssignments/1507d90a-1584-47b8-b41a-1e52a79437f9",
+        "Name": "1507d90a-1584-47b8-b41a-1e52a79437f9",
+        "properties": {
+          "DisplayName": "Vikas Jain",
+          "ObjectType": "User",
+          "PrincipalId": "9805e56d-d058-4492-9781-78ddc3c0b093",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
