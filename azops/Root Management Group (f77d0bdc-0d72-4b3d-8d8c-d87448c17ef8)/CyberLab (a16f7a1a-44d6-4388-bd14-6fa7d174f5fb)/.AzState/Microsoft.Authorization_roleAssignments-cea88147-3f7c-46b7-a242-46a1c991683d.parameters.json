@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/cea88147-3f7c-46b7-a242-46a1c991683d",
+        "Name": "cea88147-3f7c-46b7-a242-46a1c991683d",
+        "properties": {
+          "DisplayName": "jagadishprasad gupta",
+          "ObjectType": "User",
+          "PrincipalId": "055f3624-8cc7-4059-ae5f-85c8763ad0c9",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "RoleDefinitionName": "Reader"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

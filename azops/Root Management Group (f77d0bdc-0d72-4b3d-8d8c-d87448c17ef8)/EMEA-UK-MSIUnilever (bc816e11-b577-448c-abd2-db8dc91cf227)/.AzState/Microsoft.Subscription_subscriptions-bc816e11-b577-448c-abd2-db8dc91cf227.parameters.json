@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/bc816e11-b577-448c-abd2-db8dc91cf227",
+        "Name": "bc816e11-b577-448c-abd2-db8dc91cf227",
+        "DisplayName": "EMEA-UK-MSIUnilever",
+        "Children": null
+      }
+    }
+  }
+}
