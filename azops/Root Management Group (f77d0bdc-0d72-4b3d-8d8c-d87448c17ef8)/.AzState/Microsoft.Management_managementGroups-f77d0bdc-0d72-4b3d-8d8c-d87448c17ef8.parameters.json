@@ -189,13 +189,6 @@
             "Name": "df2ec1ad-f342-48eb-960a-c6e00f582306",
             "DisplayName": "NXP-BrazilPOC",
             "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/bc816e11-b577-448c-abd2-db8dc91cf227",
-            "Name": "bc816e11-b577-448c-abd2-db8dc91cf227",
-            "DisplayName": "EMEA-UK-MSIUnilever",
-            "Children": null
           }
         ]
       }

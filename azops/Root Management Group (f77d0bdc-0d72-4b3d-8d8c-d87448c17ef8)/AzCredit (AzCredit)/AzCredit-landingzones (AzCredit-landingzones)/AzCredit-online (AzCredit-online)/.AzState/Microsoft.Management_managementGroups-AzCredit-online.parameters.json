@@ -196,6 +196,13 @@
             "Name": "f47b45b1-7a19-41bd-9e3d-0a6898c40c4b",
             "DisplayName": "EMEA-UK-Statkraft-Team5",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/bc816e11-b577-448c-abd2-db8dc91cf227",
+            "Name": "bc816e11-b577-448c-abd2-db8dc91cf227",
+            "DisplayName": "EMEA-UK-MSIUnilever",
+            "Children": null
           }
         ]
       }
