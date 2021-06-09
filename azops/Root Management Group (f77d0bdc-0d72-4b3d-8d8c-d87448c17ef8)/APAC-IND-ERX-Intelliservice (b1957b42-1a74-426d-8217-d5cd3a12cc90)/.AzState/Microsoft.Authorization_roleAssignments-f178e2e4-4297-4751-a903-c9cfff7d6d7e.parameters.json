@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/b1957b42-1a74-426d-8217-d5cd3a12cc90/providers/Microsoft.Authorization/roleAssignments/f178e2e4-4297-4751-a903-c9cfff7d6d7e",
+        "Name": "f178e2e4-4297-4751-a903-c9cfff7d6d7e",
+        "properties": {
+          "DisplayName": "Suresh Naidu  P - ERS, HCLTech",
+          "ObjectType": "User",
+          "PrincipalId": "1eacf11e-cc2b-4677-9385-8d74d9e4ae1b",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

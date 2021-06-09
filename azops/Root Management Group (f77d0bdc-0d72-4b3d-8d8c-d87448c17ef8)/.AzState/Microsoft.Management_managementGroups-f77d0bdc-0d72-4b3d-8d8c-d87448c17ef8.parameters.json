@@ -189,6 +189,13 @@
             "Name": "df2ec1ad-f342-48eb-960a-c6e00f582306",
             "DisplayName": "NXP-BrazilPOC",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/b1957b42-1a74-426d-8217-d5cd3a12cc90",
+            "Name": "b1957b42-1a74-426d-8217-d5cd3a12cc90",
+            "DisplayName": "APAC-IND-ERX-Intelliservice",
+            "Children": null
           }
         ]
       }
