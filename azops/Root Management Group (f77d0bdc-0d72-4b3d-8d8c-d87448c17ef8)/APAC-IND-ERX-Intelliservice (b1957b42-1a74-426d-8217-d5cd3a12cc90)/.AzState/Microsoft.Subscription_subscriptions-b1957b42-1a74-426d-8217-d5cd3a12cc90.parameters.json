@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/b1957b42-1a74-426d-8217-d5cd3a12cc90",
+        "Name": "b1957b42-1a74-426d-8217-d5cd3a12cc90",
+        "DisplayName": "APAC-IND-ERX-Intelliservice",
+        "Children": null
+      }
+    }
+  }
+}

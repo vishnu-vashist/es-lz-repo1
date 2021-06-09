@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/ce62105b-9e1a-48fb-a8d6-2c9f33093fc9",
+        "Name": "ce62105b-9e1a-48fb-a8d6-2c9f33093fc9",
+        "properties": {
+          "DisplayName": "sentinel_simplify_AAD",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "2f1e613b-5442-4658-b1f3-c9626e824293",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
