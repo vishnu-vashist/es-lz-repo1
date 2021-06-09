@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/91a37aa7-9703-42d6-8990-ca13a9460863/providers/Microsoft.Authorization/roleAssignments/76ea572c-bf4a-49f9-a077-0f0cbc47d29f",
+        "Name": "76ea572c-bf4a-49f9-a077-0f0cbc47d29f",
+        "properties": {
+          "DisplayName": "Peeyush Gaurav",
+          "ObjectType": "User",
+          "PrincipalId": "3bfc8a26-e1ce-428a-a427-ce100d167673",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
