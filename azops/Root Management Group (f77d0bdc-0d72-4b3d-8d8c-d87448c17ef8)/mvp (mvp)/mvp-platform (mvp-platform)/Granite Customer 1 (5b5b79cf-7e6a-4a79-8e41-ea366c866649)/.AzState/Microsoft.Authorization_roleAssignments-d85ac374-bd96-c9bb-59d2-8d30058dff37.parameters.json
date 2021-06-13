@@ -7,8 +7,8 @@
         "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleAssignments/d85ac374-bd96-c9bb-59d2-8d30058dff37",
         "Name": "d85ac374-bd96-c9bb-59d2-8d30058dff37",
         "properties": {
-          "DisplayName": "rtet-caf-level4-applications",
-          "ObjectType": "Group",
+          "DisplayName": null,
+          "ObjectType": "Unknown",
           "PrincipalId": "d0ea2876-02c1-453b-9e30-8485f344273e",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/3bbff388-12c8-6021-6c32-c9501e5d4cb8",
           "RoleDefinitionName": "rtet-rg-caf-launchpad-contributor"
