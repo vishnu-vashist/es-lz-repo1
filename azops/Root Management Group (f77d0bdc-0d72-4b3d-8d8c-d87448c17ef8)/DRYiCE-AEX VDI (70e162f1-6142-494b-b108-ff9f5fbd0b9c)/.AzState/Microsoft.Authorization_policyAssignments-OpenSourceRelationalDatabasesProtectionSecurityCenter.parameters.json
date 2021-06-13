@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": null,
+        "Name": "OpenSourceRelationalDatabasesProtectionSecurityCenter",
+        "PolicyAssignmentId": "/subscriptions/70e162f1-6142-494b-b108-ff9f5fbd0b9c/providers/Microsoft.Authorization/policyAssignments/OpenSourceRelationalDatabasesProtectionSecurityCenter",
+        "Properties": {
+          "Description": "This policy assignment was automatically created by Azure Security Center",
+          "DisplayName": "ASC OpenSourceRelationalDatabasesProtection (subscription: 70e162f1-6142-494b-b108-ff9f5fbd0b9c)",
+          "NotScopes": null,
+          "Parameters": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/e77fc0b3-f7e9-4c58-bc13-cb753ed8e46e",
+          "Scope": "/subscriptions/70e162f1-6142-494b-b108-ff9f5fbd0b9c"
+        },
+        "ResourceId": "/subscriptions/70e162f1-6142-494b-b108-ff9f5fbd0b9c/providers/Microsoft.Authorization/policyAssignments/OpenSourceRelationalDatabasesProtectionSecurityCenter",
+        "ResourceName": "OpenSourceRelationalDatabasesProtectionSecurityCenter",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A1",
+          "tier": "Standard"
+        }
+      }
+    }
+  }
+}

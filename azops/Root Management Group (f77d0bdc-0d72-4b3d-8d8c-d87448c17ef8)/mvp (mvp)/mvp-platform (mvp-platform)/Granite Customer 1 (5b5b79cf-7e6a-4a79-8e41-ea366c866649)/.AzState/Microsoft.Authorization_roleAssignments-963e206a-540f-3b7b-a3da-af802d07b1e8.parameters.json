@@ -7,8 +7,8 @@
         "Id": "/subscriptions/5b5b79cf-7e6a-4a79-8e41-ea366c866649/providers/Microsoft.Authorization/roleAssignments/963e206a-540f-3b7b-a3da-af802d07b1e8",
         "Name": "963e206a-540f-3b7b-a3da-af802d07b1e8",
         "properties": {
-          "DisplayName": "rtet-caf-level3-landingzones-rw",
-          "ObjectType": "Group",
+          "DisplayName": null,
+          "ObjectType": "Unknown",
           "PrincipalId": "8024e391-8e57-4c1a-bead-57ac481f9fac",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/3bbff388-12c8-6021-6c32-c9501e5d4cb8",
           "RoleDefinitionName": "rtet-rg-caf-launchpad-contributor"
