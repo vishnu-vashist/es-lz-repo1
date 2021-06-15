@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/NORAM-ROOT",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "NORAM-ROOT",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "NORAM-ROOT",
+        "UpdatedTime": "2021-06-15T13:06:47.0532911Z",
+        "UpdatedBy": "d6edb066-739b-45ee-b1f3-26a50a1fd8b1",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "ParentName": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "ParentDisplayName": "Root Management Group",
+        "Children": null
+      }
+    }
+  }
+}
