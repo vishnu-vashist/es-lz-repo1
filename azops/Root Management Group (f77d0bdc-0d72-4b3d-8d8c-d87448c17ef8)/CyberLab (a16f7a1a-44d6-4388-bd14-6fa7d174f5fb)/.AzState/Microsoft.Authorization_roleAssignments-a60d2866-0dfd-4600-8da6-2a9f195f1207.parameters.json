@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/a60d2866-0dfd-4600-8da6-2a9f195f1207",
+        "Name": "a60d2866-0dfd-4600-8da6-2a9f195f1207",
+        "properties": {
+          "DisplayName": "Isolate-MDEMachine",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "5b1588e0-bc7c-4734-bf6e-ba4e04ee65ce",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
