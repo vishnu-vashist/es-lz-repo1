@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/187d20b5-418d-4ff8-ac42-06e4b71ee419",
+        "Name": "187d20b5-418d-4ff8-ac42-06e4b71ee419",
+        "properties": {
+          "DisplayName": "Udaya Ullal",
+          "ObjectType": "User",
+          "PrincipalId": "d28469b9-751b-40e2-8b05-e9f7f95a2b63",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

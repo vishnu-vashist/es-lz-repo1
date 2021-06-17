@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/18798f9b-3ae4-4da8-8479-8e00ae0d6b02",
+        "Name": "18798f9b-3ae4-4da8-8479-8e00ae0d6b02",
+        "properties": {
+          "DisplayName": "Arvind Seshachalam (HCL Financial Services)",
+          "ObjectType": "User",
+          "PrincipalId": "b05b8f2d-4c95-4737-a9a2-226305b66605",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

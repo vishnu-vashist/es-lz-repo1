@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/7b25a768-e0bb-45c3-a085-c56d80811102",
+        "Name": "7b25a768-e0bb-45c3-a085-c56d80811102",
+        "properties": {
+          "DisplayName": "sonuku",
+          "ObjectType": "User",
+          "PrincipalId": "0603f5e2-16df-4980-b053-ce5362da19ba",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

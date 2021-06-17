@@ -210,6 +210,13 @@
             "Name": "2bdb5c45-fda6-4a5d-af4f-790b1f7d1cc9",
             "DisplayName": "MBeU-FinOps-Lab",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b",
+            "Name": "8ad69489-7ecd-43da-8531-139c30fa5d9b",
+            "DisplayName": "APAC/India/NOVUS",
+            "Children": null
           }
         ]
       }
