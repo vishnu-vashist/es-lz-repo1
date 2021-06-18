@@ -224,6 +224,13 @@
             "Name": "c6a4e95b-e4f8-4ab4-b697-2dd2e33a3d8c",
             "DisplayName": "APAC-IND-DnACoE",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/27d713b1-810f-452f-b4cc-5a013139257c",
+            "Name": "27d713b1-810f-452f-b4cc-5a013139257c",
+            "DisplayName": "APAC-IND-MSP HCBU",
+            "Children": null
           }
         ]
       }
