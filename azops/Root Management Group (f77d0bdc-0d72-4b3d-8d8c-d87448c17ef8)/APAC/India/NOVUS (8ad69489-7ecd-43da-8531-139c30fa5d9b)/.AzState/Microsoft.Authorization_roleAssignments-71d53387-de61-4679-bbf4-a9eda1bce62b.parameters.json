@@ -7,7 +7,7 @@
         "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/71d53387-de61-4679-bbf4-a9eda1bce62b",
         "Name": "71d53387-de61-4679-bbf4-a9eda1bce62b",
         "properties": {
-          "DisplayName": "shrotia",
+          "DisplayName": "Ashish Shroti",
           "ObjectType": "User",
           "PrincipalId": "3edd6eac-ff01-4e61-be4c-7945afe16106",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
