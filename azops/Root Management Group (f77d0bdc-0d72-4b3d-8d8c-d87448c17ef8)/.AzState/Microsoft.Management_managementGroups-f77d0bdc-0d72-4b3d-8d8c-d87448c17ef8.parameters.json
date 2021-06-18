@@ -173,7 +173,7 @@
             "Type": "/subscriptions",
             "Id": "/subscriptions/e2f443e2-d2c8-4753-b939-6943aae60c8f",
             "Name": "e2f443e2-d2c8-4753-b939-6943aae60c8f",
-            "DisplayName": "HCL AVS Workshop",
+            "DisplayName": "Ambank - Demo",
             "Children": null
           },
           {
@@ -215,7 +215,14 @@
             "Type": "/subscriptions",
             "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b",
             "Name": "8ad69489-7ecd-43da-8531-139c30fa5d9b",
-            "DisplayName": "APAC/India/NOVUS",
+            "DisplayName": "APAC-IND-NOVUS",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/c6a4e95b-e4f8-4ab4-b697-2dd2e33a3d8c",
+            "Name": "c6a4e95b-e4f8-4ab4-b697-2dd2e33a3d8c",
+            "DisplayName": "APAC-IND-DnACoE",
             "Children": null
           }
         ]
