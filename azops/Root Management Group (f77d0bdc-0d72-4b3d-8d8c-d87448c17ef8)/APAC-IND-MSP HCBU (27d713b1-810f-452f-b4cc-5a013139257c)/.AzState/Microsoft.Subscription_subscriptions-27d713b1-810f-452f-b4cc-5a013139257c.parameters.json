@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/27d713b1-810f-452f-b4cc-5a013139257c",
+        "Name": "27d713b1-810f-452f-b4cc-5a013139257c",
+        "DisplayName": "APAC-IND-MSP HCBU",
+        "Children": null
+      }
+    }
+  }
+}

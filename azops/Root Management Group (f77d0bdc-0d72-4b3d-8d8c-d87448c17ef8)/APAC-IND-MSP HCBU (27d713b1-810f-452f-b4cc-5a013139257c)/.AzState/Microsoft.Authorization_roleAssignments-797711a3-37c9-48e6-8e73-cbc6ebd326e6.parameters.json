@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/27d713b1-810f-452f-b4cc-5a013139257c/providers/Microsoft.Authorization/roleAssignments/797711a3-37c9-48e6-8e73-cbc6ebd326e6",
+        "Name": "797711a3-37c9-48e6-8e73-cbc6ebd326e6",
+        "properties": {
+          "DisplayName": "ankush.j",
+          "ObjectType": "User",
+          "PrincipalId": "a2d0bb52-8d44-49d1-bb3b-ac6d6c771d3e",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
