@@ -7,7 +7,7 @@
         "Id": "/subscriptions/e2f443e2-d2c8-4753-b939-6943aae60c8f/providers/Microsoft.Authorization/roleAssignments/1c15442d-4b86-46ad-865c-0ad07331a03e",
         "Name": "1c15442d-4b86-46ad-865c-0ad07331a03e",
         "properties": {
-          "DisplayName": "Thiru Srivaishnavi",
+          "DisplayName": "Srivaishnavi Thiruvengadam",
           "ObjectType": "User",
           "PrincipalId": "6114583f-1ece-471c-9410-75e03bd0cfb1",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
