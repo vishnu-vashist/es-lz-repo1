@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/c4d1ea40-93e4-4dc3-89c1-bba4c6ba68fc",
+        "Name": "c4d1ea40-93e4-4dc3-89c1-bba4c6ba68fc",
+        "properties": {
+          "DisplayName": "sureshkumar Selvaraj",
+          "ObjectType": "User",
+          "PrincipalId": "dfb101d3-d783-45b9-91f3-d6341df0736d",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
