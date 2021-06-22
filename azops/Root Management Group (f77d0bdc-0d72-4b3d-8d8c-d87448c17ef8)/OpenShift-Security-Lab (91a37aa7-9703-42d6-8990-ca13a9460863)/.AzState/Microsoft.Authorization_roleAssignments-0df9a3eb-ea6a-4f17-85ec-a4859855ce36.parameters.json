@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/91a37aa7-9703-42d6-8990-ca13a9460863/providers/Microsoft.Authorization/roleAssignments/0df9a3eb-ea6a-4f17-85ec-a4859855ce36",
+        "Name": "0df9a3eb-ea6a-4f17-85ec-a4859855ce36",
+        "properties": {
+          "DisplayName": "as-ocp4",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "82280e9f-2917-45df-b61a-040c64040551",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+          "RoleDefinitionName": "User Access Administrator"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

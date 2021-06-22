@@ -4,8 +4,8 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/e2f443e2-d2c8-4753-b939-6943aae60c8f/providers/Microsoft.Authorization/roleAssignments/781cb764-b170-4e32-9aea-65644d7946f3",
-        "Name": "781cb764-b170-4e32-9aea-65644d7946f3",
+        "Id": "/subscriptions/e2f443e2-d2c8-4753-b939-6943aae60c8f/providers/Microsoft.Authorization/roleAssignments/4269b079-7ecd-43cd-82b9-054071f00021",
+        "Name": "4269b079-7ecd-43cd-82b9-054071f00021",
         "properties": {
           "DisplayName": "Dibyendu Bose",
           "ObjectType": "User",
