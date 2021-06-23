@@ -231,6 +231,13 @@
             "Name": "27d713b1-810f-452f-b4cc-5a013139257c",
             "DisplayName": "APAC-IND-MSP HCBU",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/0ec5514c-2567-400a-a6d5-993d0ea0243c",
+            "Name": "0ec5514c-2567-400a-a6d5-993d0ea0243c",
+            "DisplayName": "EMEA-OW-POC",
+            "Children": null
           }
         ]
       }
