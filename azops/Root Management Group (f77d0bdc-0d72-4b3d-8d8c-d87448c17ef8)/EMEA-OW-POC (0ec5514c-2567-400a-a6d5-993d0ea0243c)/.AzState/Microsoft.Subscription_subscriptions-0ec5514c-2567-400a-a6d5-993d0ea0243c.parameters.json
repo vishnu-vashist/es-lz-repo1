@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/0ec5514c-2567-400a-a6d5-993d0ea0243c",
+        "Name": "0ec5514c-2567-400a-a6d5-993d0ea0243c",
+        "DisplayName": "EMEA-OW-POC",
+        "Children": null
+      }
+    }
+  }
+}
