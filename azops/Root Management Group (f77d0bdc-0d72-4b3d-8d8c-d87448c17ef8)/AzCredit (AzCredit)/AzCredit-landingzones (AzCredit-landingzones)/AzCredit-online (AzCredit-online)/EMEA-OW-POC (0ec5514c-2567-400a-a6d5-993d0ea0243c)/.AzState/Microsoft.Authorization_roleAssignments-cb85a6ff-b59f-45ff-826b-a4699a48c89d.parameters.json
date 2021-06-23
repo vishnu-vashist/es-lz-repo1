@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/0ec5514c-2567-400a-a6d5-993d0ea0243c/providers/Microsoft.Authorization/roleAssignments/cb85a6ff-b59f-45ff-826b-a4699a48c89d",
+        "Name": "cb85a6ff-b59f-45ff-826b-a4699a48c89d",
+        "properties": {
+          "DisplayName": "Ishita Chaudhuri",
+          "ObjectType": "User",
+          "PrincipalId": "881c01d4-609e-465b-8877-5c4db27eb65b",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

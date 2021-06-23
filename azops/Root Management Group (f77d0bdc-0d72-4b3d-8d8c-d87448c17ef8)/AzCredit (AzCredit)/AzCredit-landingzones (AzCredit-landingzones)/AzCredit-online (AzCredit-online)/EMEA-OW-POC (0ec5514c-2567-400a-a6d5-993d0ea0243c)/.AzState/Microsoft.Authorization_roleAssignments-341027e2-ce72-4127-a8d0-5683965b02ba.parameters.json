@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/0ec5514c-2567-400a-a6d5-993d0ea0243c/providers/Microsoft.Authorization/roleAssignments/341027e2-ce72-4127-a8d0-5683965b02ba",
+        "Name": "341027e2-ce72-4127-a8d0-5683965b02ba",
+        "properties": {
+          "DisplayName": "Ramadhyani Renduchintala",
+          "ObjectType": "User",
+          "PrincipalId": "16d9de8a-250f-4c76-9cdc-e528a6106445",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
