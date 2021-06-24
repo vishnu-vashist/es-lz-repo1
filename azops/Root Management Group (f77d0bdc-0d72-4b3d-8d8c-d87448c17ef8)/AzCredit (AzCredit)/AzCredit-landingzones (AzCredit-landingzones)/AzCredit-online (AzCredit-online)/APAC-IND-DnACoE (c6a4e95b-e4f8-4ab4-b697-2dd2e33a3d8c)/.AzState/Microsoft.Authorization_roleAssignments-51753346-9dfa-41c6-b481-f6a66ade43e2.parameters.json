@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/c6a4e95b-e4f8-4ab4-b697-2dd2e33a3d8c/providers/Microsoft.Authorization/roleAssignments/51753346-9dfa-41c6-b481-f6a66ade43e2",
+        "Name": "51753346-9dfa-41c6-b481-f6a66ade43e2",
+        "properties": {
+          "DisplayName": "Santhoshkumar Subbian",
+          "ObjectType": "User",
+          "PrincipalId": "42062fcb-77c0-4b25-909b-6b81fe7b5363",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

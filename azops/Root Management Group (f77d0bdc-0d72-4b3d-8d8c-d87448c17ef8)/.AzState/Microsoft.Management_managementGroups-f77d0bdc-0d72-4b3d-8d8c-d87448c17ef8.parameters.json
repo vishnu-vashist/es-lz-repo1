@@ -189,6 +189,13 @@
             "Name": "b1957b42-1a74-426d-8217-d5cd3a12cc90",
             "DisplayName": "APAC-IND-ERX-Intelliservice",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/c272fd91-ddc1-4c31-97bf-5d9c20ab0135",
+            "Name": "c272fd91-ddc1-4c31-97bf-5d9c20ab0135",
+            "DisplayName": "APAC-IND-FSRC",
+            "Children": null
           }
         ]
       }

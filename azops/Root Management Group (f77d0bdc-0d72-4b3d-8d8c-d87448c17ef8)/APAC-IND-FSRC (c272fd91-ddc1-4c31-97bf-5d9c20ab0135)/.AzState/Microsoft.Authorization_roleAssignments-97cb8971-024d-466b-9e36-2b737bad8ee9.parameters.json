@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/c272fd91-ddc1-4c31-97bf-5d9c20ab0135/providers/Microsoft.Authorization/roleAssignments/97cb8971-024d-466b-9e36-2b737bad8ee9",
+        "Name": "97cb8971-024d-466b-9e36-2b737bad8ee9",
+        "properties": {
+          "DisplayName": "ruchi.nayyar",
+          "ObjectType": "User",
+          "PrincipalId": "19cbd6ee-c233-4e97-8941-f7c13d8b0a3a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
