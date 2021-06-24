@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/c272fd91-ddc1-4c31-97bf-5d9c20ab0135",
+        "Name": "c272fd91-ddc1-4c31-97bf-5d9c20ab0135",
+        "DisplayName": "APAC-IND-FSRC",
+        "Children": null
+      }
+    }
+  }
+}
