@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/2bba9283-41a7-4cf6-b5a8-ddf135b05f6d",
-        "Name": "2bba9283-41a7-4cf6-b5a8-ddf135b05f6d",
+        "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27/providers/Microsoft.Authorization/roleAssignments/92573ba9-8033-43b8-95e8-c672de1f9bdb",
+        "Name": "92573ba9-8033-43b8-95e8-c672de1f9bdb",
         "properties": {
-          "DisplayName": "abinsaji john",
+          "DisplayName": "Sourav Paul",
           "ObjectType": "User",
-          "PrincipalId": "3e263b2c-4790-42ff-b567-18b1bfe73acc",
+          "PrincipalId": "3165727f-5f16-466c-9a60-6f861ed956b8",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
           "RoleDefinitionName": "Owner"
         },

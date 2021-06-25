@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/f7a75cd4-0c1b-43d9-92da-36bb92713d5b",
-        "Name": "f7a75cd4-0c1b-43d9-92da-36bb92713d5b",
+        "Id": "/providers/Microsoft.Management/managementGroups/f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8/providers/Microsoft.Authorization/roleAssignments/c4ae391c-f0cd-44ca-882b-7fa1f3ff5bf8",
+        "Name": "c4ae391c-f0cd-44ca-882b-7fa1f3ff5bf8",
         "properties": {
-          "DisplayName": "Mohdasaad Aman",
+          "DisplayName": "nischal.tiwari@hcl.com Tiwari",
           "ObjectType": "User",
-          "PrincipalId": "b2c03596-eee9-40b1-a533-5dfeff86069e",
+          "PrincipalId": "56a0346b-c368-4dcf-a2a7-13d91827a66c",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
           "RoleDefinitionName": "Owner"
         },
