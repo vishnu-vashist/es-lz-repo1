@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/6a8df818-5b7a-45fe-8547-050302c5287d",
+        "Name": "6a8df818-5b7a-45fe-8547-050302c5287d",
+        "properties": {
+          "DisplayName": "Jasmin Sandhu",
+          "ObjectType": "User",
+          "PrincipalId": "8b77dd19-44e2-4ae4-8c29-ac0bce57c501",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "RoleDefinitionName": "Reader"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

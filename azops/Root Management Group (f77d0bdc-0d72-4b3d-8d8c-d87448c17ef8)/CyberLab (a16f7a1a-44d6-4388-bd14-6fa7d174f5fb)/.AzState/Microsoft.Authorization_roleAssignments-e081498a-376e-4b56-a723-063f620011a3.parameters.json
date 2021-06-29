@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/e081498a-376e-4b56-a723-063f620011a3",
+        "Name": "e081498a-376e-4b56-a723-063f620011a3",
+        "properties": {
+          "DisplayName": "Vivek Kumar",
+          "ObjectType": "User",
+          "PrincipalId": "0c272c99-af4d-43d1-b15c-089aaf603a0c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "RoleDefinitionName": "Reader"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
