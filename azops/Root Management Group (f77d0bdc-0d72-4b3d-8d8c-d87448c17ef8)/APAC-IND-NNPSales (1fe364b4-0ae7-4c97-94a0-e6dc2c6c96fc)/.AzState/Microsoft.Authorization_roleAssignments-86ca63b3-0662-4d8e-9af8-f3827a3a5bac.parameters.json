@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc/providers/Microsoft.Authorization/roleAssignments/86ca63b3-0662-4d8e-9af8-f3827a3a5bac",
+        "Name": "86ca63b3-0662-4d8e-9af8-f3827a3a5bac",
+        "properties": {
+          "DisplayName": "rohit.yadav",
+          "ObjectType": "User",
+          "PrincipalId": "8de4aa32-1a15-4b73-afd5-653bebbac8bc",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
