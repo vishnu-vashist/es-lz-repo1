@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/11920f96-edc5-424f-a80a-16da456cb515",
+        "Name": "11920f96-edc5-424f-a80a-16da456cb515",
+        "properties": {
+          "DisplayName": "Tanmay Bali",
+          "ObjectType": "User",
+          "PrincipalId": "cba3badd-1901-49be-82a0-cf160d7021c5",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "RoleDefinitionName": "Reader"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
