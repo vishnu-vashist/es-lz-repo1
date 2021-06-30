@@ -7,7 +7,7 @@
         "Id": "/subscriptions/27d713b1-810f-452f-b4cc-5a013139257c/providers/Microsoft.Authorization/roleAssignments/986e4359-02d5-48c6-9ffb-1eb38e710913",
         "Name": "986e4359-02d5-48c6-9ffb-1eb38e710913",
         "properties": {
-          "DisplayName": "ramankumar.gautam",
+          "DisplayName": "Raman Kumar Gautam",
           "ObjectType": "User",
           "PrincipalId": "06f28ce9-07fe-4ffa-85de-1d1269cea6cc",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
