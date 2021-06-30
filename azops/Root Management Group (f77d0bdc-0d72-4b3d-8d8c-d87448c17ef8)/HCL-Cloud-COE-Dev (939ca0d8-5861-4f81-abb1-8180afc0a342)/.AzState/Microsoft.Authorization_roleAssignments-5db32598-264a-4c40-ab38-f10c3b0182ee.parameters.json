@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/6642da27-0d49-4731-b90c-3413002f5c24",
-        "Name": "6642da27-0d49-4731-b90c-3413002f5c24",
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/5db32598-264a-4c40-ab38-f10c3b0182ee",
+        "Name": "5db32598-264a-4c40-ab38-f10c3b0182ee",
         "properties": {
-          "DisplayName": null,
-          "ObjectType": "Unknown",
-          "PrincipalId": "43f199a7-3e3f-4999-b98c-b2a4801ccdf7",
+          "DisplayName": "Satish Akella",
+          "ObjectType": "User",
+          "PrincipalId": "377e67ea-ee48-44a0-97ba-b98ceb011fac",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342",
+        "Name": "939ca0d8-5861-4f81-abb1-8180afc0a342",
+        "DisplayName": "HCL-Cloud-COE-Dev",
+        "Children": null
+      }
+    }
+  }
+}

@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/6642da27-0d49-4731-b90c-3413002f5c24",
-        "Name": "6642da27-0d49-4731-b90c-3413002f5c24",
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/a2fc025c-ae60-4739-b648-afab901aee58",
+        "Name": "a2fc025c-ae60-4739-b648-afab901aee58",
         "properties": {
-          "DisplayName": null,
-          "ObjectType": "Unknown",
-          "PrincipalId": "43f199a7-3e3f-4999-b98c-b2a4801ccdf7",
+          "DisplayName": "Naved Hussain",
+          "ObjectType": "User",
+          "PrincipalId": "10454e65-5679-43e7-9231-3469f7222f8d",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },
