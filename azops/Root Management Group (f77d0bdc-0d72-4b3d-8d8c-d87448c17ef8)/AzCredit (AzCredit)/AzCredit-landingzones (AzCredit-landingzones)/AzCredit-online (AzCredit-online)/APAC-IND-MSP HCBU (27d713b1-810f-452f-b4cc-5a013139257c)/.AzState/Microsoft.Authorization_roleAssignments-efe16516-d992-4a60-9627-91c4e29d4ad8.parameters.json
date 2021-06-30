@@ -7,7 +7,7 @@
         "Id": "/subscriptions/27d713b1-810f-452f-b4cc-5a013139257c/providers/Microsoft.Authorization/roleAssignments/efe16516-d992-4a60-9627-91c4e29d4ad8",
         "Name": "efe16516-d992-4a60-9627-91c4e29d4ad8",
         "properties": {
-          "DisplayName": "Mintu.Singh",
+          "DisplayName": "Mintu Singh",
           "ObjectType": "User",
           "PrincipalId": "c1b152f9-0333-4264-8db6-2d0d9cdac2d0",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
