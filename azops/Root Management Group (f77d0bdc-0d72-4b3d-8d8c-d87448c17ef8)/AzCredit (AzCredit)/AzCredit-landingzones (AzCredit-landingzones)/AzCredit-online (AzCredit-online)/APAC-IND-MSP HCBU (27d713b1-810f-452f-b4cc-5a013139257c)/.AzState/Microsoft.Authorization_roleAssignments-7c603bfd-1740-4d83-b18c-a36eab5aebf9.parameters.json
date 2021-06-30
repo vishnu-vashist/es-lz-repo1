@@ -7,7 +7,7 @@
         "Id": "/subscriptions/27d713b1-810f-452f-b4cc-5a013139257c/providers/Microsoft.Authorization/roleAssignments/7c603bfd-1740-4d83-b18c-a36eab5aebf9",
         "Name": "7c603bfd-1740-4d83-b18c-a36eab5aebf9",
         "properties": {
-          "DisplayName": "nishita.j",
+          "DisplayName": "Nishita Jally",
           "ObjectType": "User",
           "PrincipalId": "bff59161-42ab-4c6a-b529-bda460d6a7d0",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
