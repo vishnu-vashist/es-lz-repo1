@@ -7,7 +7,7 @@
         "Id": "/subscriptions/1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc/providers/Microsoft.Authorization/roleAssignments/5c7905a5-8f32-46ad-8d58-3fdd272cbde9",
         "Name": "5c7905a5-8f32-46ad-8d58-3fdd272cbde9",
         "properties": {
-          "DisplayName": "ginny.d",
+          "DisplayName": "Ginny Davar",
           "ObjectType": "User",
           "PrincipalId": "b46d731c-1e52-4ea9-8344-bcc48d7af9c0",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
