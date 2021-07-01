@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/0c67a71d-8398-4eee-9307-f5799bbc92ed/providers/Microsoft.Authorization/roleAssignments/e2b48291-8c89-42e5-a61c-e7c8760ff4d5",
+        "Name": "e2b48291-8c89-42e5-a61c-e7c8760ff4d5",
+        "properties": {
+          "DisplayName": "Nandish Kumar Nagaraj",
+          "ObjectType": "User",
+          "PrincipalId": "619d9ed6-777d-4119-af0a-c4b0382547c7",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
