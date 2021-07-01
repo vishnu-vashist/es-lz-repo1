@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/0c67a71d-8398-4eee-9307-f5799bbc92ed/providers/Microsoft.Authorization/roleAssignments/215c8e0f-5685-4916-a833-91aa8defea81",
+        "Name": "215c8e0f-5685-4916-a833-91aa8defea81",
+        "properties": {
+          "DisplayName": "Meenal Patidar",
+          "ObjectType": "User",
+          "PrincipalId": "5aeb1461-ba1d-4150-b3c2-4abe30ab4e8a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
