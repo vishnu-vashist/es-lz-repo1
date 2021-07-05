@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/b1957b42-1a74-426d-8217-d5cd3a12cc90/providers/Microsoft.Authorization/roleAssignments/8c044d55-b739-4820-84b6-28e04694312b",
+        "Name": "8c044d55-b739-4820-84b6-28e04694312b",
+        "properties": {
+          "DisplayName": "Suresh Kumar Sangineedi, Chennai",
+          "ObjectType": "User",
+          "PrincipalId": "156c1d9e-8250-4097-881c-40df697649a8",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
