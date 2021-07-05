@@ -252,6 +252,27 @@
             "Name": "0ec5514c-2567-400a-a6d5-993d0ea0243c",
             "DisplayName": "EMEA-OW-POC",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/c272fd91-ddc1-4c31-97bf-5d9c20ab0135",
+            "Name": "c272fd91-ddc1-4c31-97bf-5d9c20ab0135",
+            "DisplayName": "APAC-IND-FSRC",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc",
+            "Name": "1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc",
+            "DisplayName": "APAC-IND-NNPSales",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342",
+            "Name": "939ca0d8-5861-4f81-abb1-8180afc0a342",
+            "DisplayName": "HCL-Cloud-COE-Dev",
+            "Children": null
           }
         ]
       }
