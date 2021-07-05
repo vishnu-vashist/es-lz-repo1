@@ -1,0 +1,112 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "bb96bba7-c777-4e39-b422-ab46f3a0ed7d",
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/bb96bba7-c777-4e39-b422-ab46f3a0ed7d",
+        "ResourceName": "bb96bba7-c777-4e39-b422-ab46f3a0ed7d",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": "939ca0d8-5861-4f81-abb1-8180afc0a342",
+        "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/bb96bba7-c777-4e39-b422-ab46f3a0ed7d",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "NSG-ServiceTag-Policy",
+          "Mode": "All",
+          "Parameters": {
+            "effect": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Effect",
+                "description": "Enableordisabletheexecutionofthepolicy"
+              },
+              "allowedValues": [
+                "Audit",
+                "Deny"
+              ],
+              "defaultValue": "Deny"
+            }
+          },
+          "PolicyRule": {
+            "if": {
+              "allOf": [
+                {
+                  "field": "type",
+                  "equals": "Microsoft.Network/networkSecurityGroups/securityRules"
+                },
+                {
+                  "allOf": [
+                    {
+                      "field": "Microsoft.Network/networkSecurityGroups/securityRules/access",
+                      "equals": "Allow"
+                    },
+                    {
+                      "field": "Microsoft.Network/networkSecurityGroups/securityRules/direction",
+                      "equals": "Inbound"
+                    },
+                    {
+                      "anyOf": [
+                        {
+                          "not": {
+                            "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefix",
+                            "equals": "VirtualNetwork"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "anyOf": [
+                        {
+                          "not": {
+                            "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefix",
+                            "equals": "AzureLoadBalancer"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "anyOf": [
+                        {
+                          "not": {
+                            "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefix",
+                            "equals": "AzureDatabricks"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "anyOf": [
+                        {
+                          "not": {
+                            "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefix",
+                            "equals": "10.0.0.0/24"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "anyOf": [
+                        {
+                          "field": "Microsoft.Network/networkSecurityGroups/securityRules/destinationPortRange",
+                          "equals": "22"
+                        },
+                        {
+                          "field": "Microsoft.Network/networkSecurityGroups/securityRules/destinationPortRange",
+                          "equals": "3389"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": {
+              "effect": "[                       parameters('effect')                     ]"
+            }
+          }
+        }
+      }
+    }
+  }
+}
