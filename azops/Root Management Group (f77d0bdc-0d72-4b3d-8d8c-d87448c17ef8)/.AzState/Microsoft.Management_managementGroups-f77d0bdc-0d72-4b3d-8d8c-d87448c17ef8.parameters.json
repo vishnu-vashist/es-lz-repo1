@@ -189,6 +189,27 @@
             "Name": "b1957b42-1a74-426d-8217-d5cd3a12cc90",
             "DisplayName": "APAC-IND-ERX-Intelliservice",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/992536a5-ad7d-4904-9002-f9ce32efc360",
+            "Name": "992536a5-ad7d-4904-9002-f9ce32efc360",
+            "DisplayName": "ES-Hack-Connectivity",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/811bd0cf-0534-479a-b5b0-39b6ba247f5e",
+            "Name": "811bd0cf-0534-479a-b5b0-39b6ba247f5e",
+            "DisplayName": "ES-Hack-Mgmt",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/1eb44953-a97e-48cb-9ab8-914e22b8162a",
+            "Name": "1eb44953-a97e-48cb-9ab8-914e22b8162a",
+            "DisplayName": "ES-Hack-LandingZone",
+            "Children": null
           }
         ]
       }

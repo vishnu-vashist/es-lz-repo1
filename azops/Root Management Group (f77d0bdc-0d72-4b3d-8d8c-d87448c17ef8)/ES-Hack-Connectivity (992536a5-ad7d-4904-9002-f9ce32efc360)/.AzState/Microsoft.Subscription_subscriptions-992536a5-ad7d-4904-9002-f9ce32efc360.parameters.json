@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/992536a5-ad7d-4904-9002-f9ce32efc360",
+        "Name": "992536a5-ad7d-4904-9002-f9ce32efc360",
+        "DisplayName": "ES-Hack-Connectivity",
+        "Children": null
+      }
+    }
+  }
+}
