@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/c57c8a7c-687c-495e-9a5f-b0d780d7926c",
+        "Name": "c57c8a7c-687c-495e-9a5f-b0d780d7926c",
+        "properties": {
+          "DisplayName": "Andrew Yankowsky",
+          "ObjectType": "User",
+          "PrincipalId": "c5ce10e1-115f-4c08-8354-22a140a16615",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "RoleDefinitionName": "Reader"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
