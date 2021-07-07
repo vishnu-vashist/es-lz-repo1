@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "09165b6dc3f54f939529b70a",
+        "PolicySetDefinitionId": "/subscriptions/2bdb5c45-fda6-4a5d-af4f-790b1f7d1cc9/providers/Microsoft.Authorization/policySetDefinitions/09165b6dc3f54f939529b70a",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "VMRestriction",
+          "Parameters": {},
+          "PolicyDefinitionGroups": null,
+          "PolicyDefinitions": [
+            {
+              "policyDefinitionReferenceId": "Allowed virtual machine size SKUs_1",
+              "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+              "parameters": {
+                "listOfAllowedSKUs": {
+                  "value": [
+                    "basic_a0",
+                    "basic_a1"
+                  ]
+                }
+              },
+              "groupNames": []
+            }
+          ]
+        },
+        "ResourceId": "/subscriptions/2bdb5c45-fda6-4a5d-af4f-790b1f7d1cc9/providers/Microsoft.Authorization/policySetDefinitions/09165b6dc3f54f939529b70a",
+        "ResourceName": "09165b6dc3f54f939529b70a",
+        "ResourceType": "Microsoft.Authorization/policySetDefinitions",
+        "SubscriptionId": "2bdb5c45-fda6-4a5d-af4f-790b1f7d1cc9"
+      }
+    }
+  }
+}
