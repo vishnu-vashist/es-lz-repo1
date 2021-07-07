@@ -66,13 +66,6 @@
           },
           {
             "Type": "/subscriptions",
-            "Id": "/subscriptions/a78f02cd-62d7-4b99-aa9c-5b9194dc6350",
-            "Name": "a78f02cd-62d7-4b99-aa9c-5b9194dc6350",
-            "DisplayName": "IRAS Phase 3 Proposal",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
             "Id": "/subscriptions/bb414457-9e81-4ba3-b26a-9b949e76e991",
             "Name": "bb414457-9e81-4ba3-b26a-9b949e76e991",
             "DisplayName": "ERS-PerfEngg-Lab",
@@ -188,6 +181,13 @@
             "Id": "/subscriptions/b1957b42-1a74-426d-8217-d5cd3a12cc90",
             "Name": "b1957b42-1a74-426d-8217-d5cd3a12cc90",
             "DisplayName": "APAC-IND-ERX-Intelliservice",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/91fead7d-0809-4836-baf9-53ceb5e6eb74",
+            "Name": "91fead7d-0809-4836-baf9-53ceb5e6eb74",
+            "DisplayName": "APAC-IND-BPTeam",
             "Children": null
           }
         ]
