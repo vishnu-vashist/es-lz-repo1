@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/c6a4e95b-e4f8-4ab4-b697-2dd2e33a3d8c/providers/Microsoft.Authorization/roleAssignments/00dc26e0-5430-48ce-b5cd-8dee62861d72",
+        "Name": "00dc26e0-5430-48ce-b5cd-8dee62861d72",
+        "properties": {
+          "DisplayName": "ml-auth",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "cc58b164-4dfc-4938-8cfe-cc2a4210e328",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
