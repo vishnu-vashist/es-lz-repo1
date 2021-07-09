@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/37a3835a-e059-47f3-af91-1d1ead0d9791/providers/Microsoft.Authorization/roleAssignments/b91d10dd-bcf2-48bd-b576-809ded30f35f",
+        "Name": "b91d10dd-bcf2-48bd-b576-809ded30f35f",
+        "properties": {
+          "DisplayName": "pramod.k",
+          "ObjectType": "User",
+          "PrincipalId": "832e74bb-dd82-4690-8706-69b758183e69",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
