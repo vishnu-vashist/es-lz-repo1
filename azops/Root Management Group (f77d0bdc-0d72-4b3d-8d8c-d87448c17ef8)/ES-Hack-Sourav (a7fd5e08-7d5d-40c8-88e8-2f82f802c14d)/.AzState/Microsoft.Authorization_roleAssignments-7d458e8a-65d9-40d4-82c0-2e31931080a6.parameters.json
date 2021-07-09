@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a7fd5e08-7d5d-40c8-88e8-2f82f802c14d/providers/Microsoft.Authorization/roleAssignments/7d458e8a-65d9-40d4-82c0-2e31931080a6",
+        "Name": "7d458e8a-65d9-40d4-82c0-2e31931080a6",
+        "properties": {
+          "DisplayName": "Sourav Paul",
+          "ObjectType": "User",
+          "PrincipalId": "3165727f-5f16-466c-9a60-6f861ed956b8",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

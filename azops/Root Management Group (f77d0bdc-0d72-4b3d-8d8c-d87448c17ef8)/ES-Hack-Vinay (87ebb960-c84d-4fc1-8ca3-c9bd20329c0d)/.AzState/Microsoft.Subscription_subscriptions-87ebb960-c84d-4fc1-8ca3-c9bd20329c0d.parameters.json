@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
+        "Name": "87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
+        "DisplayName": "ES-Hack-Vinay",
+        "Children": null
+      }
+    }
+  }
+}

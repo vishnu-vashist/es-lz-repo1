@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/65cdb860-e719-4c14-8744-1554820d0739/providers/Microsoft.Authorization/roleAssignments/760c770a-0cd8-48f6-aa24-7b770ffadb30",
+        "Name": "760c770a-0cd8-48f6-aa24-7b770ffadb30",
+        "properties": {
+          "DisplayName": "Narender Singh",
+          "ObjectType": "User",
+          "PrincipalId": "0193ad9c-4763-4496-8334-a227a546f8e3",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
