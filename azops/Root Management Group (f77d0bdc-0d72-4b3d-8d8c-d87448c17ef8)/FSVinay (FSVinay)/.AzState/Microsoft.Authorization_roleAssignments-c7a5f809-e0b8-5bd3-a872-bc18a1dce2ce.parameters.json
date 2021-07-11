@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/FSVinay/providers/Microsoft.Authorization/roleAssignments/c7a5f809-e0b8-5bd3-a872-bc18a1dce2ce",
+        "Name": "c7a5f809-e0b8-5bd3-a872-bc18a1dce2ce",
+        "properties": {
+          "DisplayName": "Deploy-Resource-Diag",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "b3694b95-ee3f-43b5-9004-a8c42b0c62ea",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

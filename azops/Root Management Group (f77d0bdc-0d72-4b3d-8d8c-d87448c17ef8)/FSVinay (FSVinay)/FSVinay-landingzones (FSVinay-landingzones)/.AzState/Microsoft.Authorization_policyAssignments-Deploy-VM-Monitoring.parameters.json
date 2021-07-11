@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "cf223232-1bcb-4f37-80f6-18fdd3abcf2f",
+          "tenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus2",
+        "Name": "Deploy-VM-Monitoring",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/FSVinay-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-VM-Monitoring",
+        "Properties": {
+          "Description": "Deploy-VM-Monitoring",
+          "DisplayName": "Deploy-VM-Monitoring",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics_1": {
+              "value": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/resourcegroups/fsvinay-mgmt/providers/microsoft.operationalinsights/workspaces/fsvinay-la-a16f7a1a-44d6-4388-bd14-6fa7d174f5fb"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/55f3eceb-5573-4f18-9695-226972c6d74a",
+          "Scope": "/providers/Microsoft.Management/managementGroups/FSVinay-landingzones"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/FSVinay-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-VM-Monitoring",
+        "ResourceName": "Deploy-VM-Monitoring",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

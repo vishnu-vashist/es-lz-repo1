@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/FSVinay-decommissioned",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "FSVinay-decommissioned",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "FSVinay-decommissioned",
+        "UpdatedTime": "2021-07-11T17:01:28.883772Z",
+        "UpdatedBy": "63fe8647-08c8-409f-bbef-f097ac265c9e",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/FSVinay",
+        "ParentName": "FSVinay",
+        "ParentDisplayName": "FSVinay",
+        "Children": null
+      }
+    }
+  }
+}

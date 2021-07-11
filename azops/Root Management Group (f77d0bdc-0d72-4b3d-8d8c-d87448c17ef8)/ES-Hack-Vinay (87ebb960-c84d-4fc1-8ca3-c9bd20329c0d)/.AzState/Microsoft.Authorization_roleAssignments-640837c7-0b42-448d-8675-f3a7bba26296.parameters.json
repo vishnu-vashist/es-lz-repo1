@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/87ebb960-c84d-4fc1-8ca3-c9bd20329c0d/providers/Microsoft.Authorization/roleAssignments/640837c7-0b42-448d-8675-f3a7bba26296",
+        "Name": "640837c7-0b42-448d-8675-f3a7bba26296",
+        "properties": {
+          "DisplayName": "Vinay Kumar Mishra",
+          "ObjectType": "User",
+          "PrincipalId": "63fe8647-08c8-409f-bbef-f097ac265c9e",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/5d58bcaf-24a5-4b20-bdb6-eed9f69fbe4c",
+          "RoleDefinitionName": "Management Group Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
