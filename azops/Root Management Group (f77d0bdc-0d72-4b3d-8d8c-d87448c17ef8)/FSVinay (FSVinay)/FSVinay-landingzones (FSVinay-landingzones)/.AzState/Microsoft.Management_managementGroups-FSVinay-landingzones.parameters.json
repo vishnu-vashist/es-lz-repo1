@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/FSVinay-landingzones",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "FSVinay-landingzones",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "FSVinay-landingzones",
+        "UpdatedTime": "2021-07-11T17:01:33.5728584Z",
+        "UpdatedBy": "63fe8647-08c8-409f-bbef-f097ac265c9e",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/FSVinay",
+        "ParentName": "FSVinay",
+        "ParentDisplayName": "FSVinay",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/FSVinay-corp",
+            "Name": "FSVinay-corp",
+            "DisplayName": "FSVinay-corp",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/FSVinay-online",
+            "Name": "FSVinay-online",
+            "DisplayName": "FSVinay-online",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

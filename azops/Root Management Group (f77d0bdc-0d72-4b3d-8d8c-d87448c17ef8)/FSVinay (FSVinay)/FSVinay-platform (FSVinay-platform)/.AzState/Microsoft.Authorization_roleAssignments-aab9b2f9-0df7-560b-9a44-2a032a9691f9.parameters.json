@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/FSVinay-platform/providers/Microsoft.Authorization/roleAssignments/aab9b2f9-0df7-560b-9a44-2a032a9691f9",
+        "Name": "aab9b2f9-0df7-560b-9a44-2a032a9691f9",
+        "properties": {
+          "DisplayName": "Enable-DDoS-VNET",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "b4861c0d-9c57-46ed-83b9-ed20d44fbb3b",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/4d97b98b-1d4f-4787-a291-c67834d212e7",
+          "RoleDefinitionName": "Network Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

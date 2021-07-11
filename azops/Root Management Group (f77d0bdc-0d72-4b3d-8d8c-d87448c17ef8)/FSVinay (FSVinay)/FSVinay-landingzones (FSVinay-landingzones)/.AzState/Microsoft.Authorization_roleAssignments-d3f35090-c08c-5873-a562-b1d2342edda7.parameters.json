@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/FSVinay-landingzones/providers/Microsoft.Authorization/roleAssignments/d3f35090-c08c-5873-a562-b1d2342edda7",
+        "Name": "d3f35090-c08c-5873-a562-b1d2342edda7",
+        "properties": {
+          "DisplayName": "Deploy-VM-Monitoring",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "cf223232-1bcb-4f37-80f6-18fdd3abcf2f",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
