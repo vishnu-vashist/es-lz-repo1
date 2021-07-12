@@ -1,0 +1,65 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "Deny-MachineLearning-ComputeCluster-RemoteLoginPortPublicAccess",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/CCDGroup/providers/Microsoft.Authorization/policyDefinitions/Deny-MachineLearning-ComputeCluster-RemoteLoginPortPublicAccess",
+        "ResourceName": "Deny-MachineLearning-ComputeCluster-RemoteLoginPortPublicAccess",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/CCDGroup/providers/Microsoft.Authorization/policyDefinitions/Deny-MachineLearning-ComputeCluster-RemoteLoginPortPublicAccess",
+        "Properties": {
+          "Description": "Deny public access of clusters via SSH.",
+          "DisplayName": "Deny-MachineLearning-ComputeCluster-RemoteLoginPortPublicAccess",
+          "Mode": "Indexed",
+          "Parameters": {
+            "effect": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Effect",
+                "description": "Enable or disable the execution of the policy"
+              },
+              "allowedValues": [
+                "Audit",
+                "Disabled",
+                "Deny"
+              ],
+              "defaultValue": "Deny"
+            }
+          },
+          "PolicyRule": {
+            "if": {
+              "allOf": [
+                {
+                  "field": "type",
+                  "equals": "Microsoft.MachineLearningServices/workspaces/computes"
+                },
+                {
+                  "field": "Microsoft.MachineLearningServices/workspaces/computes/computeType",
+                  "equals": "AmlCompute"
+                },
+                {
+                  "anyOf": [
+                    {
+                      "field": "Microsoft.MachineLearningServices/workspaces/computes/remoteLoginPortPublicAccess",
+                      "exists": false
+                    },
+                    {
+                      "field": "Microsoft.MachineLearningServices/workspaces/computes/remoteLoginPortPublicAccess",
+                      "notEquals": "Disabled"
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": {
+              "effect": "[parameters('effect')]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

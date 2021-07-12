@@ -1,0 +1,68 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "Deny-MachineLearning-Compute-SubnetId",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/CCDGroup/providers/Microsoft.Authorization/policyDefinitions/Deny-MachineLearning-Compute-SubnetId",
+        "ResourceName": "Deny-MachineLearning-Compute-SubnetId",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/CCDGroup/providers/Microsoft.Authorization/policyDefinitions/Deny-MachineLearning-Compute-SubnetId",
+        "Properties": {
+          "Description": "Enforce subnet connectivity for machine learning compute clusters and instances.",
+          "DisplayName": "Deny-MachineLearning-Compute-SubnetId",
+          "Mode": "Indexed",
+          "Parameters": {
+            "effect": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Effect",
+                "description": "Enable or disable the execution of the policy"
+              },
+              "allowedValues": [
+                "Audit",
+                "Disabled",
+                "Deny"
+              ],
+              "defaultValue": "Deny"
+            }
+          },
+          "PolicyRule": {
+            "if": {
+              "allOf": [
+                {
+                  "field": "type",
+                  "equals": "Microsoft.MachineLearningServices/workspaces/computes"
+                },
+                {
+                  "field": "Microsoft.MachineLearningServices/workspaces/computes/computeType",
+                  "in": [
+                    "AmlCompute",
+                    "ComputeInstance"
+                  ]
+                },
+                {
+                  "anyOf": [
+                    {
+                      "field": "Microsoft.MachineLearningServices/workspaces/computes/subnet.id",
+                      "exists": false
+                    },
+                    {
+                      "value": "[empty(field('Microsoft.MachineLearningServices/workspaces/computes/subnet.id'))]",
+                      "equals": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": {
+              "effect": "[parameters('effect')]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

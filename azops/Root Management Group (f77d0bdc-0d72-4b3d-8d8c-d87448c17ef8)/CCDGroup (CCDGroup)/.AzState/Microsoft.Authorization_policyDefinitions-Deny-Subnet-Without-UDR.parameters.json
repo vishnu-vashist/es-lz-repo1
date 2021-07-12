@@ -1,0 +1,67 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "Deny-Subnet-Without-UDR",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/CCDGroup/providers/Microsoft.Authorization/policyDefinitions/Deny-Subnet-Without-UDR",
+        "ResourceName": "Deny-Subnet-Without-UDR",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": null,
+        "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/CCDGroup/providers/Microsoft.Authorization/policyDefinitions/Deny-Subnet-Without-UDR",
+        "Properties": {
+          "Description": "This policy denies the creation of a subnet with out a User Defined Route.",
+          "DisplayName": "Subnets should have a User Defined Route",
+          "Mode": "All",
+          "Parameters": {
+            "effect": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Effect",
+                "description": "Enable or disable the execution of the policy"
+              },
+              "allowedValues": [
+                "Audit",
+                "Deny",
+                "Disabled"
+              ],
+              "defaultValue": "Deny"
+            },
+            "excludedSubnets": {
+              "type": "Array",
+              "metadata": {
+                "displayName": "Excluded Subnets",
+                "description": "Array of subnet names that are excluded from this policy"
+              },
+              "defaultValue": [
+                "AzureBastionSubnet"
+              ]
+            }
+          },
+          "PolicyRule": {
+            "if": {
+              "allOf": [
+                {
+                  "field": "type",
+                  "equals": "Microsoft.Network/virtualNetworks/subnets"
+                },
+                {
+                  "field": "name",
+                  "notIn": "[parameters('excludedSubnets')]"
+                },
+                {
+                  "field": "Microsoft.Network/virtualNetworks/subnets/routeTable.id",
+                  "exists": "false"
+                }
+              ]
+            },
+            "then": {
+              "effect": "[parameters('effect')]"
+            }
+          }
+        }
+      }
+    }
+  }
+}

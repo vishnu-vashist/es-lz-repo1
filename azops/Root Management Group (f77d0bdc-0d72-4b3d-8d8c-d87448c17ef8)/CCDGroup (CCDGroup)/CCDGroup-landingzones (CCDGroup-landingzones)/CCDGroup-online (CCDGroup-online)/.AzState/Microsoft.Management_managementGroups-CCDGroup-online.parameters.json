@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/CCDGroup-online",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "CCDGroup-online",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "CCDGroup-online",
+        "UpdatedTime": "2021-07-11T18:51:52.3335222Z",
+        "UpdatedBy": "63fe8647-08c8-409f-bbef-f097ac265c9e",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/CCDGroup-landingzones",
+        "ParentName": "CCDGroup-landingzones",
+        "ParentDisplayName": "CCDGroup-landingzones",
+        "Children": null
+      }
+    }
+  }
+}
