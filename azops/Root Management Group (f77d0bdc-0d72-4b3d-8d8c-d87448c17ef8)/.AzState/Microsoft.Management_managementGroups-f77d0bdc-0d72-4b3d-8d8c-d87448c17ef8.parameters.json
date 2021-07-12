@@ -45,9 +45,9 @@
           },
           {
             "Type": "/providers/Microsoft.Management/managementGroups",
-            "Id": "/providers/Microsoft.Management/managementGroups/FSVinay",
-            "Name": "FSVinay",
-            "DisplayName": "FSVinay",
+            "Id": "/providers/Microsoft.Management/managementGroups/CCDGroup",
+            "Name": "CCDGroup",
+            "DisplayName": "CCDGroup",
             "Children": null
           },
           {
@@ -216,13 +216,6 @@
             "Id": "/subscriptions/65cdb860-e719-4c14-8744-1554820d0739",
             "Name": "65cdb860-e719-4c14-8744-1554820d0739",
             "DisplayName": "ES-Hack-Narender",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
-            "Id": "/subscriptions/87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
-            "Name": "87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
-            "DisplayName": "ES-Hack-Vinay",
             "Children": null
           },
           {

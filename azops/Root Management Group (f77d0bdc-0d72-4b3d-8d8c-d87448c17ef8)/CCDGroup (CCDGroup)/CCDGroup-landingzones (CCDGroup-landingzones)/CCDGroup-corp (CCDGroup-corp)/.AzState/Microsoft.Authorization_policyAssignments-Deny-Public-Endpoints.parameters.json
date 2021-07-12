@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": "eastus2",
+        "Name": "Deny-Public-Endpoints",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/CCDGroup-corp/providers/Microsoft.Authorization/policyAssignments/Deny-Public-Endpoints",
+        "Properties": {
+          "Description": "Deny-Public-Endpoints",
+          "DisplayName": "Deny-Public-Endpoints",
+          "NotScopes": null,
+          "Parameters": {},
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/CCDGroup/providers/Microsoft.Authorization/policySetDefinitions/Deny-PublicEndpoints",
+          "Scope": "/providers/Microsoft.Management/managementGroups/CCDGroup-corp"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/CCDGroup-corp/providers/Microsoft.Authorization/policyAssignments/Deny-Public-Endpoints",
+        "ResourceName": "Deny-Public-Endpoints",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

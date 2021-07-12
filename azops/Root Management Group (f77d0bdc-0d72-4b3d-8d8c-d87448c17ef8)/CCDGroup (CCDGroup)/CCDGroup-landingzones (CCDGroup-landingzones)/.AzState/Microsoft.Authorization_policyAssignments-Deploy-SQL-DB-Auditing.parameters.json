@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "cb67d9d5-b9b5-4667-9cdc-213ea70d0962",
+          "tenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus2",
+        "Name": "Deploy-SQL-DB-Auditing",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/CCDGroup-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-SQL-DB-Auditing",
+        "Properties": {
+          "Description": "Deploy-SQL-Audit",
+          "DisplayName": "Deploy-SQL-Audit",
+          "NotScopes": null,
+          "Parameters": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9",
+          "Scope": "/providers/Microsoft.Management/managementGroups/CCDGroup-landingzones"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/CCDGroup-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-SQL-DB-Auditing",
+        "ResourceName": "Deploy-SQL-DB-Auditing",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

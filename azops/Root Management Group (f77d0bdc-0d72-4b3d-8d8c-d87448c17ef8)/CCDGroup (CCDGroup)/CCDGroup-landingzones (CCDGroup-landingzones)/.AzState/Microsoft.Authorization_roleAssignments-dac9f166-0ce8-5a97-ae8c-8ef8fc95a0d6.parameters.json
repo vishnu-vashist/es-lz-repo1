@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/CCDGroup-landingzones/providers/Microsoft.Authorization/roleAssignments/dac9f166-0ce8-5a97-ae8c-8ef8fc95a0d6",
+        "Name": "dac9f166-0ce8-5a97-ae8c-8ef8fc95a0d6",
+        "properties": {
+          "DisplayName": "Enforce-TLS-SSL",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "62039001-856c-479a-8ba0-541bba72900d",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

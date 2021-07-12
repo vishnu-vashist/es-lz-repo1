@@ -220,13 +220,6 @@
           },
           {
             "Type": "/subscriptions",
-            "Id": "/subscriptions/2bdb5c45-fda6-4a5d-af4f-790b1f7d1cc9",
-            "Name": "2bdb5c45-fda6-4a5d-af4f-790b1f7d1cc9",
-            "DisplayName": "MBeU-FinOps-Lab",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
             "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b",
             "Name": "8ad69489-7ecd-43da-8531-139c30fa5d9b",
             "DisplayName": "APAC-IND-NOVUS",
@@ -265,6 +258,13 @@
             "Id": "/subscriptions/1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc",
             "Name": "1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc",
             "DisplayName": "APAC-IND-NNPSales",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
+            "Name": "87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
+            "DisplayName": "ES-Hack-Vinay",
             "Children": null
           }
         ]
