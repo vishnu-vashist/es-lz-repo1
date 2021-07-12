@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/5510a386-e08c-4ab0-9dc5-e702f4cb341e",
+        "Name": "5510a386-e08c-4ab0-9dc5-e702f4cb341e",
+        "properties": {
+          "DisplayName": "Yogesh Yadav",
+          "ObjectType": "User",
+          "PrincipalId": "4b12c501-6971-4fd2-9245-616702df4c24",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
