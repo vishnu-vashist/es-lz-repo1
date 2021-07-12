@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5e9a7484-372d-46f4-8eb7-095f2d1aa783/providers/Microsoft.Authorization/roleAssignments/1acd7532-ac92-43d7-9be3-c694b280ba46",
+        "Name": "1acd7532-ac92-43d7-9be3-c694b280ba46",
+        "properties": {
+          "DisplayName": "vipin_s",
+          "ObjectType": "User",
+          "PrincipalId": "a4bd7c82-2d1e-482c-b770-24bd9242c98d",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

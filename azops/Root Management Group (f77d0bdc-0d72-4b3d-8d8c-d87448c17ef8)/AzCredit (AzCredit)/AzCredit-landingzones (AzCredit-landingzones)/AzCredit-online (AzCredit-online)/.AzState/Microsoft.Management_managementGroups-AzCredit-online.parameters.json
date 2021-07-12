@@ -17,6 +17,13 @@
         "Children": [
           {
             "Type": "/subscriptions",
+            "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27",
+            "Name": "2fd2389c-b5a2-4019-bd02-54ab8b1bef27",
+            "DisplayName": "Cloud Native Lab EMEA",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
             "Id": "/subscriptions/e2f443e2-d2c8-4753-b939-6943aae60c8f",
             "Name": "e2f443e2-d2c8-4753-b939-6943aae60c8f",
             "DisplayName": "Ambank - Demo",
@@ -220,6 +227,13 @@
           },
           {
             "Type": "/subscriptions",
+            "Id": "/subscriptions/2bdb5c45-fda6-4a5d-af4f-790b1f7d1cc9",
+            "Name": "2bdb5c45-fda6-4a5d-af4f-790b1f7d1cc9",
+            "DisplayName": "MBeU-FinOps-Lab",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
             "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b",
             "Name": "8ad69489-7ecd-43da-8531-139c30fa5d9b",
             "DisplayName": "APAC-IND-NOVUS",
@@ -262,9 +276,16 @@
           },
           {
             "Type": "/subscriptions",
-            "Id": "/subscriptions/87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
-            "Name": "87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
-            "DisplayName": "ES-Hack-Vinay",
+            "Id": "/subscriptions/91fead7d-0809-4836-baf9-53ceb5e6eb74",
+            "Name": "91fead7d-0809-4836-baf9-53ceb5e6eb74",
+            "DisplayName": "APAC-IND-BPTeam",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/5e9a7484-372d-46f4-8eb7-095f2d1aa783",
+            "Name": "5e9a7484-372d-46f4-8eb7-095f2d1aa783",
+            "DisplayName": "APAC-IND-NGN-NETBOT",
             "Children": null
           }
         ]
