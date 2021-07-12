@@ -44,13 +44,6 @@
             "Children": null
           },
           {
-            "Type": "/providers/Microsoft.Management/managementGroups",
-            "Id": "/providers/Microsoft.Management/managementGroups/CCDGroup",
-            "Name": "CCDGroup",
-            "DisplayName": "CCDGroup",
-            "Children": null
-          },
-          {
             "Type": "/subscriptions",
             "Id": "/subscriptions/1dbbb52c-b7d8-4ed9-87e9-31ff7c84590c",
             "Name": "1dbbb52c-b7d8-4ed9-87e9-31ff7c84590c",
@@ -164,13 +157,6 @@
           },
           {
             "Type": "/subscriptions",
-            "Id": "/subscriptions/2fd2389c-b5a2-4019-bd02-54ab8b1bef27",
-            "Name": "2fd2389c-b5a2-4019-bd02-54ab8b1bef27",
-            "DisplayName": "Cloud Native Lab EMEA",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
             "Id": "/subscriptions/70e162f1-6142-494b-b108-ff9f5fbd0b9c",
             "Name": "70e162f1-6142-494b-b108-ff9f5fbd0b9c",
             "DisplayName": "DRYiCE-AEX VDI",
@@ -199,13 +185,6 @@
           },
           {
             "Type": "/subscriptions",
-            "Id": "/subscriptions/91fead7d-0809-4836-baf9-53ceb5e6eb74",
-            "Name": "91fead7d-0809-4836-baf9-53ceb5e6eb74",
-            "DisplayName": "APAC-IND-BPTeam",
-            "Children": null
-          },
-          {
-            "Type": "/subscriptions",
             "Id": "/subscriptions/a7fd5e08-7d5d-40c8-88e8-2f82f802c14d",
             "Name": "a7fd5e08-7d5d-40c8-88e8-2f82f802c14d",
             "DisplayName": "ES-Hack-Sourav",
@@ -216,6 +195,13 @@
             "Id": "/subscriptions/65cdb860-e719-4c14-8744-1554820d0739",
             "Name": "65cdb860-e719-4c14-8744-1554820d0739",
             "DisplayName": "ES-Hack-Narender",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
+            "Name": "87ebb960-c84d-4fc1-8ca3-c9bd20329c0d",
+            "DisplayName": "ES-Hack-Vinay",
             "Children": null
           },
           {
