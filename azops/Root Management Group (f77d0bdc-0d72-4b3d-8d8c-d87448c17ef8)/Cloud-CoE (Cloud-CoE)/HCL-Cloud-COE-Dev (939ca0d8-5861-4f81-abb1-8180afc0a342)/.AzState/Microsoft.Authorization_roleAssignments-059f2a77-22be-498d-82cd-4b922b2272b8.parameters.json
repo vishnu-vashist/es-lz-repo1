@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/059f2a77-22be-498d-82cd-4b922b2272b8",
+        "Name": "059f2a77-22be-498d-82cd-4b922b2272b8",
+        "properties": {
+          "DisplayName": "Manmohan Singh",
+          "ObjectType": "User",
+          "PrincipalId": "8359f5c7-8e35-4f86-800c-ee682bcdf7aa",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
