@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/a8cf8797-65b8-4335-8cc7-1c97dc254eae",
-        "Name": "a8cf8797-65b8-4335-8cc7-1c97dc254eae",
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/51eb1777-c2ae-48ae-a244-47028d490632",
+        "Name": "51eb1777-c2ae-48ae-a244-47028d490632",
         "properties": {
-          "DisplayName": null,
-          "ObjectType": "Unknown",
-          "PrincipalId": "facbac98-d6a7-4b92-8ac4-a88a697f4fc8",
+          "DisplayName": "Gondi Venkatasai",
+          "ObjectType": "User",
+          "PrincipalId": "7d7328ef-5b00-4a59-85bb-cd7bcd5f19db",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
           "RoleDefinitionName": "Owner"
         },

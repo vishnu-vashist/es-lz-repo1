@@ -4,14 +4,14 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/providers/Microsoft.Management/managementGroups/AzCredit-online/providers/Microsoft.Authorization/roleAssignments/315fd060-188f-4047-9342-efd8aec32063",
-        "Name": "315fd060-188f-4047-9342-efd8aec32063",
+        "Id": "/providers/Microsoft.Management/managementGroups/AzCredit/providers/Microsoft.Authorization/roleAssignments/443eeb66-88dc-4e79-a16f-2e5cc2fb6a19",
+        "Name": "443eeb66-88dc-4e79-a16f-2e5cc2fb6a19",
         "properties": {
           "DisplayName": "Sourav Paul",
           "ObjectType": "User",
           "PrincipalId": "3165727f-5f16-466c-9a60-6f861ed956b8",
-          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/5d58bcaf-24a5-4b20-bdb6-eed9f69fbe4c",
-          "RoleDefinitionName": "Management Group Contributor"
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
         },
         "ResourceType": "Microsoft.Authorization/roleAssignments"
       }

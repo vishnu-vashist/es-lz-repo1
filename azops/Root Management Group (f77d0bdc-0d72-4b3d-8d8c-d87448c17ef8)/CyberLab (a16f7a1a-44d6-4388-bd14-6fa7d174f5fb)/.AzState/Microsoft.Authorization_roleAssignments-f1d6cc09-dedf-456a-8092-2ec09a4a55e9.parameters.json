@@ -7,8 +7,8 @@
         "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/f1d6cc09-dedf-456a-8092-2ec09a4a55e9",
         "Name": "f1d6cc09-dedf-456a-8092-2ec09a4a55e9",
         "properties": {
-          "DisplayName": "Prakhyat Srivastava",
-          "ObjectType": "User",
+          "DisplayName": null,
+          "ObjectType": "Unknown",
           "PrincipalId": "34150b05-7ef6-45c0-9143-ff5a204b06d9",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"

@@ -7,8 +7,8 @@
         "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/fc7e71f3-392f-49ff-8ff7-100b4fac84f0",
         "Name": "fc7e71f3-392f-49ff-8ff7-100b4fac84f0",
         "properties": {
-          "DisplayName": "Gondi Venkatasai",
-          "ObjectType": "User",
+          "DisplayName": null,
+          "ObjectType": "Unknown",
           "PrincipalId": "e07e6ac3-e72e-4a72-bbf5-cc9882469f12",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
           "RoleDefinitionName": "Reader"
