@@ -4,8 +4,8 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/5f610204-63ff-4833-9868-7058b398000c/providers/Microsoft.Authorization/roleAssignments/35b648cf-521e-4e8d-8ad7-31e2b87cc935",
-        "Name": "35b648cf-521e-4e8d-8ad7-31e2b87cc935",
+        "Id": "/subscriptions/5f610204-63ff-4833-9868-7058b398000c/providers/Microsoft.Authorization/roleAssignments/b4aadc6b-f9cf-4e6e-a603-c5ff1aa7fd25",
+        "Name": "b4aadc6b-f9cf-4e6e-a603-c5ff1aa7fd25",
         "properties": {
           "DisplayName": "SuryakantT",
           "ObjectType": "User",
