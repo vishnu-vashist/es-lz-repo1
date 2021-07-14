@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/22254c4c-9b22-44a2-855e-87bbcef80fe6",
-        "Name": "22254c4c-9b22-44a2-855e-87bbcef80fe6",
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/1895337f-3488-45dc-bc40-00584cabb82c",
+        "Name": "1895337f-3488-45dc-bc40-00584cabb82c",
         "properties": {
-          "DisplayName": "PURUSHOTHAMA RAO BANGALORE RANOJI RAO",
-          "ObjectType": "User",
-          "PrincipalId": "b60d1b14-cbb5-43c5-9cdf-6ee88466a48e",
+          "DisplayName": "AutomationAccount_SP",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "8ed4c779-beda-4529-b908-7989c9c10b1b",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },
