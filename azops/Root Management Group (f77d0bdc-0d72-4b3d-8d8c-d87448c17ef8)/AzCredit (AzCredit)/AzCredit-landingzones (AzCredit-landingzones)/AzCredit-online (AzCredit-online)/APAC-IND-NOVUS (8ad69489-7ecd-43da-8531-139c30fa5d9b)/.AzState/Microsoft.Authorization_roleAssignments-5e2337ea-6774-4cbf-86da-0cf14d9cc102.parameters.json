@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/5e2337ea-6774-4cbf-86da-0cf14d9cc102",
+        "Name": "5e2337ea-6774-4cbf-86da-0cf14d9cc102",
+        "properties": {
+          "DisplayName": "SAKSHI AGRAWAL",
+          "ObjectType": "User",
+          "PrincipalId": "3987f932-1ef7-44ff-afe3-8d8504e8267e",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
