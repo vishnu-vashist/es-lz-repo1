@@ -7,7 +7,7 @@
         "Id": "/subscriptions/0fbc3561-da06-4261-8a89-bd74bbe5d245/providers/Microsoft.Authorization/roleAssignments/038bd7ac-4e3b-4878-ab0c-e22f9f3eafad",
         "Name": "038bd7ac-4e3b-4878-ab0c-e22f9f3eafad",
         "properties": {
-          "DisplayName": "satyendrakumar.d",
+          "DisplayName": "Satyendra Kumar Dundu",
           "ObjectType": "User",
           "PrincipalId": "d5afc0bb-828b-4b2d-be1f-13ee3d7b6345",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",

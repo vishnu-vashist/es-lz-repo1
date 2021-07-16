@@ -7,7 +7,7 @@
         "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/c3014c39-cb7d-46e8-8fad-154282310044",
         "Name": "c3014c39-cb7d-46e8-8fad-154282310044",
         "properties": {
-          "DisplayName": "santhosh.m2",
+          "DisplayName": "Santhosh Mohan",
           "ObjectType": "User",
           "PrincipalId": "56bb81e0-b88b-4c64-8f23-50d3aebcb74d",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
