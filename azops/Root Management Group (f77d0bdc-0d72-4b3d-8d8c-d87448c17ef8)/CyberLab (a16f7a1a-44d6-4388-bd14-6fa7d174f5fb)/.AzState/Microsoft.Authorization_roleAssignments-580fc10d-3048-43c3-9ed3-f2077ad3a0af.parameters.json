@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/580fc10d-3048-43c3-9ed3-f2077ad3a0af",
+        "Name": "580fc10d-3048-43c3-9ed3-f2077ad3a0af",
+        "properties": {
+          "DisplayName": "Anant Kumar",
+          "ObjectType": "User",
+          "PrincipalId": "563fbf9f-d99f-4680-8656-95c6617fea0a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

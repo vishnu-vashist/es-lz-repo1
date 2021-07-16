@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/460a6d8f-dc78-4824-a7c5-bc2c7a10bed1",
+        "Name": "460a6d8f-dc78-4824-a7c5-bc2c7a10bed1",
+        "properties": {
+          "DisplayName": "dwivedi_a",
+          "ObjectType": "User",
+          "PrincipalId": "fd42b2f3-dbcd-40fb-8b92-ae521aedac80",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

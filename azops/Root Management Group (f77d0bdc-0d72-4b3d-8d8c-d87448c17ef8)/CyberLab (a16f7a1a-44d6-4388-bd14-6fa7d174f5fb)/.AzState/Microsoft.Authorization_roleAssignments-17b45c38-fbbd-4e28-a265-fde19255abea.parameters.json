@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/17b45c38-fbbd-4e28-a265-fde19255abea",
+        "Name": "17b45c38-fbbd-4e28-a265-fde19255abea",
+        "properties": {
+          "DisplayName": "Sathish Unnikrishnan",
+          "ObjectType": "User",
+          "PrincipalId": "f1d96496-ce58-4b6b-a9d9-fcc670b1dbd6",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
