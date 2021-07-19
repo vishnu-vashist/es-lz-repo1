@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/9fbcbed3-5e51-4a63-8e5b-33987e36d08d/providers/Microsoft.Authorization/roleAssignments/91860c0b-239f-4822-b84f-ecfb17e657d6",
+        "Name": "91860c0b-239f-4822-b84f-ecfb17e657d6",
+        "properties": {
+          "DisplayName": "Jitesh Kumar",
+          "ObjectType": "User",
+          "PrincipalId": "61ed642a-a726-4d3b-b758-721a86f1c15e",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
