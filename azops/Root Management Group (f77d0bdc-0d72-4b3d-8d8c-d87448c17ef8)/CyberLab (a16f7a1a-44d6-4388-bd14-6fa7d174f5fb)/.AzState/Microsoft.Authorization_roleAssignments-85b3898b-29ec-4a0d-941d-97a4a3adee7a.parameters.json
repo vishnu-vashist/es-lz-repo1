@@ -7,7 +7,7 @@
         "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/85b3898b-29ec-4a0d-941d-97a4a3adee7a",
         "Name": "85b3898b-29ec-4a0d-941d-97a4a3adee7a",
         "properties": {
-          "DisplayName": "abinsaji.john",
+          "DisplayName": "Abin Saji John",
           "ObjectType": "User",
           "PrincipalId": "f754d44f-8ce6-411c-9ad4-faf6342c460e",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
