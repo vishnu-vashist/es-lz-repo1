@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/8cbe17f3-8aee-4f3a-bee8-0064fffa97e5",
+        "Name": "8cbe17f3-8aee-4f3a-bee8-0064fffa97e5",
+        "properties": {
+          "DisplayName": "Iman Sariyah",
+          "ObjectType": "User",
+          "PrincipalId": "0f70f191-cbf3-4556-a2fb-129567044e01",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

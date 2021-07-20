@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/9fbcbed3-5e51-4a63-8e5b-33987e36d08d/providers/Microsoft.Authorization/roleAssignments/0e888339-477b-45be-b1f5-aa802f8609dd",
+        "Name": "0e888339-477b-45be-b1f5-aa802f8609dd",
+        "properties": {
+          "DisplayName": "Budh parkash Jangra",
+          "ObjectType": "User",
+          "PrincipalId": "25810cc1-129d-4f02-991b-5450fac3f923",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
