@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/9fbcbed3-5e51-4a63-8e5b-33987e36d08d/providers/Microsoft.Authorization/roleAssignments/632f4ef5-4dad-4cb3-8bf3-22affece1eea",
+        "Name": "632f4ef5-4dad-4cb3-8bf3-22affece1eea",
+        "properties": {
+          "DisplayName": "sebastain.gomes",
+          "ObjectType": "User",
+          "PrincipalId": "e4f58f1f-c833-435d-8c1d-6f15231d3c35",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
