@@ -7,8 +7,8 @@
         "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/0a1a7a39-ebd7-4bed-a4e4-6d27e79569b8",
         "Name": "0a1a7a39-ebd7-4bed-a4e4-6d27e79569b8",
         "properties": {
-          "DisplayName": "Shiva Dokka",
-          "ObjectType": "User",
+          "DisplayName": null,
+          "ObjectType": "Unknown",
           "PrincipalId": "42ff5d9f-6c48-4e4d-b1e5-d97b8d515aa0",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
           "RoleDefinitionName": "Owner"
