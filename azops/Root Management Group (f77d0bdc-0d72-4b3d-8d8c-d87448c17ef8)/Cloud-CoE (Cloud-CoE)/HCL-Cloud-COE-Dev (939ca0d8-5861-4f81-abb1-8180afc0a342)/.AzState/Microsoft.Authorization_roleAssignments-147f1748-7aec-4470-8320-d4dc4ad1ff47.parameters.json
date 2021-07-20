@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/147f1748-7aec-4470-8320-d4dc4ad1ff47",
+        "Name": "147f1748-7aec-4470-8320-d4dc4ad1ff47",
+        "properties": {
+          "DisplayName": "KETAN KUMAR",
+          "ObjectType": "User",
+          "PrincipalId": "ef5d7b23-6eaa-4f5f-b391-43c61c1fcdfa",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
