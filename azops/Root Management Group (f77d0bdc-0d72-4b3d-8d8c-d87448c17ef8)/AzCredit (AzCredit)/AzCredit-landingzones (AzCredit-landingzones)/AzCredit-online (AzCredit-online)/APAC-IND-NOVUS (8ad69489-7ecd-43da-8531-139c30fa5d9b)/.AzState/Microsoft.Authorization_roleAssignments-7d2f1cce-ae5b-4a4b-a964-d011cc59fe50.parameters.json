@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/d9a8653f-b424-4e31-b595-ff93c2ace830",
-        "Name": "d9a8653f-b424-4e31-b595-ff93c2ace830",
+        "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/7d2f1cce-ae5b-4a4b-a964-d011cc59fe50",
+        "Name": "7d2f1cce-ae5b-4a4b-a964-d011cc59fe50",
         "properties": {
           "DisplayName": "Sukant Kumar Sahoo",
           "ObjectType": "User",
-          "PrincipalId": "801023c2-660a-434f-8c56-07db8ebf543d",
+          "PrincipalId": "edf09333-1cbe-4567-bf42-e446449cb8c2",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },
