@@ -203,6 +203,13 @@
             "Name": "7247e240-9193-4439-bf50-f70050553911",
             "DisplayName": "ES-Hack-Kapil",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/33c35300-97e4-4136-97f9-f444ccd30010",
+            "Name": "33c35300-97e4-4136-97f9-f444ccd30010",
+            "DisplayName": "Azure subscription 1",
+            "Children": null
           }
         ]
       }
