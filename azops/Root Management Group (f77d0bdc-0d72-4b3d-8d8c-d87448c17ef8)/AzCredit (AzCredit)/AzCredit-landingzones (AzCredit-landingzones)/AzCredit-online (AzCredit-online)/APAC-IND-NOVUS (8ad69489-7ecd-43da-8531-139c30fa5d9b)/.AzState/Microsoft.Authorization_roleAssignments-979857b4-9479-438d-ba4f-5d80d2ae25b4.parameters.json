@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/979857b4-9479-438d-ba4f-5d80d2ae25b4",
+        "Name": "979857b4-9479-438d-ba4f-5d80d2ae25b4",
+        "properties": {
+          "DisplayName": "MoveCollection-eus-inc-sea",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "be7b7b06-4f36-4e2c-b723-935f036e69df",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
