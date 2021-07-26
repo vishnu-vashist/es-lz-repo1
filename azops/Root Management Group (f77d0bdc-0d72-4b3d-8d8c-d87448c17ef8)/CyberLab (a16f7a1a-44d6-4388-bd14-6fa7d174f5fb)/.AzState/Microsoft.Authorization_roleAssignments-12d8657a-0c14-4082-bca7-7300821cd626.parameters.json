@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/12d8657a-0c14-4082-bca7-7300821cd626",
+        "Name": "12d8657a-0c14-4082-bca7-7300821cd626",
+        "properties": {
+          "DisplayName": "Gondi Venkatasai",
+          "ObjectType": "User",
+          "PrincipalId": "7d7328ef-5b00-4a59-85bb-cd7bcd5f19db",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/fb1c8493-542b-48eb-b624-b4c8fea62acd",
+          "RoleDefinitionName": "Security Admin"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
