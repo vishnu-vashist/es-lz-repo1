@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/505743ae-49da-49ce-b0a4-eeb2cc0f8f0e",
+        "Name": "505743ae-49da-49ce-b0a4-eeb2cc0f8f0e",
+        "DisplayName": "APAC-ElasticOps ROW",
+        "Children": null
+      }
+    }
+  }
+}

@@ -210,6 +210,20 @@
             "Name": "33c35300-97e4-4136-97f9-f444ccd30010",
             "DisplayName": "Azure subscription 1",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/a7fd5e08-7d5d-40c8-88e8-2f82f802c14d",
+            "Name": "a7fd5e08-7d5d-40c8-88e8-2f82f802c14d",
+            "DisplayName": "ES-Hack-Sourav",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/505743ae-49da-49ce-b0a4-eeb2cc0f8f0e",
+            "Name": "505743ae-49da-49ce-b0a4-eeb2cc0f8f0e",
+            "DisplayName": "APAC-ElasticOps ROW",
+            "Children": null
           }
         ]
       }
