@@ -7,8 +7,8 @@
         "Id": "/subscriptions/8ad69489-7ecd-43da-8531-139c30fa5d9b/providers/Microsoft.Authorization/roleAssignments/ea1af258-7fa6-433c-96de-3b8c9037bd6b",
         "Name": "ea1af258-7fa6-433c-96de-3b8c9037bd6b",
         "properties": {
-          "DisplayName": "MoveCollection-eus-inc-sea",
-          "ObjectType": "ServicePrincipal",
+          "DisplayName": null,
+          "ObjectType": "Unknown",
           "PrincipalId": "be7b7b06-4f36-4e2c-b723-935f036e69df",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
           "RoleDefinitionName": "User Access Administrator"
