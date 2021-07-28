@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/0e3a54a3-7710-4cbb-99d9-94a8d8adddb8",
+        "Name": "0e3a54a3-7710-4cbb-99d9-94a8d8adddb8",
+        "properties": {
+          "DisplayName": "Ankur Tripathi",
+          "ObjectType": "User",
+          "PrincipalId": "7095f1d9-65e1-4e39-bbcb-a233aec625a5",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/b5759e93-38f4-40ee-bbc8-db7885c5691c",
+        "Name": "b5759e93-38f4-40ee-bbc8-db7885c5691c",
+        "properties": {
+          "DisplayName": "Karishma Mohan",
+          "ObjectType": "User",
+          "PrincipalId": "2c8ed408-6328-4673-a8ca-865c94091a6b",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
