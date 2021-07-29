@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/Rohit-AVD/providers/Microsoft.Authorization/roleAssignments/e31c9538-dabd-4736-a456-df83f61da3ea",
+        "Name": "e31c9538-dabd-4736-a456-df83f61da3ea",
+        "properties": {
+          "DisplayName": "Rohit Narula",
+          "ObjectType": "User",
+          "PrincipalId": "db835d64-2431-468a-b97a-8cd1a761947d",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
