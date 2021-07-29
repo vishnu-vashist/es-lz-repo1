@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/54cbacbc-75c6-46a6-82f8-2d47f415e7be",
+        "Name": "54cbacbc-75c6-46a6-82f8-2d47f415e7be",
+        "properties": {
+          "DisplayName": "Mohammadzubair Nizami",
+          "ObjectType": "User",
+          "PrincipalId": "eaf33fac-39a2-4d65-8c45-9a6497edaea6",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
