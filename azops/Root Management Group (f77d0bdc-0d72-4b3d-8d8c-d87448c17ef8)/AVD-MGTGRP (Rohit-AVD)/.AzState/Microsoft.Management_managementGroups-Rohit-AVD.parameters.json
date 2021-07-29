@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/Rohit-AVD",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "Rohit-AVD",
+        "TenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "DisplayName": "AVD-MGTGRP",
+        "UpdatedTime": "2021-07-29T15:56:14.4587897Z",
+        "UpdatedBy": "db835d64-2431-468a-b97a-8cd1a761947d",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "ParentName": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+        "ParentDisplayName": "Root Management Group",
+        "Children": null
+      }
+    }
+  }
+}

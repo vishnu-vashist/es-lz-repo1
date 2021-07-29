@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/ad1b0167-ac60-4185-856d-a80a53aed0c7",
-        "Name": "ad1b0167-ac60-4185-856d-a80a53aed0c7",
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/ae87dd74-8950-4588-8723-7ac70b553b6c",
+        "Name": "ae87dd74-8950-4588-8723-7ac70b553b6c",
         "properties": {
-          "DisplayName": null,
-          "ObjectType": "Unknown",
-          "PrincipalId": "746c8a02-bd79-4581-a9f3-e2f7dc28aa7e",
+          "DisplayName": "Kamal Dhingra",
+          "ObjectType": "User",
+          "PrincipalId": "691fe5b1-e71c-4919-9874-34b55fea98b0",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },
