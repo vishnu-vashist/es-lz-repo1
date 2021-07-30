@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/505743ae-49da-49ce-b0a4-eeb2cc0f8f0e/providers/Microsoft.Authorization/roleAssignments/619aef01-00d5-441a-8288-cf8295095bc7",
+        "Name": "619aef01-00d5-441a-8288-cf8295095bc7",
+        "properties": {
+          "DisplayName": "Love Masta .",
+          "ObjectType": "User",
+          "PrincipalId": "66c28387-2a71-4548-9f93-ffc54396e10f",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

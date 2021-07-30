@@ -231,6 +231,13 @@
             "Name": "505743ae-49da-49ce-b0a4-eeb2cc0f8f0e",
             "DisplayName": "APAC-ElasticOps ROW",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac",
+            "Name": "4e4d807d-c9d7-439b-8caa-25f2637e55ac",
+            "DisplayName": "APAC-IND-MBU",
+            "Children": null
           }
         ]
       }
