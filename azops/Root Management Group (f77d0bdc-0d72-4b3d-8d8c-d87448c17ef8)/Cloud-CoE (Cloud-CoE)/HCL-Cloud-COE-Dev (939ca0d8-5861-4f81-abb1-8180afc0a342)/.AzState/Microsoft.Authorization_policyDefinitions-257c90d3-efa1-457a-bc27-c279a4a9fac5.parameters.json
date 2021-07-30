@@ -1,0 +1,359 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "257c90d3-efa1-457a-bc27-c279a4a9fac5",
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/257c90d3-efa1-457a-bc27-c279a4a9fac5",
+        "ResourceName": "257c90d3-efa1-457a-bc27-c279a4a9fac5",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": "939ca0d8-5861-4f81-abb1-8180afc0a342",
+        "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/257c90d3-efa1-457a-bc27-c279a4a9fac5",
+        "Properties": {
+          "Description": "Auto DNS registration ",
+          "DisplayName": "Auto DNS registraion",
+          "Mode": "Indexed",
+          "Parameters": {
+            "privateDnsZoneRg": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Full resource group ID where Private DNS Zone to be joined with PEs reside, remember to manually assign role to this RG",
+                "description": "Required: Full resource group ID of where Private DNS Zones which will be joined with PEs reside. Remember to assign role 'Private DNS Zone Contributor' on this RG to the managed identity of this policy assignment!"
+              },
+              "defaultValue": "/subscriptions/e56b740c-7892-4800-b551-a11cb72c0618/resourcegroups/cdp-privatedns-rg"
+            },
+            "peGroupID": {
+              "type": "String",
+              "metadata": {
+                "displayName": "PE connection type ID",
+                "description": "Required: The connection type ID of the PE target resource."
+              },
+              "allowedValues": [
+                "microsoft.automation/automationaccounts/webhook",
+                "microsoft.automation/automationaccounts/dscandhybridworker",
+                "microsoft.sql/servers/sqlserver",
+                "microsoft.synapse/workspaces/sql",
+                "microsoft.synapse/workspaces/sqlondemand",
+                "microsoft.synapse/workspaces/dev",
+                "microsoft.storage/storageaccounts/blob",
+                "microsoft.storage/storageaccounts/table",
+                "microsoft.storage/storageaccounts/queue",
+                "microsoft.storage/storageaccounts/file",
+                "microsoft.storage/storageaccounts/web",
+                "microsoft.storage/storageaccounts/dfs",
+                "microsoft.azurecosmosdb/databaseaccounts/sql",
+                "microsoft.azurecosmosdb/databaseaccounts/mongodb",
+                "microsoft.azurecosmosdb/databaseaccounts/cassandra",
+                "microsoft.azurecosmosdb/databaseaccounts/gremlin",
+                "microsoft.azurecosmosdb/databaseaccounts/table",
+                "microsoft.dbforpostgresql/servers/postgresqlserver",
+                "microsoft.dbformysql/servers/mysqlserver",
+                "microsoft.dbformariadb/servers/mariadbserver",
+                "microsoft.devices/iothubs/iothub",
+                "microsoft.keyvault/vaults/vault",
+                "microsoft.containerservice/managedclusters/management",
+                "microsoft.search/searchservice/searchservice",
+                "microsoft.containerregistry/registries/registry",
+                "microsoft.appconfiguration/configurationstores/configurationstores",
+                "microsoft.recoveryservices/vaults/azuresiterecovery",
+                "microsoft.recoveryservices/vaults/azurebackup",
+                "microsoft.eventhub/namespaces/namespace",
+                "microsoft.servicebus/namespaces/namespace",
+                "microsoft.relay/namespaces/namespace",
+                "microsoft.eventgrid/topics/topic",
+                "microsoft.eventgrid/domains/domain",
+                "microsoft.web/sites/sites",
+                "microsoft.machinelearningservices/workspaces/amlworkspace",
+                "microsoft.signalrservice/signalr/signalr",
+                "microsoft.insights/privatelinkscopes/azuremonitor",
+                "microsoft.cognitiveservices/accounts/account",
+                "microsoft.storagesync/storagesyncservices/afs",
+                "microsoft.datafactory/factories/datafactory",
+                "microsoft.datafactory/factories/portal",
+                "microsoft.cache/redis/rediscache",
+                "microsoft.cache/redisenterprise/rediscache"
+              ]
+            },
+            "targetVnetId": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Trigger only on PEs joined to this VNET",
+                "description": "Optional: Full resource ID of the VNET in target subscription which PE must be attached to for this policy to trigger.",
+                "strongType": "Microsoft.Network/virtualNetworks"
+              },
+              "defaultValue": ""
+            }
+          },
+          "PolicyRule": {
+            "if": {
+              "allOf": [
+                {
+                  "field": "type",
+                  "equals": "Microsoft.Network/privateEndpoints"
+                },
+                {
+                  "count": {
+                    "field": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections[*].groupIds[*]",
+                    "where": {
+                      "field": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections[*].groupIds[*]",
+                      "equals": "[last(split(parameters('peGroupID'), '/'))]"
+                    }
+                  },
+                  "greaterOrEquals": 1
+                },
+                {
+                  "count": {
+                    "field": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections[*]",
+                    "where": {
+                      "field": "Microsoft.Network/privateEndpoints/privateLinkServiceConnections[*].privateLinkServiceId",
+                      "contains": "[concat(split(parameters('peGroupID'), '/')[0], '/', split(parameters('peGroupID'), '/')[1])]"
+                    }
+                  },
+                  "greaterOrEquals": 1
+                },
+                {
+                  "anyOf": [
+                    {
+                      "value": "[parameters('targetVnetId')]",
+                      "equals": ""
+                    },
+                    {
+                      "allOf": [
+                        {
+                          "value": "[parameters('targetVnetId')]",
+                          "notEquals": ""
+                        },
+                        {
+                          "field": "Microsoft.Network/privateEndpoints/subnet.id",
+                          "like": "[concat(parameters('targetVnetId'), '/subnets/', '*' )]"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "then": {
+              "effect": "deployIfNotExists",
+              "details": {
+                "type": "Microsoft.Network/privateEndpoints/privateDnsZoneGroups",
+                "roleDefinitionIds": [
+                  "/providers/Microsoft.Authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c"
+                ],
+                "existenceCondition": {
+                  "allOf": [
+                    {
+                      "count": {
+                        "field": "Microsoft.Network/privateEndpoints/privateDnsZoneGroups/privateDnsZoneConfigs[*]",
+                        "where": {
+                          "field": "Microsoft.Network/privateEndpoints/privateDnsZoneGroups/privateDnsZoneConfigs[*].privateDnsZoneId",
+                          "like": "[concat(parameters('privateDnsZoneRg'), '*')]"
+                        }
+                      },
+                      "greaterOrEquals": 1
+                    }
+                  ]
+                },
+                "deployment": {
+                  "properties": {
+                    "mode": "incremental",
+                    "template": {
+                      "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+                      "contentVersion": "1.0.0.0",
+                      "parameters": {
+                        "privateDnsZoneRg": {
+                          "type": "string"
+                        },
+                        "privateEndpointName": {
+                          "type": "string"
+                        },
+                        "location": {
+                          "type": "string"
+                        },
+                        "peGroupID": {
+                          "type": "string"
+                        }
+                      },
+                      "variables": {
+                        "microsoft.automation/automationaccounts/webhook": [
+                          "privatelink.azure-automation.net"
+                        ],
+                        "microsoft.automation/automationaccounts/dscandhybridworker": [
+                          "privatelink.azure-automation.net"
+                        ],
+                        "microsoft.sql/servers/sqlserver": [
+                          "privatelink.database.windows.net"
+                        ],
+                        "microsoft.synapse/workspaces/sql": [
+                          "privatelink.sql.azuresynapse.net"
+                        ],
+                        "microsoft.synapse/workspaces/sqlondemand": [
+                          "privatelink.sqlondemand.azuresynapse.net"
+                        ],
+                        "microsoft.synapse/workspaces/dev": [
+                          "privatelink.dev.azuresynapse.net"
+                        ],
+                        "microsoft.storage/storageaccounts/blob": [
+                          "privatelink.blob.core.windows.net"
+                        ],
+                        "microsoft.storage/storageaccounts/table": [
+                          "privatelink.table.core.windows.net"
+                        ],
+                        "microsoft.storage/storageaccounts/queue": [
+                          "privatelink.queue.core.windows.net"
+                        ],
+                        "microsoft.storage/storageaccounts/file": [
+                          "privatelink.file.core.windows.net"
+                        ],
+                        "microsoft.storage/storageaccounts/web": [
+                          "privatelink.web.core.windows.net"
+                        ],
+                        "microsoft.storage/storageaccounts/dfs": [
+                          "privatelink.dfs.core.windows.net"
+                        ],
+                        "microsoft.azurecosmosdb/databaseaccounts/sql": [
+                          "privatelink.documents.azure.com"
+                        ],
+                        "microsoft.azurecosmosdb/databaseaccounts/mongodb": [
+                          "privatelink.mongo.cosmos.azure.com"
+                        ],
+                        "microsoft.azurecosmosdb/databaseaccounts/cassandra": [
+                          "privatelink.cassandra.cosmos.azure.com"
+                        ],
+                        "microsoft.azurecosmosdb/databaseaccounts/gremlin": [
+                          "privatelink.gremlin.cosmos.azure.com"
+                        ],
+                        "microsoft.azurecosmosdb/databaseaccounts/table": [
+                          "privatelink.table.cosmos.azure.com"
+                        ],
+                        "microsoft.dbforpostgresql/servers/postgresqlserver": [
+                          "privatelink.postgres.database.azure.com"
+                        ],
+                        "microsoft.dbformysql/servers/mysqlserver": [
+                          "privatelink.mysql.database.azure.com"
+                        ],
+                        "microsoft.dbformariadb/servers/mariadbserver": [
+                          "privatelink.mariadb.database.azure.com"
+                        ],
+                        "microsoft.devices/iothubs/iothub": [
+                          "privatelink.azure-devices.net"
+                        ],
+                        "microsoft.keyvault/vaults/vault": [
+                          "privatelink.vaultcore.azure.net"
+                        ],
+                        "microsoft.containerservice/managedclusters/management": [
+                          "privatelink.{region}.azmk8s.io"
+                        ],
+                        "microsoft.search/searchservice/searchservice": [
+                          "privatelink.search.windows.net"
+                        ],
+                        "microsoft.containerregistry/registries/registry": [
+                          "privatelink.azurecr.io"
+                        ],
+                        "microsoft.appconfiguration/configurationstores/configurationstores": [
+                          "privatelink.azconfig.io"
+                        ],
+                        "microsoft.recoveryservices/vaults/azuresiterecovery": [
+                          "{region}.privatelink.siterecovery.windowsazure.com"
+                        ],
+                        "microsoft.recoveryservices/vaults/azurebackup": [
+                          "privatelink.{region}.backup.windowsazure.com"
+                        ],
+                        "microsoft.eventhub/namespaces/namespace": [
+                          "privatelink.servicebus.windows.net"
+                        ],
+                        "microsoft.servicebus/namespaces/namespace": [
+                          "privatelink.servicebus.windows.net"
+                        ],
+                        "microsoft.relay/namespaces/namespace": [
+                          "privatelink.servicebus.windows.net"
+                        ],
+                        "microsoft.eventgrid/topics/topic": [
+                          "privatelink.eventgrid.azure.net"
+                        ],
+                        "microsoft.eventgrid/domains/domain": [
+                          "privatelink.eventgrid.azure.net"
+                        ],
+                        "microsoft.web/sites/sites": [
+                          "privatelink.azurewebsites.net"
+                        ],
+                        "microsoft.machinelearningservices/workspaces/amlworkspace": [
+                          "privatelink.api.azureml.ms",
+                          "privatelink.notebooks.azure.net"
+                        ],
+                        "microsoft.signalrservice/signalr/signalr": [
+                          "privatelink.service.signalr.net"
+                        ],
+                        "microsoft.insights/privatelinkscopes/azuremonitor": [
+                          "privatelink.monitor.azure.com",
+                          "privatelink.oms.opinsights.azure.com",
+                          "privatelink.ods.opinsights.azure.com",
+                          "privatelink.agentsvc.azure-automation.net"
+                        ],
+                        "microsoft.cognitiveservices/accounts/account": [
+                          "privatelink.cognitiveservices.azure.com"
+                        ],
+                        "microsoft.storagesync/storagesyncservices/afs": [
+                          "privatelink.afs.azure.net"
+                        ],
+                        "microsoft.datafactory/factories/datafactory": [
+                          "privatelink.datafactory.azure.net"
+                        ],
+                        "microsoft.datafactory/factories/portal": [
+                          "privatelink.adf.azure.com"
+                        ],
+                        "microsoft.cache/redis/rediscache": [
+                          "privatelink.redis.cache.windows.net"
+                        ],
+                        "microsoft.cache/redisenterprise/rediscache": [
+                          "privatelink.redisenterprise.cache.azure.net"
+                        ]
+                      },
+                      "resources": [
+                        {
+                          "name": "[concat(parameters('privateEndpointName'), '/deployedByPolicy')]",
+                          "type": "Microsoft.Network/privateEndpoints/privateDnsZoneGroups",
+                          "apiVersion": "2020-03-01",
+                          "location": "[parameters('location')]",
+                          "properties": {
+                            "copy": [
+                              {
+                                "name": "privateDnsZoneConfigs",
+                                "count": "[length(variables(toLower(parameters('peGroupID'))))]",
+                                "input": {
+                                  "name": "[replace(variables(toLower(parameters('peGroupID')))[copyIndex('privateDnsZoneConfigs')], '{region}', parameters('location'))]",
+                                  "properties": {
+                                    "privateDnsZoneId": "[toLower(concat(parameters('privateDnsZoneRg'), '/providers/Microsoft.Network/privateDnsZones/', replace(variables(toLower(parameters('peGroupID')))[copyIndex('privateDnsZoneConfigs')], '{region}', parameters('location'))))]"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "parameters": {
+                      "privateDnsZoneRg": {
+                        "value": "[parameters('privateDnsZoneRg')]"
+                      },
+                      "privateEndpointName": {
+                        "value": "[field('name')]"
+                      },
+                      "location": {
+                        "value": "[field('location')]"
+                      },
+                      "peGroupID": {
+                        "value": "[toLower(parameters('peGroupID'))]"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
