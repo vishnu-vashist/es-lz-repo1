@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/afd0ba35-a12b-4918-864a-f5302993ad04",
+        "Name": "afd0ba35-a12b-4918-864a-f5302993ad04",
+        "properties": {
+          "DisplayName": "Gaurav Kumar Sharma",
+          "ObjectType": "User",
+          "PrincipalId": "506aac9b-e798-4ca0-8922-4ac10b2efee0",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
