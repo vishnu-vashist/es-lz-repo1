@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc/providers/Microsoft.Authorization/roleAssignments/810d0e7d-2684-472e-b14d-ab1c120f5f8a",
-        "Name": "810d0e7d-2684-472e-b14d-ab1c120f5f8a",
+        "Id": "/subscriptions/1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc/providers/Microsoft.Authorization/roleAssignments/c3e0bfc7-e717-4f17-9c80-2852c06ba29b",
+        "Name": "c3e0bfc7-e717-4f17-9c80-2852c06ba29b",
         "properties": {
-          "DisplayName": "Nitin Kansal",
+          "DisplayName": "Pankaj Purohit",
           "ObjectType": "User",
-          "PrincipalId": "5df18450-5d16-40b2-8d22-77e0ad24935b",
+          "PrincipalId": "09a55884-a3e8-400b-b684-cd4cccbe17e9",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
           "RoleDefinitionName": "Owner"
         },
