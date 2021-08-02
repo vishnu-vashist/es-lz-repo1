@@ -7,7 +7,7 @@
         "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac/providers/Microsoft.Authorization/roleAssignments/9d180588-c924-49ff-b1e6-83ffd31a53b0",
         "Name": "9d180588-c924-49ff-b1e6-83ffd31a53b0",
         "properties": {
-          "DisplayName": "vishal-kuma",
+          "DisplayName": "Vishal Kumar",
           "ObjectType": "User",
           "PrincipalId": "682e13ac-2c44-4e73-a870-45d440d30662",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
