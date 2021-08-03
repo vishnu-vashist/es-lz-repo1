@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "b81defa4-c9f0-4b2e-acb0-f9ba2145bd98",
+          "tenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus",
+        "Name": "896a223a346b4aa3b41f3184",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/mvp/providers/Microsoft.Authorization/policyAssignments/896a223a346b4aa3b41f3184",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Configure Azure Activity logs to stream to specified Log Analytics workspace",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/2bdb5c45-fda6-4a5d-af4f-790b1f7d1cc9/resourcegroups/finops-ws/providers/microsoft.operationalinsights/workspaces/finopssentinalws"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2465583e-4e78-4c15-b6be-a36cbc7c8b0f",
+          "Scope": "/providers/Microsoft.Management/managementGroups/mvp"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/mvp/providers/Microsoft.Authorization/policyAssignments/896a223a346b4aa3b41f3184",
+        "ResourceName": "896a223a346b4aa3b41f3184",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}
