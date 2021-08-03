@@ -4,14 +4,14 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac/providers/Microsoft.Authorization/roleAssignments/b7eec521-9913-42a8-84a1-8a8e64e6bcfe",
-        "Name": "b7eec521-9913-42a8-84a1-8a8e64e6bcfe",
+        "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac/providers/Microsoft.Authorization/roleAssignments/cbcfe9c8-9018-4d61-9ffe-700a266b1344",
+        "Name": "cbcfe9c8-9018-4d61-9ffe-700a266b1344",
         "properties": {
           "DisplayName": "Ginny Davar",
           "ObjectType": "User",
           "PrincipalId": "b46d731c-1e52-4ea9-8344-bcc48d7af9c0",
-          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
-          "RoleDefinitionName": "Owner"
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
         },
         "ResourceType": "Microsoft.Authorization/roleAssignments"
       }
