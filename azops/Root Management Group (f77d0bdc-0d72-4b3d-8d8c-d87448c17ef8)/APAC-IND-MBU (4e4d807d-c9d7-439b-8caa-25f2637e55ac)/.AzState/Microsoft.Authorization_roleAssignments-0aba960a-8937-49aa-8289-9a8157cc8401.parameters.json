@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac/providers/Microsoft.Authorization/roleAssignments/0aba960a-8937-49aa-8289-9a8157cc8401",
+        "Name": "0aba960a-8937-49aa-8289-9a8157cc8401",
+        "properties": {
+          "DisplayName": "Anandan.Subbiah",
+          "ObjectType": "User",
+          "PrincipalId": "e36ea5ef-7139-40a8-a3d2-e8040fec4725",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
