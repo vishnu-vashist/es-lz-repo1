@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/87ebb960-c84d-4fc1-8ca3-c9bd20329c0d/providers/Microsoft.Authorization/roleAssignments/9ea70491-aa95-4266-9d68-10daf01e2bb3",
+        "Name": "9ea70491-aa95-4266-9d68-10daf01e2bb3",
+        "properties": {
+          "DisplayName": "premakumar.ganji",
+          "ObjectType": "User",
+          "PrincipalId": "fe47646f-f89b-4266-95c5-6d7026cdedc0",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
