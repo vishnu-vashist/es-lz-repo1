@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/0c67a71d-8398-4eee-9307-f5799bbc92ed/providers/Microsoft.Authorization/roleAssignments/da67720b-9a6a-4160-96ed-88ecfe76f019",
+        "Name": "da67720b-9a6a-4160-96ed-88ecfe76f019",
+        "properties": {
+          "DisplayName": "azure-terraform-ots",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "58dc6ff2-0f13-4e17-9de6-7512a4740f77",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
