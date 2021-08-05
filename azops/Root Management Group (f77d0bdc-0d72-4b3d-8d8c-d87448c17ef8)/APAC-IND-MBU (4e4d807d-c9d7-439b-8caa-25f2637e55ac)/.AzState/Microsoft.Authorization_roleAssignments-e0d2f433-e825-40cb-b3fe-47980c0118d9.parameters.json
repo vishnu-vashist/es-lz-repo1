@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac/providers/Microsoft.Authorization/roleAssignments/86597eb4-9f09-409a-94b3-7d379f81d7c5",
-        "Name": "86597eb4-9f09-409a-94b3-7d379f81d7c5",
+        "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac/providers/Microsoft.Authorization/roleAssignments/e0d2f433-e825-40cb-b3fe-47980c0118d9",
+        "Name": "e0d2f433-e825-40cb-b3fe-47980c0118d9",
         "properties": {
-          "DisplayName": "Anandan Subbiah",
-          "ObjectType": "User",
-          "PrincipalId": "e36ea5ef-7139-40a8-a3d2-e8040fec4725",
+          "DisplayName": "MicrosoftAKSRFP-ADcloud-4e4d807d-c9d7-439b-8caa-25f2637e55ac",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "d78de840-b673-4a51-90bb-bc07657d8bc1",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },

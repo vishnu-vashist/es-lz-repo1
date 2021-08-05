@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/ef07076e-6c2e-4db6-b301-49a86a500966/providers/Microsoft.Authorization/roleAssignments/b2168512-ca21-43a4-b237-7813758f0447",
+        "Name": "b2168512-ca21-43a4-b237-7813758f0447",
+        "properties": {
+          "DisplayName": "ankitamarjit.singh",
+          "ObjectType": "User",
+          "PrincipalId": "6653328c-cffb-483b-a979-d92dfec024d4",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "RoleDefinitionName": "Reader"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

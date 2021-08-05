@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc/providers/Microsoft.Authorization/roleAssignments/489a1f41-3bce-4fd1-bf71-358a71e6564b",
+        "Name": "489a1f41-3bce-4fd1-bf71-358a71e6564b",
+        "properties": {
+          "DisplayName": "Rohit Yadav",
+          "ObjectType": "User",
+          "PrincipalId": "8de4aa32-1a15-4b73-afd5-653bebbac8bc",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
