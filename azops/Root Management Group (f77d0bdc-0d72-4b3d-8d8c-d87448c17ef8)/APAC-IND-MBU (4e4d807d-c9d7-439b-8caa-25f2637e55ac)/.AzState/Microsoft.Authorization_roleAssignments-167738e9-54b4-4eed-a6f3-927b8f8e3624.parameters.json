@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac/providers/Microsoft.Authorization/roleAssignments/167738e9-54b4-4eed-a6f3-927b8f8e3624",
+        "Name": "167738e9-54b4-4eed-a6f3-927b8f8e3624",
+        "properties": {
+          "DisplayName": "mspoc-hcl-presto-acr-aks-devops-4e4d807d-c9d7-439b-8caa-25f2637e55ac",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "d2681b7d-5d5b-4fdc-a175-693e08da82eb",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
