@@ -7,7 +7,7 @@
         "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac/providers/Microsoft.Authorization/roleAssignments/86597eb4-9f09-409a-94b3-7d379f81d7c5",
         "Name": "86597eb4-9f09-409a-94b3-7d379f81d7c5",
         "properties": {
-          "DisplayName": "Anandan.Subbiah",
+          "DisplayName": "Anandan Subbiah",
           "ObjectType": "User",
           "PrincipalId": "e36ea5ef-7139-40a8-a3d2-e8040fec4725",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
