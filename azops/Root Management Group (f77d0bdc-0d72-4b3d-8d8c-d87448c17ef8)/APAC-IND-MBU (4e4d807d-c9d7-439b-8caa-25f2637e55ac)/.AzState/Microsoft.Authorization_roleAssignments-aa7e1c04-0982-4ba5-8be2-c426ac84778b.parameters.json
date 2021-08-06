@@ -7,7 +7,7 @@
         "Id": "/subscriptions/4e4d807d-c9d7-439b-8caa-25f2637e55ac/providers/Microsoft.Authorization/roleAssignments/aa7e1c04-0982-4ba5-8be2-c426ac84778b",
         "Name": "aa7e1c04-0982-4ba5-8be2-c426ac84778b",
         "properties": {
-          "DisplayName": "neeraj.sharma",
+          "DisplayName": "Neeraj Sharma",
           "ObjectType": "User",
           "PrincipalId": "076d5e24-e005-4614-bf77-6ac542994cc6",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
