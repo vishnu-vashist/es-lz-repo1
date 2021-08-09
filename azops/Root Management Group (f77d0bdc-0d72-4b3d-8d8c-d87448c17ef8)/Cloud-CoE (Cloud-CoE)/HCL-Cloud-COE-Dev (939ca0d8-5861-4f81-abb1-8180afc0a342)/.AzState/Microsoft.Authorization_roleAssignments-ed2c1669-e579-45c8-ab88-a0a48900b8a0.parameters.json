@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/ed2c1669-e579-45c8-ab88-a0a48900b8a0",
+        "Name": "ed2c1669-e579-45c8-ab88-a0a48900b8a0",
+        "properties": {
+          "DisplayName": "Abhishek Maitrey",
+          "ObjectType": "User",
+          "PrincipalId": "fa6bdb9a-948e-469f-b038-0124f156066a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "RoleDefinitionName": "Reader"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
