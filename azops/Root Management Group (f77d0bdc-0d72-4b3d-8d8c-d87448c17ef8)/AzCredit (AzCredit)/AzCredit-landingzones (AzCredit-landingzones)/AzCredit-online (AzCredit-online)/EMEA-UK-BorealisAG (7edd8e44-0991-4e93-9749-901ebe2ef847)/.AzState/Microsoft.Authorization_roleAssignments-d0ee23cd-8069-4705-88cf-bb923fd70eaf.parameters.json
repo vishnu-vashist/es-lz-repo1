@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847/providers/Microsoft.Authorization/roleAssignments/d0ee23cd-8069-4705-88cf-bb923fd70eaf",
+        "Name": "d0ee23cd-8069-4705-88cf-bb923fd70eaf",
+        "properties": {
+          "DisplayName": "Shazad Alam",
+          "ObjectType": "User",
+          "PrincipalId": "a1840dfd-63f6-4100-94fa-47f56e3426e2",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

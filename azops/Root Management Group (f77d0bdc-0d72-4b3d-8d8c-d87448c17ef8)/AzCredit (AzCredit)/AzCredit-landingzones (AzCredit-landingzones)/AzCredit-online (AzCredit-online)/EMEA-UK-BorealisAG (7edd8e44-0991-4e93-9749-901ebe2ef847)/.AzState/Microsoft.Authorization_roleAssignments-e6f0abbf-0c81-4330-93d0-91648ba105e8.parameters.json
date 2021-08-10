@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847/providers/Microsoft.Authorization/roleAssignments/e6f0abbf-0c81-4330-93d0-91648ba105e8",
+        "Name": "e6f0abbf-0c81-4330-93d0-91648ba105e8",
+        "properties": {
+          "DisplayName": "Amit Kumar",
+          "ObjectType": "User",
+          "PrincipalId": "9b1ce417-54bd-4010-b7f3-f9d5821aaf0f",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
