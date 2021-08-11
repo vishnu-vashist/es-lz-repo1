@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/23bcdada-f104-4241-9a9b-37c280a341bf",
+        "Name": "23bcdada-f104-4241-9a9b-37c280a341bf",
+        "DisplayName": "DWP_Azure Sentinals POC",
+        "Children": null
+      }
+    }
+  }
+}

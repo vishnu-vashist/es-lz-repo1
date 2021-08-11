@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/b9ffcf21-f6cb-407b-bbdb-d77303af0e0b",
+        "Name": "b9ffcf21-f6cb-407b-bbdb-d77303af0e0b",
+        "DisplayName": "US-EN-PRESALES",
+        "Children": null
+      }
+    }
+  }
+}
