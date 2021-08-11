@@ -238,6 +238,27 @@
             "Name": "4e4d807d-c9d7-439b-8caa-25f2637e55ac",
             "DisplayName": "APAC-IND-MBU",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/23bcdada-f104-4241-9a9b-37c280a341bf",
+            "Name": "23bcdada-f104-4241-9a9b-37c280a341bf",
+            "DisplayName": "DWP_Azure Sentinals POC",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/b9ffcf21-f6cb-407b-bbdb-d77303af0e0b",
+            "Name": "b9ffcf21-f6cb-407b-bbdb-d77303af0e0b",
+            "DisplayName": "US-EN-PRESALES",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/28f67236-8d7c-421b-acc2-e3b89e48abbf",
+            "Name": "28f67236-8d7c-421b-acc2-e3b89e48abbf",
+            "DisplayName": "APAC-ANZ-RLM",
+            "Children": null
           }
         ]
       }

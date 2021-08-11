@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/28f67236-8d7c-421b-acc2-e3b89e48abbf/providers/Microsoft.Authorization/roleAssignments/39a66bf3-3a61-44b5-bfe2-afd7e0e9ea1b",
+        "Name": "39a66bf3-3a61-44b5-bfe2-afd7e0e9ea1b",
+        "properties": {
+          "DisplayName": "MANISHBA",
+          "ObjectType": "User",
+          "PrincipalId": "70f27c7f-372a-4950-9677-c415ea9c834b",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
