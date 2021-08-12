@@ -7,7 +7,7 @@
         "Id": "/subscriptions/b9ffcf21-f6cb-407b-bbdb-d77303af0e0b/providers/Microsoft.Authorization/roleAssignments/a63b8805-400f-4cfb-b3cc-d835703a02a4",
         "Name": "a63b8805-400f-4cfb-b3cc-d835703a02a4",
         "properties": {
-          "DisplayName": "saurabh_r",
+          "DisplayName": "Saurabh Rohilla",
           "ObjectType": "User",
           "PrincipalId": "0f2ba27e-8657-41c2-b225-e4893d896763",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
