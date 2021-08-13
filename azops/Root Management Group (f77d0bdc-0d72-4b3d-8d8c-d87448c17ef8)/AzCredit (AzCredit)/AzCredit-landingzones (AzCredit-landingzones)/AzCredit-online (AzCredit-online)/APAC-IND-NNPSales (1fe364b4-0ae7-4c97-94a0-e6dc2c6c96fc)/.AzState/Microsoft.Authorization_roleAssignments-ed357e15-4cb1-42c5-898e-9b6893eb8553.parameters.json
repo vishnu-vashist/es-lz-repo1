@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/1fe364b4-0ae7-4c97-94a0-e6dc2c6c96fc/providers/Microsoft.Authorization/roleAssignments/ed357e15-4cb1-42c5-898e-9b6893eb8553",
+        "Name": "ed357e15-4cb1-42c5-898e-9b6893eb8553",
+        "properties": {
+          "DisplayName": "Manish Srivastava",
+          "ObjectType": "User",
+          "PrincipalId": "2f663f99-5529-4ce9-9e79-2923c7dc6a63",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
