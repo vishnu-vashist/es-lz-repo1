@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/7414ad62-2ca8-416d-bd88-8b8107848944/providers/Microsoft.Authorization/roleAssignments/bd8f5d79-c9f7-4cae-9648-f1057796f9c5",
+        "Name": "bd8f5d79-c9f7-4cae-9648-f1057796f9c5",
+        "properties": {
+          "DisplayName": "Sujan Biswas",
+          "ObjectType": "User",
+          "PrincipalId": "caf4a721-b321-4b2b-8a3e-f66305be1844",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
