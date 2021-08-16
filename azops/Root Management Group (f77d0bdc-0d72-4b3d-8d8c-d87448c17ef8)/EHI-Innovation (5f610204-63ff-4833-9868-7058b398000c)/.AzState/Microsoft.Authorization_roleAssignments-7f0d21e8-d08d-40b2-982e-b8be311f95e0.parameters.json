@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/5f610204-63ff-4833-9868-7058b398000c/providers/Microsoft.Authorization/roleAssignments/7f0d21e8-d08d-40b2-982e-b8be311f95e0",
+        "Name": "7f0d21e8-d08d-40b2-982e-b8be311f95e0",
+        "properties": {
+          "DisplayName": "suryakantt0007-MobileApp-5f610204-63ff-4833-9868-7058b398000c",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "dd0db4b7-21af-4949-9647-b5709ab20522",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
