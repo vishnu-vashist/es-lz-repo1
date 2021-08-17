@@ -7,7 +7,7 @@
         "Id": "/subscriptions/c5d79fcb-13b8-40bd-b83c-33d2f89888fb/providers/Microsoft.Authorization/roleAssignments/8ae943da-26e4-47dd-a3cd-6fd3ed9d69ea",
         "Name": "8ae943da-26e4-47dd-a3cd-6fd3ed9d69ea",
         "properties": {
-          "DisplayName": "Avinash.Dave",
+          "DisplayName": "Avinash Dave (HCL Financial Services)",
           "ObjectType": "User",
           "PrincipalId": "1b02dc2b-f974-4e47-aacb-6d10d9596fb3",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
