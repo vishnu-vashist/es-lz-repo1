@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/83ac103d-787d-47b4-8d96-d62c342541e6",
-        "Name": "83ac103d-787d-47b4-8d96-d62c342541e6",
+        "Id": "/subscriptions/ef07076e-6c2e-4db6-b301-49a86a500966/providers/Microsoft.Authorization/roleAssignments/6a15aa24-3f76-4e38-9b5b-98965c2635fd",
+        "Name": "6a15aa24-3f76-4e38-9b5b-98965c2635fd",
         "properties": {
-          "DisplayName": "Gaurav Rana",
-          "ObjectType": "User",
-          "PrincipalId": "0f67dbc5-b24b-4d02-9fd5-3458dd02ff18",
+          "DisplayName": "AutoAcc-UpdateMgmt_vJudhkzzZ6sEfgKwaZmpojsArR8RYU6I/cpT2JlCexs=",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "00da0ccf-1284-46cc-9228-f24a6fb7282c",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },
