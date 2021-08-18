@@ -7,7 +7,7 @@
         "Id": "/subscriptions/df4540e4-bd63-4a87-be28-5d3004ce2974/providers/Microsoft.Authorization/roleAssignments/247be3ca-1a7b-4c71-a52d-7e49080e284e",
         "Name": "247be3ca-1a7b-4c71-a52d-7e49080e284e",
         "properties": {
-          "DisplayName": "mohdismail.siddiqui",
+          "DisplayName": "Mohd Ismail Siddiqui",
           "ObjectType": "User",
           "PrincipalId": "9c6cc9d8-74cd-4671-91b8-3af82a993f11",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
