@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/df4540e4-bd63-4a87-be28-5d3004ce2974/providers/Microsoft.Authorization/roleAssignments/463eeff5-316f-4699-bdb0-9ce549cd0386",
+        "Name": "463eeff5-316f-4699-bdb0-9ce549cd0386",
+        "properties": {
+          "DisplayName": "anuja.g",
+          "ObjectType": "User",
+          "PrincipalId": "64b5875a-4a39-4db5-a9b6-a67d5b40d09e",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

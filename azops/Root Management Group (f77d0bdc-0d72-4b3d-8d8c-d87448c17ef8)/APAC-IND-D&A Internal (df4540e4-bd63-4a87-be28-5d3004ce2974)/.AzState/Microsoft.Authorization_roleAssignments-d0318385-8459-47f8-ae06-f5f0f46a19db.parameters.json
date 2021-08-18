@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/df4540e4-bd63-4a87-be28-5d3004ce2974/providers/Microsoft.Authorization/roleAssignments/d0318385-8459-47f8-ae06-f5f0f46a19db",
+        "Name": "d0318385-8459-47f8-ae06-f5f0f46a19db",
+        "properties": {
+          "DisplayName": "Shikha Gupta",
+          "ObjectType": "User",
+          "PrincipalId": "80672c67-a429-42d2-9238-c3ddf6c41a2d",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/df4540e4-bd63-4a87-be28-5d3004ce2974/providers/Microsoft.Authorization/roleAssignments/9cf1027b-4b77-41af-ba95-4d575edaf3d3",
+        "Name": "9cf1027b-4b77-41af-ba95-4d575edaf3d3",
+        "properties": {
+          "DisplayName": "Dibyendu Bose",
+          "ObjectType": "User",
+          "PrincipalId": "c37775bb-c082-4920-9800-eb1a33e63776",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
