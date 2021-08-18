@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/b9ffcf21-f6cb-407b-bbdb-d77303af0e0b/providers/Microsoft.Authorization/roleDefinitions/77497f05-628b-4370-993b-652aaaf65b38",
+        "Name": "77497f05-628b-4370-993b-652aaaf65b38",
+        "properties": {
+          "assignableScopes": [
+            "/subscriptions/b9ffcf21-f6cb-407b-bbdb-d77303af0e0b"
+          ],
+          "description": "",
+          "permissions": [
+            {
+              "actions": [
+                "*"
+              ],
+              "dataActions": [],
+              "notActions": [
+                "Microsoft.Authorization/*/Delete",
+                "Microsoft.Authorization/*/Write",
+                "Microsoft.Authorization/elevateAccess/Action",
+                "Microsoft.Blueprint/blueprintAssignments/write",
+                "Microsoft.Blueprint/blueprintAssignments/delete",
+                "Microsoft.Compute/galleries/share/action"
+              ],
+              "notdataActions": []
+            }
+          ],
+          "roleName": "testuser"
+        },
+        "ResourceType": "Microsoft.Authorization/roleDefinitions"
+      }
+    }
+  }
+}
