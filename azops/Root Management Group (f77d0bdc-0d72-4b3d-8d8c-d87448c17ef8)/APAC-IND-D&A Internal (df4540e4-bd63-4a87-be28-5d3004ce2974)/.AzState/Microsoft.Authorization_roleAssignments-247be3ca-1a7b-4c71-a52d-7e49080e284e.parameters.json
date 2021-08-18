@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/df4540e4-bd63-4a87-be28-5d3004ce2974/providers/Microsoft.Authorization/roleAssignments/247be3ca-1a7b-4c71-a52d-7e49080e284e",
+        "Name": "247be3ca-1a7b-4c71-a52d-7e49080e284e",
+        "properties": {
+          "DisplayName": "mohdismail.siddiqui",
+          "ObjectType": "User",
+          "PrincipalId": "9c6cc9d8-74cd-4671-91b8-3af82a993f11",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
