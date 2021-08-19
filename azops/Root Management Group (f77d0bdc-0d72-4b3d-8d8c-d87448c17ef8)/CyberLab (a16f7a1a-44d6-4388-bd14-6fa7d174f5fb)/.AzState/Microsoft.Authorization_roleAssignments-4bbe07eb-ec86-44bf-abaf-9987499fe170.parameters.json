@@ -7,7 +7,7 @@
         "Id": "/subscriptions/a16f7a1a-44d6-4388-bd14-6fa7d174f5fb/providers/Microsoft.Authorization/roleAssignments/4bbe07eb-ec86-44bf-abaf-9987499fe170",
         "Name": "4bbe07eb-ec86-44bf-abaf-9987499fe170",
         "properties": {
-          "DisplayName": "subramanianb",
+          "DisplayName": "Bala Subramanian",
           "ObjectType": "User",
           "PrincipalId": "5857dc04-017c-43fe-b643-61c3d2d644c3",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
