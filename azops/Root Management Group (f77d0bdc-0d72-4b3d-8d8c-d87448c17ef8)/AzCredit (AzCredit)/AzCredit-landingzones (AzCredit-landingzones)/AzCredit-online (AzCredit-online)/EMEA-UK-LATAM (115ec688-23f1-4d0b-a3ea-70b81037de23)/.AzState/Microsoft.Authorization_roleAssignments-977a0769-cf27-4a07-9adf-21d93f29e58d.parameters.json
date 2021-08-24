@@ -4,14 +4,14 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/115ec688-23f1-4d0b-a3ea-70b81037de23/providers/Microsoft.Authorization/roleAssignments/08563575-5b98-4847-b09e-6eb20ea63884",
-        "Name": "08563575-5b98-4847-b09e-6eb20ea63884",
+        "Id": "/subscriptions/115ec688-23f1-4d0b-a3ea-70b81037de23/providers/Microsoft.Authorization/roleAssignments/977a0769-cf27-4a07-9adf-21d93f29e58d",
+        "Name": "977a0769-cf27-4a07-9adf-21d93f29e58d",
         "properties": {
           "DisplayName": "Roger Batista",
           "ObjectType": "User",
           "PrincipalId": "9df360c8-4b15-4bb3-a030-c14cdf0cf0cb",
-          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
-          "RoleDefinitionName": "Contributor"
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
         },
         "ResourceType": "Microsoft.Authorization/roleAssignments"
       }
