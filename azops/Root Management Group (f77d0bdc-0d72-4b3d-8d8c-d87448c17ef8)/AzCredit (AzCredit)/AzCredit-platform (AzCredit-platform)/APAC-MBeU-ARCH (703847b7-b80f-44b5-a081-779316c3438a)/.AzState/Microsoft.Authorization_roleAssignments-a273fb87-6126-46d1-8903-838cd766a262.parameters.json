@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/703847b7-b80f-44b5-a081-779316c3438a/providers/Microsoft.Authorization/roleAssignments/a273fb87-6126-46d1-8903-838cd766a262",
+        "Name": "a273fb87-6126-46d1-8903-838cd766a262",
+        "properties": {
+          "DisplayName": "Hamsini S , EAI Bangalore",
+          "ObjectType": "User",
+          "PrincipalId": "e887b856-8cd5-4b95-958e-94ffe1fd9397",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
