@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/703847b7-b80f-44b5-a081-779316c3438a/providers/Microsoft.Authorization/roleAssignments/8a715198-4d4b-4e30-843f-ece8f7ebce1e",
+        "Name": "8a715198-4d4b-4e30-843f-ece8f7ebce1e",
+        "properties": {
+          "DisplayName": "smartlabel-sp",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "47e24f71-8e2f-4e75-9af7-0620611fd626",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
