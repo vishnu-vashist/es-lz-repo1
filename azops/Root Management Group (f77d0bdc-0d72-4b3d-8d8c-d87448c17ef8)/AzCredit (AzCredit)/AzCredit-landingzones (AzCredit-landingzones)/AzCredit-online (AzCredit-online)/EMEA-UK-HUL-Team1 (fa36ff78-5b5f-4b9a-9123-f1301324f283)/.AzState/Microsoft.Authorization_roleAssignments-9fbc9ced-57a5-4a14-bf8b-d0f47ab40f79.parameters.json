@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/fa36ff78-5b5f-4b9a-9123-f1301324f283/providers/Microsoft.Authorization/roleAssignments/9fbc9ced-57a5-4a14-bf8b-d0f47ab40f79",
+        "Name": "9fbc9ced-57a5-4a14-bf8b-d0f47ab40f79",
+        "properties": {
+          "DisplayName": "Kushal Seegakula",
+          "ObjectType": "User",
+          "PrincipalId": "4a89917e-e84f-4795-8f60-1535ed84e378",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
