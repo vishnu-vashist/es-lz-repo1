@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/112fdec5-f078-40b7-93b1-09d92951476a",
+        "Name": "112fdec5-f078-40b7-93b1-09d92951476a",
+        "properties": {
+          "DisplayName": "Km Gupta",
+          "ObjectType": "User",
+          "PrincipalId": "7e603979-6ffa-45d6-b505-d14aaf62c1a7",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "RoleDefinitionName": "Reader"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

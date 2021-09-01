@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/c173740e-1bae-45b7-b471-0a26bd75f22e",
+        "Name": "c173740e-1bae-45b7-b471-0a26bd75f22e",
+        "DisplayName": "APAC-IND-Cloud Native Practice",
+        "Children": null
+      }
+    }
+  }
+}

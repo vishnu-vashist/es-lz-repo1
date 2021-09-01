@@ -273,6 +273,20 @@
             "Name": "c5d79fcb-13b8-40bd-b83c-33d2f89888fb",
             "DisplayName": "APAC-IND-CMS",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/64831662-417a-4e15-b26c-e7cb4b801d25",
+            "Name": "64831662-417a-4e15-b26c-e7cb4b801d25",
+            "DisplayName": "APAC-IND-MS",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/c173740e-1bae-45b7-b471-0a26bd75f22e",
+            "Name": "c173740e-1bae-45b7-b471-0a26bd75f22e",
+            "DisplayName": "APAC-IND-Cloud Native Practice",
+            "Children": null
           }
         ]
       }
