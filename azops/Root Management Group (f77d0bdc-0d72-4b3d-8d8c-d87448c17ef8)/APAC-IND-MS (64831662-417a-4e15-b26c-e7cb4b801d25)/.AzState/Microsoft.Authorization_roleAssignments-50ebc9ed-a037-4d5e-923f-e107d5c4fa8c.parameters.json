@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/64831662-417a-4e15-b26c-e7cb4b801d25/providers/Microsoft.Authorization/roleAssignments/50ebc9ed-a037-4d5e-923f-e107d5c4fa8c",
+        "Name": "50ebc9ed-a037-4d5e-923f-e107d5c4fa8c",
+        "properties": {
+          "DisplayName": "Varun Yadav - ERS, HCL Tech",
+          "ObjectType": "User",
+          "PrincipalId": "985001bc-4ff2-43d4-99bb-0c90f102c44e",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

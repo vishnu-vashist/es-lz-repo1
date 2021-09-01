@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/9f01c836-1e74-48ce-a691-10679dc11f27",
+        "Name": "9f01c836-1e74-48ce-a691-10679dc11f27",
+        "properties": {
+          "DisplayName": "AbijeetS",
+          "ObjectType": "User",
+          "PrincipalId": "4387b13f-c4c0-48d7-a7ca-daf789fdbb45",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+          "RoleDefinitionName": "Reader"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

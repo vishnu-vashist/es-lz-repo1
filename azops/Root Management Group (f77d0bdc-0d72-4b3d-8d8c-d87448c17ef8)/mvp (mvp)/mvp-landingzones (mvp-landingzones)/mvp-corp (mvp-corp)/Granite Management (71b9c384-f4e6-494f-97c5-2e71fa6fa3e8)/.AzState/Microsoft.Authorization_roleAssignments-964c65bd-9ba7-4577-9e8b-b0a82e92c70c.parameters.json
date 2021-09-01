@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/71b9c384-f4e6-494f-97c5-2e71fa6fa3e8/providers/Microsoft.Authorization/roleAssignments/964c65bd-9ba7-4577-9e8b-b0a82e92c70c",
+        "Name": "964c65bd-9ba7-4577-9e8b-b0a82e92c70c",
+        "properties": {
+          "DisplayName": "azlighthouse",
+          "ObjectType": "User",
+          "PrincipalId": "a95257e6-46e1-4ffe-bc82-b9079eb37a44",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
