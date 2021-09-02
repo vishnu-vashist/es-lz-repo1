@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/4f079bbd-5066-4d1f-8caa-971aac9f35bb",
+        "Name": "4f079bbd-5066-4d1f-8caa-971aac9f35bb",
+        "properties": {
+          "DisplayName": "HCL-CoE-OneClick-SP",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "d212779a-904f-408e-a040-15967c2ed5dc",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
