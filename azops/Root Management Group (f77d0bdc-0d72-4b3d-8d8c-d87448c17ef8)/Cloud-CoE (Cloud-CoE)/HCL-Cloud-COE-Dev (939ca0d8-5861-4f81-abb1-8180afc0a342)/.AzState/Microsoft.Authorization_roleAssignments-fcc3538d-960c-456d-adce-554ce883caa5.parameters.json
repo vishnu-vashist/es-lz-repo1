@@ -4,14 +4,14 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/112fdec5-f078-40b7-93b1-09d92951476a",
-        "Name": "112fdec5-f078-40b7-93b1-09d92951476a",
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/fcc3538d-960c-456d-adce-554ce883caa5",
+        "Name": "fcc3538d-960c-456d-adce-554ce883caa5",
         "properties": {
           "DisplayName": "Km Gupta",
           "ObjectType": "User",
           "PrincipalId": "7e603979-6ffa-45d6-b505-d14aaf62c1a7",
-          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
-          "RoleDefinitionName": "Reader"
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
         },
         "ResourceType": "Microsoft.Authorization/roleAssignments"
       }
