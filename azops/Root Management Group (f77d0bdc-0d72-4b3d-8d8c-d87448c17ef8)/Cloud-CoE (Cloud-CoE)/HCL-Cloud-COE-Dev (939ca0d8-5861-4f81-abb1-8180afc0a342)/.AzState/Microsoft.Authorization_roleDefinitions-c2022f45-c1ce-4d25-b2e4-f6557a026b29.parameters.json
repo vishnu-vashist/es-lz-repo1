@@ -1,0 +1,38 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleDefinitions/c2022f45-c1ce-4d25-b2e4-f6557a026b29",
+        "Name": "c2022f45-c1ce-4d25-b2e4-f6557a026b29",
+        "properties": {
+          "assignableScopes": [
+            "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342"
+          ],
+          "description": "Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.",
+          "permissions": [
+            {
+              "actions": [
+                "*",
+                "Microsoft.Authorization/policySetDefinitions/write"
+              ],
+              "dataActions": [],
+              "notActions": [
+                "Microsoft.Authorization/*/Delete",
+                "Microsoft.Authorization/*/Write",
+                "Microsoft.Authorization/elevateAccess/Action",
+                "Microsoft.Blueprint/blueprintAssignments/write",
+                "Microsoft.Blueprint/blueprintAssignments/delete",
+                "Microsoft.Compute/galleries/share/action"
+              ],
+              "notdataActions": []
+            }
+          ],
+          "roleName": "ContributorPolicy"
+        },
+        "ResourceType": "Microsoft.Authorization/roleDefinitions"
+      }
+    }
+  }
+}

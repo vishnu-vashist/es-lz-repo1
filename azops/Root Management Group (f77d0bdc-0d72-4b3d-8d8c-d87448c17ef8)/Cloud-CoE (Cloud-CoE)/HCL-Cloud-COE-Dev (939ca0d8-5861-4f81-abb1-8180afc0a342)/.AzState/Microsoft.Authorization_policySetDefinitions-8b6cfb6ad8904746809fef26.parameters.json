@@ -1,0 +1,64 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "8b6cfb6ad8904746809fef26",
+        "PolicySetDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policySetDefinitions/8b6cfb6ad8904746809fef26",
+        "Properties": {
+          "Description": "Enable throughput control for Azure Cosmos DB resources in the specified scope (Management group, Subscription or resource group). Takes max throughput as parameter. Use this policy to help enforce throughput control via the resource provider.",
+          "DisplayName": "Enable Azure Cosmos DB throughput policy--alokm",
+          "Parameters": {
+            "effect": {
+              "allowedValues": [
+                "audit",
+                "deny",
+                "disabled"
+              ],
+              "defaultValue": "deny",
+              "metadata": {
+                "description": "The desired effect of the throughput limit policy. The key based metadata write access policy is always enforced.",
+                "displayName": "Policy Effect"
+              },
+              "type": "String"
+            },
+            "throughputMax": {
+              "metadata": {
+                "description": "The maximum throughput (RU/s) that can be assigned to a container via the Resource Provider during create or update.",
+                "displayName": "Max RUs"
+              },
+              "type": "Integer"
+            }
+          },
+          "PolicyDefinitionGroups": null,
+          "PolicyDefinitions": [
+            {
+              "policyDefinitionReferenceId": "Cosmos_MaxThroughput_Deny",
+              "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0b7ef78e-a035-4f23-b9bd-aff122a1b1cf",
+              "parameters": {
+                "throughputMax": {
+                  "value": "[parameters('throughputMax')]"
+                },
+                "effect": {
+                  "value": "[parameters('effect')]"
+                }
+              },
+              "groupNames": []
+            },
+            {
+              "policyDefinitionReferenceId": "Cosmos_DisableMetadata_Append",
+              "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4750c32b-89c0-46af-bfcb-2e4541a818d5",
+              "parameters": {},
+              "groupNames": []
+            }
+          ]
+        },
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policySetDefinitions/8b6cfb6ad8904746809fef26",
+        "ResourceName": "8b6cfb6ad8904746809fef26",
+        "ResourceType": "Microsoft.Authorization/policySetDefinitions",
+        "SubscriptionId": "939ca0d8-5861-4f81-abb1-8180afc0a342"
+      }
+    }
+  }
+}

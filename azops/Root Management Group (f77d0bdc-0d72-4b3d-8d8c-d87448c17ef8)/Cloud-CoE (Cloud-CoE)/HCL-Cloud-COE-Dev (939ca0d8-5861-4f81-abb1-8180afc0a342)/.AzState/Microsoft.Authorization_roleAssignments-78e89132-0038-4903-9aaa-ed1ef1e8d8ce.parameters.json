@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/78e89132-0038-4903-9aaa-ed1ef1e8d8ce",
+        "Name": "78e89132-0038-4903-9aaa-ed1ef1e8d8ce",
+        "properties": {
+          "DisplayName": "sundaram.s",
+          "ObjectType": "User",
+          "PrincipalId": "0a12afcd-c750-4a63-aa56-1b75e929af2c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/c2022f45-c1ce-4d25-b2e4-f6557a026b29",
+          "RoleDefinitionName": "ContributorPolicy"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
