@@ -7,7 +7,7 @@
         "Id": "/subscriptions/87ebb960-c84d-4fc1-8ca3-c9bd20329c0d/providers/Microsoft.Authorization/roleAssignments/7b13e489-c5f3-4738-a9f5-a3b94e7b85a3",
         "Name": "7b13e489-c5f3-4738-a9f5-a3b94e7b85a3",
         "properties": {
-          "DisplayName": "josh.darragh",
+          "DisplayName": "Joshua Darragh",
           "ObjectType": "User",
           "PrincipalId": "52f9fed4-0c15-4546-9a8d-27ede4ca49f4",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",

@@ -7,7 +7,7 @@
         "Id": "/subscriptions/c173740e-1bae-45b7-b471-0a26bd75f22e/providers/Microsoft.Authorization/roleAssignments/dab0e72f-e054-4c0a-bea6-976fdf9f2f78",
         "Name": "dab0e72f-e054-4c0a-bea6-976fdf9f2f78",
         "properties": {
-          "DisplayName": "elango.c",
+          "DisplayName": "Elango Chidambaram",
           "ObjectType": "User",
           "PrincipalId": "4937b274-de9f-42d7-a83f-ad92159fc786",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
