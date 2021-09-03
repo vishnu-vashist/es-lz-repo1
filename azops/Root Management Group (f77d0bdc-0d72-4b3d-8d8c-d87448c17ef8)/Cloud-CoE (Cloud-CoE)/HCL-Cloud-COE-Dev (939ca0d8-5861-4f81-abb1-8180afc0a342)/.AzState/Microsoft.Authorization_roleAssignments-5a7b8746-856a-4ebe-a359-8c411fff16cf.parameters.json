@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/5a7b8746-856a-4ebe-a359-8c411fff16cf",
+        "Name": "5a7b8746-856a-4ebe-a359-8c411fff16cf",
+        "properties": {
+          "DisplayName": "Vineet Singh .",
+          "ObjectType": "User",
+          "PrincipalId": "3475a214-c817-4d1e-9c43-942388c67d05",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

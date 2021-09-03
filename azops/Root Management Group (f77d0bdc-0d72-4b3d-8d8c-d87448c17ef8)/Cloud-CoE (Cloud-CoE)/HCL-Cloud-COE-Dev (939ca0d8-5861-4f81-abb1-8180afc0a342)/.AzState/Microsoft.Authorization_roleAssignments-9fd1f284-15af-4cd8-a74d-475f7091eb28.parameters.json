@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/9fd1f284-15af-4cd8-a74d-475f7091eb28",
+        "Name": "9fd1f284-15af-4cd8-a74d-475f7091eb28",
+        "properties": {
+          "DisplayName": "Satyendra Kumar Sahu",
+          "ObjectType": "User",
+          "PrincipalId": "2d8dc90e-e07e-424e-a14b-acd927b3abb5",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/a3026e5c-bffa-4057-a413-37eacaa7c7a6",
+        "Name": "a3026e5c-bffa-4057-a413-37eacaa7c7a6",
+        "properties": {
+          "DisplayName": "NupurG",
+          "ObjectType": "User",
+          "PrincipalId": "53fc2ede-ebe5-4a58-ba27-1617f12655ea",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

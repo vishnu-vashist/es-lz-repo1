@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/7acf66c6-c40e-40d9-82e1-277fce9b01c5",
+        "Name": "7acf66c6-c40e-40d9-82e1-277fce9b01c5",
+        "properties": {
+          "DisplayName": "Dhananjaya Mourya",
+          "ObjectType": "User",
+          "PrincipalId": "9de43b6e-cccd-4e63-a261-88fc72992dac",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
