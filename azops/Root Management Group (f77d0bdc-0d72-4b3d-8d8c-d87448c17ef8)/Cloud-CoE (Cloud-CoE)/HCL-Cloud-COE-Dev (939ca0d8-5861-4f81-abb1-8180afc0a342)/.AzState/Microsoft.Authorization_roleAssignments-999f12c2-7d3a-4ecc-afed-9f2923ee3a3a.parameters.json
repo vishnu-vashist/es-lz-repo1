@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/999f12c2-7d3a-4ecc-afed-9f2923ee3a3a",
+        "Name": "999f12c2-7d3a-4ecc-afed-9f2923ee3a3a",
+        "properties": {
+          "DisplayName": "ravi.saggu",
+          "ObjectType": "User",
+          "PrincipalId": "3842b187-14ec-4c69-967b-e54a349fcafa",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/54c755e9-d05a-4a2f-af2b-88d0e522ce11/providers/Microsoft.Authorization/roleAssignments/18df5927-6702-4de2-b381-25f34256b362",
-        "Name": "18df5927-6702-4de2-b381-25f34256b362",
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/c23bc08a-4e8f-468b-9957-906aae8e4552",
+        "Name": "c23bc08a-4e8f-468b-9957-906aae8e4552",
         "properties": {
-          "DisplayName": "Rodrigo De Lima Americo",
+          "DisplayName": "shashwat.raghuvanshi",
           "ObjectType": "User",
-          "PrincipalId": "2296fb96-c9ee-4cd4-8363-048510c77a8b",
+          "PrincipalId": "88c9d890-8799-4bb7-a52a-837071012a22",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },

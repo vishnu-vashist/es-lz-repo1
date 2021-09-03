@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/610d0f2f-6d7c-4d00-801b-1f4998b7e31e",
+        "Name": "610d0f2f-6d7c-4d00-801b-1f4998b7e31e",
+        "properties": {
+          "DisplayName": "Aradhana .",
+          "ObjectType": "User",
+          "PrincipalId": "7e289887-6823-4a96-84b6-eac7f0ad966a",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
