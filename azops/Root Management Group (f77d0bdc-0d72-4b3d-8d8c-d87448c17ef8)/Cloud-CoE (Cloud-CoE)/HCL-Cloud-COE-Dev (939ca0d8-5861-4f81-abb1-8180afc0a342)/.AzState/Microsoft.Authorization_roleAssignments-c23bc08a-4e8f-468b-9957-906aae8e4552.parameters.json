@@ -7,7 +7,7 @@
         "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/c23bc08a-4e8f-468b-9957-906aae8e4552",
         "Name": "c23bc08a-4e8f-468b-9957-906aae8e4552",
         "properties": {
-          "DisplayName": "shashwat.raghuvanshi",
+          "DisplayName": "Shashwat Raghuvanshi",
           "ObjectType": "User",
           "PrincipalId": "88c9d890-8799-4bb7-a52a-837071012a22",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
