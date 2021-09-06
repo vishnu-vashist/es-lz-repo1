@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "de0f2ad9-3b0d-4af4-9144-3f8993933c84",
+          "tenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus",
+        "Name": "b3c828b93eaf47beb46762b4",
+        "PolicyAssignmentId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyAssignments/b3c828b93eaf47beb46762b4",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Exxon-Configure diagnostic settings for storage accounts to Log Analytics workspace",
+          "NotScopes": [
+            "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/resourceGroups/TAAF_MXP_Exxon/providers/Microsoft.Storage/storageAccounts/scexxongg001"
+          ],
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/resourcegroups/taaf_mxp_exxon/providers/microsoft.operationalinsights/workspaces/exxonlogawgg01"
+            }
+          },
+          "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/d0b4e933-18ca-4c7d-a77d-9773ba14041c",
+          "Scope": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342"
+        },
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyAssignments/b3c828b93eaf47beb46762b4",
+        "ResourceName": "b3c828b93eaf47beb46762b4",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}
