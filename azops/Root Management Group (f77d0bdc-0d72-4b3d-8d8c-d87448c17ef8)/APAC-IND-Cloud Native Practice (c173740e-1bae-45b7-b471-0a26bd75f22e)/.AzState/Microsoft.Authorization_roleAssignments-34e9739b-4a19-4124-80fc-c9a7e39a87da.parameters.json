@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/999f12c2-7d3a-4ecc-afed-9f2923ee3a3a",
-        "Name": "999f12c2-7d3a-4ecc-afed-9f2923ee3a3a",
+        "Id": "/subscriptions/c173740e-1bae-45b7-b471-0a26bd75f22e/providers/Microsoft.Authorization/roleAssignments/34e9739b-4a19-4124-80fc-c9a7e39a87da",
+        "Name": "34e9739b-4a19-4124-80fc-c9a7e39a87da",
         "properties": {
-          "DisplayName": "Ravi Saggu",
-          "ObjectType": "User",
-          "PrincipalId": "3842b187-14ec-4c69-967b-e54a349fcafa",
+          "DisplayName": "CNP_Practice",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "5dd03dc6-cef4-45d4-95b1-1af26b0388d0",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },
