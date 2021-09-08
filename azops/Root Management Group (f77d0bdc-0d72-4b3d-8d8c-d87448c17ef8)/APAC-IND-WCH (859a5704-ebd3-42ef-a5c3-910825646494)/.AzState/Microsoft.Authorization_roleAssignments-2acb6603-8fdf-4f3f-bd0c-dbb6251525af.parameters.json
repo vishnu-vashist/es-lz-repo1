@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/2acb6603-8fdf-4f3f-bd0c-dbb6251525af",
+        "Name": "2acb6603-8fdf-4f3f-bd0c-dbb6251525af",
+        "properties": {
+          "DisplayName": "Kadarushashikumar Reddy",
+          "ObjectType": "User",
+          "PrincipalId": "4336a7ec-2a41-4700-b55b-f706870c5f68",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
