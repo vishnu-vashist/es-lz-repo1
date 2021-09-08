@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/b15b429c-cb44-44e0-827f-68d1aebda0b0/providers/Microsoft.Authorization/roleAssignments/48bbeaa1-1e72-4a35-83ac-5231b07071f4",
+        "Name": "48bbeaa1-1e72-4a35-83ac-5231b07071f4",
+        "properties": {
+          "DisplayName": "sharma_viveks",
+          "ObjectType": "User",
+          "PrincipalId": "74e9e82c-a26f-419d-87f5-0f0e7823fd6f",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

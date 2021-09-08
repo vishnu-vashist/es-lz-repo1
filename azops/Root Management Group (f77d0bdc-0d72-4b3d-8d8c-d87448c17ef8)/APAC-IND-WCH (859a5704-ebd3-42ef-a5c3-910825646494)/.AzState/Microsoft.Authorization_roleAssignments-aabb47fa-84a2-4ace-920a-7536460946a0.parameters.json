@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/aabb47fa-84a2-4ace-920a-7536460946a0",
+        "Name": "aabb47fa-84a2-4ace-920a-7536460946a0",
+        "properties": {
+          "DisplayName": "Bhola Thakur",
+          "ObjectType": "User",
+          "PrincipalId": "a1361b05-9087-489f-b19c-a35b7b352501",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
