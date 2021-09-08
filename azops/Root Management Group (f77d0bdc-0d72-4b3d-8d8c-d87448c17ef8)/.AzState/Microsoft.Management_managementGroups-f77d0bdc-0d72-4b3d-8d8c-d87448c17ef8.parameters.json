@@ -287,6 +287,20 @@
             "Name": "c173740e-1bae-45b7-b471-0a26bd75f22e",
             "DisplayName": "APAC-IND-Cloud Native Practice",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/b15b429c-cb44-44e0-827f-68d1aebda0b0",
+            "Name": "b15b429c-cb44-44e0-827f-68d1aebda0b0",
+            "DisplayName": "APAC-IND-VelocityC",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494",
+            "Name": "859a5704-ebd3-42ef-a5c3-910825646494",
+            "DisplayName": "APAC-IND-WCH",
+            "Children": null
           }
         ]
       }

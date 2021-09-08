@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/b15b429c-cb44-44e0-827f-68d1aebda0b0",
+        "Name": "b15b429c-cb44-44e0-827f-68d1aebda0b0",
+        "DisplayName": "APAC-IND-VelocityC",
+        "Children": null
+      }
+    }
+  }
+}

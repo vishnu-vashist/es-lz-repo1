@@ -1,0 +1,59 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "e4322c51-ca96-4152-9421-302507cbc6e5",
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/e4322c51-ca96-4152-9421-302507cbc6e5",
+        "ResourceName": "e4322c51-ca96-4152-9421-302507cbc6e5",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": "939ca0d8-5861-4f81-abb1-8180afc0a342",
+        "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/e4322c51-ca96-4152-9421-302507cbc6e5",
+        "Properties": {
+          "Description": "Remote debugging requires inbound ports to be opened on function apps. Remote debugging should be turned off.",
+          "DisplayName": "Remote debugging should be turned off for Function Apps - Sumit",
+          "Mode": "Indexed",
+          "Parameters": {
+            "effect": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Effect",
+                "description": "Enable or disable the execution of the policy"
+              },
+              "allowedValues": [
+                "AuditIfNotExists",
+                "Disabled"
+              ],
+              "defaultValue": "AuditIfNotExists"
+            }
+          },
+          "PolicyRule": {
+            "if": {
+              "allOf": [
+                {
+                  "field": "type",
+                  "equals": "Microsoft.Web/sites"
+                },
+                {
+                  "field": "kind",
+                  "like": "functionapp*"
+                }
+              ]
+            },
+            "then": {
+              "effect": "[parameters('effect')]",
+              "details": {
+                "type": "Microsoft.Web/sites/config",
+                "existenceCondition": {
+                  "field": "Microsoft.Web/sites/config/web.remoteDebuggingEnabled",
+                  "equals": "false"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
