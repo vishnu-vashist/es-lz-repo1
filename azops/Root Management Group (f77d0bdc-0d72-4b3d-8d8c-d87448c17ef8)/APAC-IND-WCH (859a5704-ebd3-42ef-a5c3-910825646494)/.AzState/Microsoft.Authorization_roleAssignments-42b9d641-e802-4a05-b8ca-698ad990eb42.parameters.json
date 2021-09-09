@@ -7,7 +7,7 @@
         "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/42b9d641-e802-4a05-b8ca-698ad990eb42",
         "Name": "42b9d641-e802-4a05-b8ca-698ad990eb42",
         "properties": {
-          "DisplayName": "arpit.dubey",
+          "DisplayName": "Arpit Dubey",
           "ObjectType": "User",
           "PrincipalId": "443597ce-7557-4c8f-919d-131a4d9996b7",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",

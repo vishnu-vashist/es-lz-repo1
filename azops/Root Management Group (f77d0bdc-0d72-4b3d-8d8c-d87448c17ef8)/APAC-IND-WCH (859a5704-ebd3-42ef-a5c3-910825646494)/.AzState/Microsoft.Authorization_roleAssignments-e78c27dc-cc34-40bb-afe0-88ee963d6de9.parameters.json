@@ -7,7 +7,7 @@
         "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/e78c27dc-cc34-40bb-afe0-88ee963d6de9",
         "Name": "e78c27dc-cc34-40bb-afe0-88ee963d6de9",
         "properties": {
-          "DisplayName": "vijaykumar.bharti",
+          "DisplayName": "Vijay Kumar Bharti",
           "ObjectType": "User",
           "PrincipalId": "f2393faa-70eb-4476-8d2b-b73c8e18626e",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
