@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/e2f443e2-d2c8-4753-b939-6943aae60c8f/providers/Microsoft.Authorization/roleAssignments/39ccd926-b297-4519-bc83-2b826542698f",
+        "Name": "39ccd926-b297-4519-bc83-2b826542698f",
+        "properties": {
+          "DisplayName": "Deepak Bhardwaj",
+          "ObjectType": "User",
+          "PrincipalId": "d0304538-ed2a-45ea-a2f1-979fe2779c15",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
