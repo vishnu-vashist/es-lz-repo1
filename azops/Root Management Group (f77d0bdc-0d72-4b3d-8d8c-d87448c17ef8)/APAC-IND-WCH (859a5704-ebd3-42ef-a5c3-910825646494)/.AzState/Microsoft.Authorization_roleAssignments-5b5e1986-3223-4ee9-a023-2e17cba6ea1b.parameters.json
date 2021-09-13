@@ -4,8 +4,8 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/aea8bac5-4b1c-4992-a698-99a12e813523",
-        "Name": "aea8bac5-4b1c-4992-a698-99a12e813523",
+        "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/5b5e1986-3223-4ee9-a023-2e17cba6ea1b",
+        "Name": "5b5e1986-3223-4ee9-a023-2e17cba6ea1b",
         "properties": {
           "DisplayName": "vairavanr",
           "ObjectType": "User",
