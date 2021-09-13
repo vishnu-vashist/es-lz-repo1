@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/02d60c78-a26f-4057-9efb-9871d923a836",
+        "Name": "02d60c78-a26f-4057-9efb-9871d923a836",
+        "properties": {
+          "DisplayName": "Neetima .",
+          "ObjectType": "User",
+          "PrincipalId": "dcc8ac62-a71f-457c-a430-8e69d27ab20c",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

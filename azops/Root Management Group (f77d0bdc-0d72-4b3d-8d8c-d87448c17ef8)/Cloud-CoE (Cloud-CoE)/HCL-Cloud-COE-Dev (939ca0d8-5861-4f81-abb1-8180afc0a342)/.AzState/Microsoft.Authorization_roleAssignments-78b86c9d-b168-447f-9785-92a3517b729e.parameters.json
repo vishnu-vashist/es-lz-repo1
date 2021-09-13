@@ -7,7 +7,7 @@
         "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/78b86c9d-b168-447f-9785-92a3517b729e",
         "Name": "78b86c9d-b168-447f-9785-92a3517b729e",
         "properties": {
-          "DisplayName": "AbijeetS",
+          "DisplayName": "Abijeet Singh, HCL America",
           "ObjectType": "User",
           "PrincipalId": "4387b13f-c4c0-48d7-a7ca-daf789fdbb45",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",

@@ -111,42 +111,22 @@
                       "anyOf": [
                         {
                           "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefix",
-                          "notEquals": "10.*.*.*"
-                        },
-                        {
-                          "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefix",
-                          "notEquals": "VirtualNetwork"
-                        },
-                        {
-                          "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefix",
-                          "notEquals": "AzureLoadBalancer"
-                        },
-                        {
-                          "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefix",
-                          "notEquals": "AzureDatabricks"
+                          "in": [
+                            "VirtualNetwork",
+                            "AzureLoadBalancer",
+                            "AzureDatabricks",
+                            "10.*.*.*/*"
+                          ]
                         },
                         {
                           "not": {
                             "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefixes[*]",
-                            "equals": "10.*.*.*"
-                          }
-                        },
-                        {
-                          "not": {
-                            "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefixes[*]",
-                            "equals": "AzureLoadBalancer"
-                          }
-                        },
-                        {
-                          "not": {
-                            "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefixes[*]",
-                            "equals": "AzureDatabricks"
-                          }
-                        },
-                        {
-                          "not": {
-                            "field": "Microsoft.Network/networkSecurityGroups/securityRules/sourceAddressPrefixes[*]",
-                            "equals": "VirtualNetwork"
+                            "notin": [
+                              "VirtualNetwork",
+                              "AzureLoadBalancer",
+                              "AzureDatabricks",
+                              "10.*.*.*/*"
+                            ]
                           }
                         }
                       ]
