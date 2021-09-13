@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/87ebb960-c84d-4fc1-8ca3-c9bd20329c0d/providers/Microsoft.Authorization/roleAssignments/542ebd6c-3945-4520-9cf7-f697836f58d0",
+        "Name": "542ebd6c-3945-4520-9cf7-f697836f58d0",
+        "properties": {
+          "DisplayName": "Munish .",
+          "ObjectType": "User",
+          "PrincipalId": "dcc241d1-b633-4e8a-a1fa-222fa2d4ea15",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

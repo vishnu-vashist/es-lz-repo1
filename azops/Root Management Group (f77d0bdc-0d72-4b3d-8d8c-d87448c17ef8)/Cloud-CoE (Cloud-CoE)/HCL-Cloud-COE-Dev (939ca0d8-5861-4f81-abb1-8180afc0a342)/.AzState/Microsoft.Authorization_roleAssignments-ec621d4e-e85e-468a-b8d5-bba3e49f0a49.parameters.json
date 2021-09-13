@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/ec621d4e-e85e-468a-b8d5-bba3e49f0a49",
+        "Name": "ec621d4e-e85e-468a-b8d5-bba3e49f0a49",
+        "properties": {
+          "DisplayName": "Naved Hussain",
+          "ObjectType": "User",
+          "PrincipalId": "10454e65-5679-43e7-9231-3469f7222f8d",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/c2022f45-c1ce-4d25-b2e4-f6557a026b29",
+          "RoleDefinitionName": "ContributorPolicy"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
