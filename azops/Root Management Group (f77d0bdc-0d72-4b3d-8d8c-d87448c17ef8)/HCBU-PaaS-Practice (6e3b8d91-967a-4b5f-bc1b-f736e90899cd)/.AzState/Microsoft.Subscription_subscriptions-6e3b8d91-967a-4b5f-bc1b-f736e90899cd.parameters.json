@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/6e3b8d91-967a-4b5f-bc1b-f736e90899cd",
+        "Name": "6e3b8d91-967a-4b5f-bc1b-f736e90899cd",
+        "DisplayName": "HCBU-PaaS-Practice",
+        "Children": null
+      }
+    }
+  }
+}

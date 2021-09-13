@@ -301,6 +301,13 @@
             "Name": "859a5704-ebd3-42ef-a5c3-910825646494",
             "DisplayName": "APAC-IND-WCH",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/6e3b8d91-967a-4b5f-bc1b-f736e90899cd",
+            "Name": "6e3b8d91-967a-4b5f-bc1b-f736e90899cd",
+            "DisplayName": "HCBU-PaaS-Practice",
+            "Children": null
           }
         ]
       }

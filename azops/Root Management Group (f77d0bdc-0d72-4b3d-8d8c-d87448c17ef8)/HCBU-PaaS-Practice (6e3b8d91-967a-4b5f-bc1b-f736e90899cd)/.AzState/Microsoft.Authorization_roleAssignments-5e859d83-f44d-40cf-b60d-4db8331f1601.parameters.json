@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/6e3b8d91-967a-4b5f-bc1b-f736e90899cd/providers/Microsoft.Authorization/roleAssignments/5e859d83-f44d-40cf-b60d-4db8331f1601",
+        "Name": "5e859d83-f44d-40cf-b60d-4db8331f1601",
+        "properties": {
+          "DisplayName": "mohdumair.a",
+          "ObjectType": "User",
+          "PrincipalId": "bed23df1-f01d-44b4-9774-f1187dcdc372",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

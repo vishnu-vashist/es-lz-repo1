@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "46b8f16b-d433-4aa7-8d79-582e79164a63",
+          "tenantId": "f77d0bdc-0d72-4b3d-8d8c-d87448c17ef8",
+          "type": "SystemAssigned"
+        },
+        "Location": "eastus",
+        "Name": "47a11de313844c7ba1879f85",
+        "PolicyAssignmentId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyAssignments/47a11de313844c7ba1879f85",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Eventhub-loganalytics-Neetima",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/resourcegroups/rg-oneclick-hub-terraform/providers/microsoft.operationalinsights/workspaces/testlog1"
+            }
+          },
+          "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/2e6bcb6b-f945-4b2c-bde4-187a5209dae9",
+          "Scope": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342"
+        },
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyAssignments/47a11de313844c7ba1879f85",
+        "ResourceName": "47a11de313844c7ba1879f85",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}
