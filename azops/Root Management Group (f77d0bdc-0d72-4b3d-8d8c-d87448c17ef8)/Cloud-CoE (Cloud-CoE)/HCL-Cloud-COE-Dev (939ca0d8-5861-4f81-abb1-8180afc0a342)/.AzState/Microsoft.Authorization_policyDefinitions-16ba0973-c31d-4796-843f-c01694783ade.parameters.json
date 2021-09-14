@@ -1,0 +1,426 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "16ba0973-c31d-4796-843f-c01694783ade",
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/16ba0973-c31d-4796-843f-c01694783ade",
+        "ResourceName": "16ba0973-c31d-4796-843f-c01694783ade",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": "939ca0d8-5861-4f81-abb1-8180afc0a342",
+        "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/16ba0973-c31d-4796-843f-c01694783ade",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Storageaccount-Diagnosticlogs to Eventhub and Log analytic workspace-Neetima",
+          "Mode": "All",
+          "Parameters": {
+            "logAnalytics": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Log Analytics workspace",
+                "description": "Select Log Analytics workspace from dropdown list. If this workspace is outside of the scope of the assignment you must manually grant 'Log Analytics Contributor' permissions (or similar) to the policy assignment's principal ID.",
+                "strongType": "omsWorkspace",
+                "assignPermissions": true
+              }
+            },
+            "servicesToDeploy": {
+              "type": "Array",
+              "metadata": {
+                "displayName": "Storage services to deploy",
+                "description": "List of Storage services to deploy"
+              },
+              "allowedValues": [
+                "storageAccounts",
+                "blobServices",
+                "fileServices",
+                "tableServices",
+                "queueServices"
+              ],
+              "defaultValue": [
+                "storageAccounts",
+                "blobServices",
+                "fileServices",
+                "tableServices",
+                "queueServices"
+              ]
+            },
+            "diagnosticsSettingNameToUse": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Setting name",
+                "description": "Name of the diagnostic settings."
+              },
+              "defaultValue": "storageAccountsDiagnosticsLogs"
+            },
+            "effect": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Effect",
+                "description": "Enable or disable the execution of the policy"
+              },
+              "allowedValues": [
+                "DeployIfNotExists",
+                "Disabled"
+              ],
+              "defaultValue": "DeployIfNotExists"
+            },
+            "eventHubRuleId": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Event Hub Authorization Rule Id",
+                "description": "The Event Hub authorization rule Id for Azure Diagnostics. The authorization rule needs to be at Event Hub namespace level. e.g. /subscriptions/{subscription Id}/resourceGroups/{resource group}/providers/Microsoft.EventHub/namespaces/{Event Hub namespace}/authorizationrules/{authorization rule}",
+                "strongType": "Microsoft.EventHub/Namespaces/AuthorizationRules",
+                "assignPermissions": true
+              }
+            },
+            "eventHubLocation": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Event Hub Destination Location",
+                "description": "The location the Event Hub that will get diagnostic data resides in. Only source Event Hubs in this location will be linked to this destination Event Hub.",
+                "strongType": "location"
+              },
+              "defaultValue": ""
+            },
+            "StorageDelete": {
+              "type": "String",
+              "metadata": {
+                "displayName": "StorageDelete - Enabled",
+                "description": "Whether to stream StorageDelete logs to the Log Analytics workspace and eventhub - True or False"
+              },
+              "allowedValues": [
+                "True",
+                "False"
+              ],
+              "defaultValue": "True"
+            },
+            "StorageWrite": {
+              "type": "String",
+              "metadata": {
+                "displayName": "StorageWrite - Enabled",
+                "description": "Whether to stream StorageWrite logs to the Log Analytics workspace and eventhub - True or False"
+              },
+              "allowedValues": [
+                "True",
+                "False"
+              ],
+              "defaultValue": "True"
+            },
+            "StorageRead": {
+              "type": "String",
+              "metadata": {
+                "displayName": "StorageRead - Enabled",
+                "description": "Whether to stream StorageRead logs to the Log Analytics workspace and eventhub - True or False"
+              },
+              "allowedValues": [
+                "True",
+                "False"
+              ],
+              "defaultValue": "True"
+            },
+            "Transaction": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Transaction - Enabled",
+                "description": "Whether to stream Transaction logs to the Log Analytics workspace and eventhub - True or False"
+              },
+              "allowedValues": [
+                "True",
+                "False"
+              ],
+              "defaultValue": "True"
+            }
+          },
+          "PolicyRule": {
+            "if": {
+              "field": "type",
+              "equals": "Microsoft.Storage/storageAccounts"
+            },
+            "then": {
+              "effect": "[parameters('effect')]",
+              "details": {
+                "type": "Microsoft.Insights/diagnosticSettings",
+                "roleDefinitionIds": [
+                  "/providers/microsoft.authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c"
+                ],
+                "existenceCondition": {
+                  "allOf": [
+                    {
+                      "anyof": [
+                        {
+                          "field": "Microsoft.Insights/diagnosticSettings/metrics.enabled",
+                          "equals": "True"
+                        },
+                        {
+                          "field": "Microsoft.Insights/diagnosticSettings/logs.enabled",
+                          "equals": "True"
+                        }
+                      ]
+                    },
+                    {
+                      "field": "Microsoft.Insights/diagnosticSettings/workspaceId",
+                      "equals": "[parameters('logAnalytics')]"
+                    },
+                    {
+                      "field": "location",
+                      "equals": "[parameters('eventHubLocation')]"
+                    }
+                  ]
+                },
+                "deployment": {
+                  "properties": {
+                    "mode": "incremental",
+                    "template": {
+                      "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+                      "contentVersion": "1.0.0.0",
+                      "parameters": {
+                        "servicesToDeploy": {
+                          "type": "array"
+                        },
+                        "diagnosticsSettingNameToUse": {
+                          "type": "string"
+                        },
+                        "resourceName": {
+                          "type": "string"
+                        },
+                        "logAnalytics": {
+                          "type": "string"
+                        },
+                        "eventHubRuleId": {
+                          "type": "string"
+                        },
+                        "location": {
+                          "type": "string"
+                        },
+                        "Transaction": {
+                          "type": "string"
+                        },
+                        "StorageRead": {
+                          "type": "string"
+                        },
+                        "StorageWrite": {
+                          "type": "string"
+                        },
+                        "StorageDelete": {
+                          "type": "string"
+                        }
+                      },
+                      "variables": {},
+                      "resources": [
+                        {
+                          "condition": "[contains(parameters('servicesToDeploy'), 'blobServices')]",
+                          "type": "Microsoft.Storage/storageAccounts/blobServices/providers/diagnosticSettings",
+                          "apiVersion": "2017-05-01-preview",
+                          "name": "[concat(parameters('resourceName'), '/default/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
+                          "location": "[parameters('location')]",
+                          "dependsOn": [],
+                          "properties": {
+                            "workspaceId": "[parameters('logAnalytics')]",
+                            "eventHubAuthorizationRuleId": "[parameters('eventHubRuleId')]",
+                            "metrics": [
+                              {
+                                "category": "Transaction",
+                                "enabled": "[parameters('Transaction')]",
+                                "retentionPolicy": {
+                                  "days": 0,
+                                  "enabled": false
+                                },
+                                "timeGrain": null
+                              }
+                            ],
+                            "logs": [
+                              {
+                                "category": "StorageRead",
+                                "enabled": "[parameters('StorageRead')]"
+                              },
+                              {
+                                "category": "StorageWrite",
+                                "enabled": "[parameters('StorageWrite')]"
+                              },
+                              {
+                                "category": "StorageDelete",
+                                "enabled": "[parameters('StorageDelete')]"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition": "[contains(parameters('servicesToDeploy'), 'fileServices')]",
+                          "type": "Microsoft.Storage/storageAccounts/fileServices/providers/diagnosticSettings",
+                          "apiVersion": "2017-05-01-preview",
+                          "name": "[concat(parameters('resourceName'), '/default/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
+                          "location": "[parameters('location')]",
+                          "dependsOn": [],
+                          "properties": {
+                            "workspaceId": "[parameters('logAnalytics')]",
+                            "eventHubAuthorizationRuleId": "[parameters('eventHubRuleId')]",
+                            "metrics": [
+                              {
+                                "category": "Transaction",
+                                "enabled": "[parameters('Transaction')]",
+                                "retentionPolicy": {
+                                  "days": 0,
+                                  "enabled": false
+                                },
+                                "timeGrain": null
+                              }
+                            ],
+                            "logs": [
+                              {
+                                "category": "StorageRead",
+                                "enabled": "[parameters('StorageRead')]"
+                              },
+                              {
+                                "category": "StorageWrite",
+                                "enabled": "[parameters('StorageWrite')]"
+                              },
+                              {
+                                "category": "StorageDelete",
+                                "enabled": "[parameters('StorageDelete')]"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition": "[contains(parameters('servicesToDeploy'), 'tableServices')]",
+                          "type": "Microsoft.Storage/storageAccounts/tableServices/providers/diagnosticSettings",
+                          "apiVersion": "2017-05-01-preview",
+                          "name": "[concat(parameters('resourceName'), '/default/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
+                          "location": "[parameters('location')]",
+                          "dependsOn": [],
+                          "properties": {
+                            "workspaceId": "[parameters('logAnalytics')]",
+                            "eventHubAuthorizationRuleId": "[parameters('eventHubRuleId')]",
+                            "metrics": [
+                              {
+                                "category": "Transaction",
+                                "enabled": "[parameters('Transaction')]",
+                                "retentionPolicy": {
+                                  "days": 0,
+                                  "enabled": false
+                                },
+                                "timeGrain": null
+                              }
+                            ],
+                            "logs": [
+                              {
+                                "category": "StorageRead",
+                                "enabled": "[parameters('StorageRead')]"
+                              },
+                              {
+                                "category": "StorageWrite",
+                                "enabled": "[parameters('StorageWrite')]"
+                              },
+                              {
+                                "category": "StorageDelete",
+                                "enabled": "[parameters('StorageDelete')]"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition": "[contains(parameters('servicesToDeploy'), 'queueServices')]",
+                          "type": "Microsoft.Storage/storageAccounts/queueServices/providers/diagnosticSettings",
+                          "apiVersion": "2017-05-01-preview",
+                          "name": "[concat(parameters('resourceName'), '/default/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
+                          "location": "[parameters('location')]",
+                          "dependsOn": [],
+                          "properties": {
+                            "workspaceId": "[parameters('logAnalytics')]",
+                            "eventHubAuthorizationRuleId": "[parameters('eventHubRuleId')]",
+                            "metrics": [
+                              {
+                                "category": "Transaction",
+                                "enabled": "[parameters('Transaction')]",
+                                "retentionPolicy": {
+                                  "days": 0,
+                                  "enabled": false
+                                },
+                                "timeGrain": null
+                              }
+                            ],
+                            "logs": [
+                              {
+                                "category": "StorageRead",
+                                "enabled": "[parameters('StorageRead')]"
+                              },
+                              {
+                                "category": "StorageWrite",
+                                "enabled": "[parameters('StorageWrite')]"
+                              },
+                              {
+                                "category": "StorageDelete",
+                                "enabled": "[parameters('StorageDelete')]"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition": "[contains(parameters('servicesToDeploy'), 'storageAccounts')]",
+                          "type": "Microsoft.Storage/storageAccounts/providers/diagnosticSettings",
+                          "apiVersion": "2017-05-01-preview",
+                          "name": "[concat(parameters('resourceName'), '/', 'Microsoft.Insights/', parameters('diagnosticsSettingNameToUse'))]",
+                          "location": "[parameters('location')]",
+                          "dependsOn": [],
+                          "properties": {
+                            "workspaceId": "[parameters('logAnalytics')]",
+                            "eventHubAuthorizationRuleId": "[parameters('eventHubRuleId')]",
+                            "metrics": [
+                              {
+                                "category": "Transaction",
+                                "enabled": "[parameters('Transaction')]",
+                                "retentionPolicy": {
+                                  "days": 0,
+                                  "enabled": false
+                                },
+                                "timeGrain": null
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "outputs": {}
+                    },
+                    "parameters": {
+                      "diagnosticsSettingNameToUse": {
+                        "value": "[parameters('diagnosticsSettingNameToUse')]"
+                      },
+                      "logAnalytics": {
+                        "value": "[parameters('logAnalytics')]"
+                      },
+                      "eventHubRuleId": {
+                        "value": "[parameters('eventHubRuleId')]"
+                      },
+                      "location": {
+                        "value": "[field('location')]"
+                      },
+                      "resourceName": {
+                        "value": "[field('name')]"
+                      },
+                      "Transaction": {
+                        "value": "[parameters('Transaction')]"
+                      },
+                      "StorageDelete": {
+                        "value": "[parameters('StorageDelete')]"
+                      },
+                      "StorageWrite": {
+                        "value": "[parameters('StorageWrite')]"
+                      },
+                      "StorageRead": {
+                        "value": "[parameters('StorageRead')]"
+                      },
+                      "servicesToDeploy": {
+                        "value": "[parameters('servicesToDeploy')]"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
