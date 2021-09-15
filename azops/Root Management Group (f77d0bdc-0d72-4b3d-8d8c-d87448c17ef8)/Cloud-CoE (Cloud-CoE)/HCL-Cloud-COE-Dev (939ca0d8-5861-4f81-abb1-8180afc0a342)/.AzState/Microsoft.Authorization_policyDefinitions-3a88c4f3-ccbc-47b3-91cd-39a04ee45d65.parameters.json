@@ -4,15 +4,15 @@
   "parameters": {
     "input": {
       "value": {
-        "Name": "805a7701-1a61-4587-a9de-d43e7f09bacc",
-        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/805a7701-1a61-4587-a9de-d43e7f09bacc",
-        "ResourceName": "805a7701-1a61-4587-a9de-d43e7f09bacc",
+        "Name": "3a88c4f3-ccbc-47b3-91cd-39a04ee45d65",
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/3a88c4f3-ccbc-47b3-91cd-39a04ee45d65",
+        "ResourceName": "3a88c4f3-ccbc-47b3-91cd-39a04ee45d65",
         "ResourceType": "Microsoft.Authorization/policyDefinitions",
         "SubscriptionId": "939ca0d8-5861-4f81-abb1-8180afc0a342",
-        "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/805a7701-1a61-4587-a9de-d43e7f09bacc",
+        "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/3a88c4f3-ccbc-47b3-91cd-39a04ee45d65",
         "Properties": {
           "Description": null,
-          "DisplayName": "Exxon-GGPolicyTest",
+          "DisplayName": "GG_Test",
           "Mode": "All",
           "Parameters": {
             "allowedLocations": {
