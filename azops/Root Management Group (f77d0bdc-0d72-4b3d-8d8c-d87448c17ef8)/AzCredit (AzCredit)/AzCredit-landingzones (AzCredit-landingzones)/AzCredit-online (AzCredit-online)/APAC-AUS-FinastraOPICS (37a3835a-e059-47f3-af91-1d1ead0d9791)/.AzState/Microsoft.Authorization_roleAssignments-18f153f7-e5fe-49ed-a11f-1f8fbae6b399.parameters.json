@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/37a3835a-e059-47f3-af91-1d1ead0d9791/providers/Microsoft.Authorization/roleAssignments/18f153f7-e5fe-49ed-a11f-1f8fbae6b399",
+        "Name": "18f153f7-e5fe-49ed-a11f-1f8fbae6b399",
+        "properties": {
+          "DisplayName": "Mahendra Devadiya",
+          "ObjectType": "User",
+          "PrincipalId": "e91d58e3-eb0d-47be-bc90-4549404c31bc",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
