@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/6905bf4b-2a5f-44ac-b288-89511c93e740",
+        "Name": "6905bf4b-2a5f-44ac-b288-89511c93e740",
+        "DisplayName": "APAC-IND-CSIWM",
+        "Children": null
+      }
+    }
+  }
+}
