@@ -7,7 +7,7 @@
         "Id": "/subscriptions/37a3835a-e059-47f3-af91-1d1ead0d9791/providers/Microsoft.Authorization/roleAssignments/c05f1c56-9f0a-4ebf-8c23-3445d84e9d2a",
         "Name": "c05f1c56-9f0a-4ebf-8c23-3445d84e9d2a",
         "properties": {
-          "DisplayName": "burhanm",
+          "DisplayName": "Mogullurushahensha Burhan",
           "ObjectType": "User",
           "PrincipalId": "aa53a8f8-198b-409f-be4d-0c3d4f6ef452",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
