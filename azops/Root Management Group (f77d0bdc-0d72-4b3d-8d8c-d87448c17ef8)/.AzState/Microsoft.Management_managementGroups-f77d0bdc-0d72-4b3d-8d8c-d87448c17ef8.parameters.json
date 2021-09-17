@@ -308,6 +308,20 @@
             "Name": "6e3b8d91-967a-4b5f-bc1b-f736e90899cd",
             "DisplayName": "HCBU-PaaS-Practice",
             "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/6905bf4b-2a5f-44ac-b288-89511c93e740",
+            "Name": "6905bf4b-2a5f-44ac-b288-89511c93e740",
+            "DisplayName": "APAC-IND-CSIWM",
+            "Children": null
+          },
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/6c72569a-d35f-4762-8b66-192cd12e146e",
+            "Name": "6c72569a-d35f-4762-8b66-192cd12e146e",
+            "DisplayName": "APAC-IND-HCLSupport",
+            "Children": null
           }
         ]
       }
