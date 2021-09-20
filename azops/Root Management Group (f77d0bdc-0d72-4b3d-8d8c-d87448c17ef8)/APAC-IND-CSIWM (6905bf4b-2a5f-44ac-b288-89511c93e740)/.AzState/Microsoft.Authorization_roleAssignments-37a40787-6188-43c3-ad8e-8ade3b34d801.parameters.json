@@ -7,7 +7,7 @@
         "Id": "/subscriptions/6905bf4b-2a5f-44ac-b288-89511c93e740/providers/Microsoft.Authorization/roleAssignments/37a40787-6188-43c3-ad8e-8ade3b34d801",
         "Name": "37a40787-6188-43c3-ad8e-8ade3b34d801",
         "properties": {
-          "DisplayName": "debraj.bhowmik",
+          "DisplayName": "Debraj Bhowmik",
           "ObjectType": "User",
           "PrincipalId": "d54b220a-c2a5-4f8c-8484-2fd1b971d15e",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
