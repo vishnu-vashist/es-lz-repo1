@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/a49ca548-575d-4a95-8d2d-138311e437ba",
+        "Name": "a49ca548-575d-4a95-8d2d-138311e437ba",
+        "properties": {
+          "DisplayName": "Azure-ExportPolicy-2739398c-a8b6-4c1f-b94a-0d38c4e07bb2",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "e2543497-818a-4931-94f0-270680d960da",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/36243c78-bf99-498c-9df9-86d9f8d28608",
+          "RoleDefinitionName": "Resource Policy Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
