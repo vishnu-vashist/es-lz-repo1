@@ -4,14 +4,14 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/b4827e5d-d694-4712-add3-2363aa6c7489",
-        "Name": "b4827e5d-d694-4712-add3-2363aa6c7489",
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/38173409-340a-481a-aaf1-a3ef4edc530b",
+        "Name": "38173409-340a-481a-aaf1-a3ef4edc530b",
         "properties": {
           "DisplayName": "Alok Maheshwari",
           "ObjectType": "User",
           "PrincipalId": "56d887d3-769c-4c53-aeea-945353acd6be",
-          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
-          "RoleDefinitionName": "Owner"
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/36243c78-bf99-498c-9df9-86d9f8d28608",
+          "RoleDefinitionName": "Resource Policy Contributor"
         },
         "ResourceType": "Microsoft.Authorization/roleAssignments"
       }

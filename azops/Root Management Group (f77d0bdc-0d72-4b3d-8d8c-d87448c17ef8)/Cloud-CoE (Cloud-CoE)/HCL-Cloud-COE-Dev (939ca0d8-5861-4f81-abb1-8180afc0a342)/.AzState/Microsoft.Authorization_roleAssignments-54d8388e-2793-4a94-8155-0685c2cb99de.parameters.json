@@ -4,14 +4,14 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/02d60c78-a26f-4057-9efb-9871d923a836",
-        "Name": "02d60c78-a26f-4057-9efb-9871d923a836",
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/54d8388e-2793-4a94-8155-0685c2cb99de",
+        "Name": "54d8388e-2793-4a94-8155-0685c2cb99de",
         "properties": {
           "DisplayName": "Neetima .",
           "ObjectType": "User",
           "PrincipalId": "dcc8ac62-a71f-457c-a430-8e69d27ab20c",
-          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
-          "RoleDefinitionName": "Owner"
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/36243c78-bf99-498c-9df9-86d9f8d28608",
+          "RoleDefinitionName": "Resource Policy Contributor"
         },
         "ResourceType": "Microsoft.Authorization/roleAssignments"
       }
