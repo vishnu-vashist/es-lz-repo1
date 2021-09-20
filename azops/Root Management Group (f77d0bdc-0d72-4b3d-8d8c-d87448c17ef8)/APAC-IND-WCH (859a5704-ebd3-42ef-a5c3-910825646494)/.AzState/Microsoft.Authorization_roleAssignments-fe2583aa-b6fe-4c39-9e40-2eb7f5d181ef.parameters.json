@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/fe2583aa-b6fe-4c39-9e40-2eb7f5d181ef",
+        "Name": "fe2583aa-b6fe-4c39-9e40-2eb7f5d181ef",
+        "properties": {
+          "DisplayName": "Aniruddha Nayak",
+          "ObjectType": "User",
+          "PrincipalId": "71fe79cd-b6fd-4e2c-99f6-366644f6b4c3",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
