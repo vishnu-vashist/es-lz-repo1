@@ -4,8 +4,8 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/7339d68d-b427-4e3e-ae93-0f4edfda3ce0",
-        "Name": "7339d68d-b427-4e3e-ae93-0f4edfda3ce0",
+        "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/f3c9880d-e125-49ea-913b-89d191f3b920",
+        "Name": "f3c9880d-e125-49ea-913b-89d191f3b920",
         "properties": {
           "DisplayName": "VAIRAVAN RAMANATHAN",
           "ObjectType": "User",
