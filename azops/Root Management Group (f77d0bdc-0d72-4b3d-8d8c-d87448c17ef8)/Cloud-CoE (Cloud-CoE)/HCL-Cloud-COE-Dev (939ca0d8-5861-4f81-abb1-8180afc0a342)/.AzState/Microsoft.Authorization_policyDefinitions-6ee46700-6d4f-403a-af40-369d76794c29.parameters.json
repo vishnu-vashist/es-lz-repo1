@@ -14,14 +14,27 @@
           "Description": null,
           "DisplayName": "Adherence to OS type, versions and editions-Neetima",
           "Mode": "All",
-          "Parameters": {},
+          "Parameters": {
+            "effect": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Effect",
+                "description": "The effect determines what happens when the policy rule is evaluated to match"
+              },
+              "allowedValues": [
+                "Audit",
+                "Deny",
+                "Disabled"
+              ],
+              "defaultValue": "Deny"
+            }
+          },
           "PolicyRule": {
             "if": {
               "allOf": [
                 {
                   "field": "type",
                   "in": [
-                    "Microsoft.Compute/disks",
                     "Microsoft.Compute/virtualMachines",
                     "Microsoft.Compute/VirtualMachineScaleSets"
                   ]
@@ -30,11 +43,7 @@
                   "allOf": [
                     {
                       "not": {
-                        "allOf": [
-                          {
-                            "field": "Microsoft.Compute/licenseType",
-                            "notEquals": "Windows_Server"
-                          },
+                        "allof": [
                           {
                             "field": "Microsoft.Compute/imagePublisher",
                             "in": [
@@ -50,14 +59,17 @@
                           {
                             "field": "Microsoft.Compute/imageSku",
                             "in": [
+                              "2012-Datacenter",
+                              "2012-R2-Datacenter",
                               "2016-Datacenter",
-                              "2016-datacenter-gensecond",
                               "2016-Datacenter-Server-Core",
-                              "2016-Datacenter-Server-Core-smalldisk",
-                              "2016-Datacenter-smalldisk",
-                              "2016-Datacenter-with-Containers",
-                              "2016-Datacenter-with-RDSH",
-                              "2016-Datacenter-zhcn"
+                              "2019-Datacenter"
+                            ]
+                          },
+                          {
+                            "field": "Microsoft.Compute/imageVersion",
+                            "in": [
+                              "latest"
                             ]
                           }
                         ]
@@ -81,16 +93,89 @@
                           {
                             "field": "Microsoft.Compute/imageSku",
                             "in": [
-                              "7-LVM",
-                              "7-RAW",
-                              "7-RAW-CI",
-                              "7.2",
-                              "7.3",
-                              "7.3-DAILY",
-                              "7.4",
-                              "7.5",
-                              "7.6",
-                              "7.7"
+                              "6.*",
+                              "7*"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "not": {
+                        "allOf": [
+                          {
+                            "field": "Microsoft.Compute/imagePublisher",
+                            "in": [
+                              "SUSE"
+                            ]
+                          },
+                          {
+                            "field": "Microsoft.Compute/imageOffer",
+                            "in": [
+                              "SLES",
+                              "SLES-Standard"
+                            ]
+                          },
+                          {
+                            "field": "Microsoft.Compute/imageSku",
+                            "in": [
+                              "12-SP2",
+                              "12-SP3",
+                              "12-SP4"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "not": {
+                        "allOf": [
+                          {
+                            "field": "Microsoft.Compute/imagePublisher",
+                            "in": [
+                              "Canonical"
+                            ]
+                          },
+                          {
+                            "field": "Microsoft.Compute/imageOffer",
+                            "in": [
+                              "UbuntuServer"
+                            ]
+                          },
+                          {
+                            "field": "Microsoft.Compute/imageSku",
+                            "in": [
+                              "14.04.0-LTS",
+                              "14.04.1-LTS",
+                              "14.04.5-LTS",
+                              "16.04-LTS",
+                              "16.04.0-LTS"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "not": {
+                        "allOf": [
+                          {
+                            "field": "Microsoft.Compute/imagePublisher",
+                            "in": [
+                              "OpenLogic"
+                            ]
+                          },
+                          {
+                            "field": "Microsoft.Compute/imageOffer",
+                            "in": [
+                              "Centos",
+                              "Centos-LVM"
+                            ]
+                          },
+                          {
+                            "field": "Microsoft.Compute/imageSku",
+                            "in": [
+                              "6.*",
+                              "7*"
                             ]
                           }
                         ]
@@ -101,7 +186,7 @@
               ]
             },
             "then": {
-              "effect": "deny"
+              "effect": "[parameters('effect')]"
             }
           }
         }

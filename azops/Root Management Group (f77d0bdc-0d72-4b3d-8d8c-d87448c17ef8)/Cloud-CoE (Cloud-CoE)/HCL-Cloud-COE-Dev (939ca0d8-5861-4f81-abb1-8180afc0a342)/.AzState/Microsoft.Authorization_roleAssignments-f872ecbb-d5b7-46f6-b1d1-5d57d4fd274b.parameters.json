@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/f872ecbb-d5b7-46f6-b1d1-5d57d4fd274b",
+        "Name": "f872ecbb-d5b7-46f6-b1d1-5d57d4fd274b",
+        "properties": {
+          "DisplayName": "Kishore babu Kunamneni",
+          "ObjectType": "User",
+          "PrincipalId": "22a382cf-2c44-4e73-9f5d-0964f22a2bb1",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
