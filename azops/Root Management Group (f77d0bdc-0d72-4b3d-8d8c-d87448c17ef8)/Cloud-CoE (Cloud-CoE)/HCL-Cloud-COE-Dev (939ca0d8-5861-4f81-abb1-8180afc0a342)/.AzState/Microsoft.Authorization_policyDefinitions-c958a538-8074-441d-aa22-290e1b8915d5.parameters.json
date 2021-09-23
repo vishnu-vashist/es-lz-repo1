@@ -1,0 +1,48 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "c958a538-8074-441d-aa22-290e1b8915d5",
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/c958a538-8074-441d-aa22-290e1b8915d5",
+        "ResourceName": "c958a538-8074-441d-aa22-290e1b8915d5",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": "939ca0d8-5861-4f81-abb1-8180afc0a342",
+        "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/c958a538-8074-441d-aa22-290e1b8915d5",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Adherence to approved and pre-populated tag values-Neetima",
+          "Mode": "Indexed",
+          "Parameters": {
+            "tagName": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Tag Name",
+                "description": "Name of the tag, such as 'environment'"
+              }
+            },
+            "tagValue": {
+              "type": "Array",
+              "metadata": {
+                "displayName": "Tag Value",
+                "description": "List of tag values which can be applicable for Tag Name"
+              }
+            }
+          },
+          "PolicyRule": {
+            "if": {
+              "not": {
+                "field": "[concat('tags[', parameters('tagName'), ']')]",
+                "in": "[parameters('tagValue')]"
+              }
+            },
+            "then": {
+              "effect": "deny"
+            }
+          }
+        }
+      }
+    }
+  }
+}

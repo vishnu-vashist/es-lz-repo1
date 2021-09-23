@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": null,
+        "Name": "SecurityCenterBuiltIn",
+        "PolicyAssignmentId": "/subscriptions/c173740e-1bae-45b7-b471-0a26bd75f22e/providers/Microsoft.Authorization/policyAssignments/SecurityCenterBuiltIn",
+        "Properties": {
+          "Description": "This is the default set of policies monitored by Azure Security Center. It was automatically assigned as part of onboarding to Security Center. The default assignment contains only audit policies. For more information please visit https://aka.ms/ascpolicies",
+          "DisplayName": "ASC Default (subscription: c173740e-1bae-45b7-b471-0a26bd75f22e)",
+          "NotScopes": null,
+          "Parameters": {},
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
+          "Scope": "/subscriptions/c173740e-1bae-45b7-b471-0a26bd75f22e"
+        },
+        "ResourceId": "/subscriptions/c173740e-1bae-45b7-b471-0a26bd75f22e/providers/Microsoft.Authorization/policyAssignments/SecurityCenterBuiltIn",
+        "ResourceName": "SecurityCenterBuiltIn",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A1",
+          "tier": "Standard"
+        }
+      }
+    }
+  }
+}

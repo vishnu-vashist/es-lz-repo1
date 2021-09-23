@@ -91,11 +91,8 @@
                             ]
                           },
                           {
-                            "field": "Microsoft.Compute/imageSku",
-                            "in": [
-                              "6.*",
-                              "7*"
-                            ]
+                            "field": "Microsoft.Compute/imageSKU",
+                            "like": "7*"
                           }
                         ]
                       }
@@ -113,7 +110,8 @@
                             "field": "Microsoft.Compute/imageOffer",
                             "in": [
                               "SLES",
-                              "SLES-Standard"
+                              "SLES-Standard",
+                              "SLES-BYOS"
                             ]
                           },
                           {
@@ -121,7 +119,9 @@
                             "in": [
                               "12-SP2",
                               "12-SP3",
-                              "12-SP4"
+                              "12-SP4",
+                              "15-SP2",
+                              "15-SP3"
                             ]
                           }
                         ]
@@ -161,7 +161,7 @@
                           {
                             "field": "Microsoft.Compute/imagePublisher",
                             "in": [
-                              "OpenLogic"
+                              "cognosys"
                             ]
                           },
                           {
@@ -172,11 +172,8 @@
                             ]
                           },
                           {
-                            "field": "Microsoft.Compute/imageSku",
-                            "in": [
-                              "6.*",
-                              "7*"
-                            ]
+                            "field": "Microsoft.Compute/imageSKU",
+                            "like": "7*"
                           }
                         ]
                       }

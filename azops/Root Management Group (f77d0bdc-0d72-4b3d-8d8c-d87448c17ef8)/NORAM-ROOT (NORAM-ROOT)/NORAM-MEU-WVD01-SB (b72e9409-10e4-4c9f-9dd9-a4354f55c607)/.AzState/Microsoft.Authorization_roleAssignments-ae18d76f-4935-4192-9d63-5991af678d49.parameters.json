@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/ef07076e-6c2e-4db6-b301-49a86a500966/providers/Microsoft.Authorization/roleAssignments/6a15aa24-3f76-4e38-9b5b-98965c2635fd",
-        "Name": "6a15aa24-3f76-4e38-9b5b-98965c2635fd",
+        "Id": "/subscriptions/b72e9409-10e4-4c9f-9dd9-a4354f55c607/providers/Microsoft.Authorization/roleAssignments/ae18d76f-4935-4192-9d63-5991af678d49",
+        "Name": "ae18d76f-4935-4192-9d63-5991af678d49",
         "properties": {
-          "DisplayName": "AutoAcc-UpdateMgmt_vJudhkzzZ6sEfgKwaZmpojsArR8RYU6I/cpT2JlCexs=",
-          "ObjectType": "ServicePrincipal",
-          "PrincipalId": "00da0ccf-1284-46cc-9228-f24a6fb7282c",
+          "DisplayName": "Vinit Mehta",
+          "ObjectType": "User",
+          "PrincipalId": "dfdfd9f3-da10-493e-ab82-053d766c7e4c",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
           "RoleDefinitionName": "Contributor"
         },
