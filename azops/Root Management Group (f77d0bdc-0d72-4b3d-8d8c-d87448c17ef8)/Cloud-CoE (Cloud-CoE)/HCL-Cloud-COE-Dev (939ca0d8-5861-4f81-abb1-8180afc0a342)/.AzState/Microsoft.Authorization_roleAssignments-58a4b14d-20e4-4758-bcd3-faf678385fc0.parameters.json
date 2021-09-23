@@ -7,7 +7,7 @@
         "Id": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/roleAssignments/58a4b14d-20e4-4758-bcd3-faf678385fc0",
         "Name": "58a4b14d-20e4-4758-bcd3-faf678385fc0",
         "properties": {
-          "DisplayName": "heena.d",
+          "DisplayName": "Heena Dua",
           "ObjectType": "User",
           "PrincipalId": "54dc87cd-5175-4078-8b0d-3007ca4e94d6",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
