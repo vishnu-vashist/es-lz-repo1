@@ -1,0 +1,81 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "29b85fee-7831-4480-9a6b-cb08e595fae7",
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/29b85fee-7831-4480-9a6b-cb08e595fae7",
+        "ResourceName": "29b85fee-7831-4480-9a6b-cb08e595fae7",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": "939ca0d8-5861-4f81-abb1-8180afc0a342",
+        "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/29b85fee-7831-4480-9a6b-cb08e595fae7",
+        "Properties": {
+          "Description": "This policy will ensure that only approved hardened instances are available for provisioning VMs, in this situaion all market place images will be restricted or blocked",
+          "DisplayName": "Adherence to compliant images for provisioning instances-Neetima",
+          "Mode": "All",
+          "Parameters": {
+            "listOfImageIdToInclude_windows": {
+              "type": "Array",
+              "metadata": {
+                "displayName": "Optional: List of virtual machine images that have supported Windows OS to add to scope",
+                "description": "Example value: '/subscriptions/<subscriptionId>/resourceGroups/YourResourceGroup/providers/Microsoft.Compute/images/ContosoStdImage'"
+              },
+              "defaultValue": []
+            },
+            "listOfImageIdToInclude_linux": {
+              "type": "Array",
+              "metadata": {
+                "displayName": "Optional: List of virtual machine images that have supported Linux OS to add to scope",
+                "description": "Example value: '/subscriptions/<subscriptionId>/resourceGroups/YourResourceGroup/providers/Microsoft.Compute/images/ContosoStdImage'"
+              },
+              "defaultValue": []
+            },
+            "effect": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Effect",
+                "description": "The effect determines what happens when the policy rule is evaluated to match"
+              },
+              "allowedValues": [
+                "Audit",
+                "Deny",
+                "Disabled"
+              ],
+              "defaultValue": "Deny"
+            }
+          },
+          "PolicyRule": {
+            "if": {
+              "allOf": [
+                {
+                  "field": "type",
+                  "in": [
+                    "Microsoft.Compute/virtualMachines"
+                  ]
+                },
+                {
+                  "not": {
+                    "anyOf": [
+                      {
+                        "field": "Microsoft.Compute/imageId",
+                        "in": "[parameters('listOfImageIdToInclude_windows')]"
+                      },
+                      {
+                        "field": "Microsoft.Compute/imageId",
+                        "in": "[parameters('listOfImageIdToInclude_linux')]"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "then": {
+              "effect": "[parameters('effect')]"
+            }
+          }
+        }
+      }
+    }
+  }
+}
