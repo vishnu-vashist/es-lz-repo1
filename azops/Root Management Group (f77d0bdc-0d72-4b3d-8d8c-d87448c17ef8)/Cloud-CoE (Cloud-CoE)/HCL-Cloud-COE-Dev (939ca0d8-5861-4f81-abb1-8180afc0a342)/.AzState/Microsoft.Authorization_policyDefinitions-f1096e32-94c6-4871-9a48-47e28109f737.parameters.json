@@ -13,18 +13,97 @@
         "Properties": {
           "Description": null,
           "DisplayName": "Adherence to approved and pre-populated tag values-Neetima",
-          "Mode": "Indexed",
-          "Parameters": {},
+          "Mode": "All",
+          "Parameters": {
+            "tagName1": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Tag Name",
+                "description": "Name of the tag, such as 'environment'"
+              },
+              "defaultValue": ""
+            },
+            "tagValue1": {
+              "type": "Array",
+              "metadata": {
+                "displayName": "Tag Value",
+                "description": "Value of the tag, such as 'production'"
+              },
+              "defaultValue": []
+            },
+            "tagName4": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Tag Name",
+                "description": "Name of the tag, such as 'environment'"
+              },
+              "defaultValue": ""
+            },
+            "tagValue4": {
+              "type": "Array",
+              "metadata": {
+                "displayName": "Tag Value",
+                "description": "Value of the tag, such as 'production'"
+              },
+              "defaultValue": []
+            },
+            "tagName2": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Tag Name",
+                "description": "Name of the tag, such as 'environment'"
+              },
+              "defaultValue": ""
+            },
+            "tagValue2": {
+              "type": "Array",
+              "metadata": {
+                "displayName": "Tag Value",
+                "description": "Value of the tag, such as 'production'"
+              },
+              "defaultValue": []
+            },
+            "tagName3": {
+              "type": "String",
+              "metadata": {
+                "displayName": "Tag Name",
+                "description": "Name of the tag, such as 'environment'"
+              },
+              "defaultValue": ""
+            },
+            "tagValue3": {
+              "type": "Array",
+              "metadata": {
+                "displayName": "Tag Value",
+                "description": "Value of the tag, such as 'production'"
+              },
+              "defaultValue": []
+            }
+          },
           "PolicyRule": {
             "if": {
-              "not": {
-                "field": "tags.CostCenter",
-                "in": [
-                  "123",
-                  "456",
-                  "789"
-                ]
-              }
+              "allOf": [
+                {
+                  "field": "type",
+                  "equals": "Microsoft.Resources/subscriptions/resourceGroups"
+                },
+                {
+                  "field": "[concat('tags[', parameters('tagName1'), ']')]",
+                  "notin": "[parameters('tagValue1')]"
+                },
+                {
+                  "field": "[concat('tags[', parameters('tagName2'), ']')]",
+                  "notin": "[parameters('tagValue2')]"
+                },
+                {
+                  "field": "[concat('tags[', parameters('tagName3'), ']')]",
+                  "notin": "[parameters('tagValue3')]"
+                },
+                {
+                  "field": "[concat('tags[', parameters('tagName4'), ']')]",
+                  "notin": "[parameters('tagValue4')]"
+                }
+              ]
             },
             "then": {
               "effect": "deny"
