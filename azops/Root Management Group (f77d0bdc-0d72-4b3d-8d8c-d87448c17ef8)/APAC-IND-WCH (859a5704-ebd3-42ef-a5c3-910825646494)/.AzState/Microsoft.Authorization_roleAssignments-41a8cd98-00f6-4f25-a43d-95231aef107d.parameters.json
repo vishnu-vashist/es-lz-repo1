@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/859a5704-ebd3-42ef-a5c3-910825646494/providers/Microsoft.Authorization/roleAssignments/41a8cd98-00f6-4f25-a43d-95231aef107d",
+        "Name": "41a8cd98-00f6-4f25-a43d-95231aef107d",
+        "properties": {
+          "DisplayName": "Chandra Shekar",
+          "ObjectType": "User",
+          "PrincipalId": "d22bf3c2-b007-4a8c-b28c-55ad3d160b59",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

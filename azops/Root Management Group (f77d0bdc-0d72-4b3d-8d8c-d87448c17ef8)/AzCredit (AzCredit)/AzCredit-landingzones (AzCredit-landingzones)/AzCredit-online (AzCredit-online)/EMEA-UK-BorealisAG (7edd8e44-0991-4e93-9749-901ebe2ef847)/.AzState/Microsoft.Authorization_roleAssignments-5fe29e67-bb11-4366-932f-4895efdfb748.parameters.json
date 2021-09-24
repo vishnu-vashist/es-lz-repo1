@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/7edd8e44-0991-4e93-9749-901ebe2ef847/providers/Microsoft.Authorization/roleAssignments/5fe29e67-bb11-4366-932f-4895efdfb748",
+        "Name": "5fe29e67-bb11-4366-932f-4895efdfb748",
+        "properties": {
+          "DisplayName": "Sachin Kumar",
+          "ObjectType": "User",
+          "PrincipalId": "0fd7aadd-a04b-4532-87b8-51d6998098e3",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

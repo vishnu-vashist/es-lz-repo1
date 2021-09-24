@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/505743ae-49da-49ce-b0a4-eeb2cc0f8f0e/providers/Microsoft.Authorization/roleAssignments/ab20cc9d-135f-4f17-9e19-f5879e18b392",
+        "Name": "ab20cc9d-135f-4f17-9e19-f5879e18b392",
+        "properties": {
+          "DisplayName": "AutomationServer",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "52da60d8-d25e-4579-8aee-7bb27cd1c209",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
