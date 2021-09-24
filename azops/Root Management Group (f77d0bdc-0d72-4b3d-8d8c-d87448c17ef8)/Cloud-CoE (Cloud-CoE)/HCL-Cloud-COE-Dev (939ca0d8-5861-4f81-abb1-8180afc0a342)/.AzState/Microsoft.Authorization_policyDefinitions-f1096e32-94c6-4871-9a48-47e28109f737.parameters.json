@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Name": "f1096e32-94c6-4871-9a48-47e28109f737",
+        "ResourceId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/f1096e32-94c6-4871-9a48-47e28109f737",
+        "ResourceName": "f1096e32-94c6-4871-9a48-47e28109f737",
+        "ResourceType": "Microsoft.Authorization/policyDefinitions",
+        "SubscriptionId": "939ca0d8-5861-4f81-abb1-8180afc0a342",
+        "PolicyDefinitionId": "/subscriptions/939ca0d8-5861-4f81-abb1-8180afc0a342/providers/Microsoft.Authorization/policyDefinitions/f1096e32-94c6-4871-9a48-47e28109f737",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Adherence to approved and pre-populated tag values-Neetima",
+          "Mode": "Indexed",
+          "Parameters": {},
+          "PolicyRule": {
+            "if": {
+              "not": {
+                "field": "tags.CostCenter",
+                "in": [
+                  "123",
+                  "456",
+                  "789"
+                ]
+              }
+            },
+            "then": {
+              "effect": "deny"
+            }
+          }
+        }
+      }
+    }
+  }
+}
